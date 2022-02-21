@@ -1,6 +1,6 @@
 # Achievements/Trophies
 
-[My trophy guide on PSNProfiles](https://psnprofiles.com/guide/5971-castle-crashers-trophy-guide)
+[My trophy guide on PSNProfiles](https://psnprofiles.com/guide/5971-castle-crashers-trophy-guide) - Published 30 Jan 2020
 
 
 - Playstation 3, 13 Trophies. 9 bronze, 3 silver, 1 gold
@@ -15,17 +15,13 @@
 
 > Collect all the animal orbs.
 
-##### Differences
-
-Xbox description:
+Original CC on Xbox description:
 
 > Collect all the **animals**.
 
 ## 🏆 Arena Master
 
 > Win 40 Arena Online Matches.
-
-##### Differences
 
 Original CC description:
 
@@ -35,9 +31,7 @@ Original CC description:
 
 > Complete the Home Castle through Barbarian Boss areas without attacking any foes.
 
-##### Differences
-
-Playstation 3 description:
+Original CC on Playstation 3 description:
 
 > Complete the Home Castle through **the** Barbarian Boss areas without attacking any foes.
 
@@ -49,9 +43,7 @@ Playstation 3 description:
 
 > Win 20 All You Can Quaff Ranked Matches.
 
-##### Differences
-
-Xbox only
+**Original CC on Xbox only**
 
 ## 🏆 Kay Eye Ess Ess
 
@@ -69,8 +61,6 @@ Xbox only
 
 > Defeat any boss without using any magic.
 
-##### Differences
-
 CC Remastered description:
 
 > Defeat any **end** boss without using any magic.
@@ -79,17 +69,13 @@ CC Remastered description:
 
 > Reach 20 hits in a single Volleyball rally.
 
-##### Differences
-
-Playstation 3 only
+**Original CC on Playstation 3 only**
 
 ## 🏆 The Final Countdown
 
 > Survive until 2:30 in a Back Off Barbarian match.
 
-##### Differences
-
-CC Remastered only
+**CC Remastered only**
 
 ## 🏆 The Traitor 
 
@@ -103,9 +89,7 @@ CC Remastered only
 
 > Find and dig up ten buried items.
 
-##### Differences
-
-Playstation 3 description:
+Original CC on Playstation 3 description:
 
 > Find and dig up **10** buried items.
 
@@ -113,14 +97,10 @@ Playstation 3 description:
 
 > Earn all Trophies
 
-##### Differences
-
-Playstation 4/5 only
+**CC Remastered on Playstation 4/5 only**
 
 ## 🏆 You Are Insane
 
 > Complete Insane mode and become the ultimate Castle Crasher.
 
-##### Differences
-
-Playstation 3 only
+**Original CC on Playstation 3 only**

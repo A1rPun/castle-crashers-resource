@@ -2,21 +2,31 @@
 
 > Sharing knowledge of the game
 
-J = Jump
-L = Light attack
-H = Heavy attack
-U = Use item (ex: arrow)
-M = Magic
-B = Block
+## Abbreviations
+
+Controls:
+
+- J = Jump
+- L = Light attack
+- H = Heavy attack
+- U = Use item (ex: arrow)
+- M = Magic
+- B = Block
+
+Other:
+
+- CC = Castle Crashers (ofcourse)
+- OoB = Out of Bounds
 
 ## Index
 
 ### Game-mechanics
 
-Level skipping
-Tek (Tech)
-Combo
-[Achievements/Trophies](/Mechanics/Achievements.md)
+- Level skipping
+- Tek (Tech)
+- Combo's
+- Teleports
+- [Achievements/Trophies](/Mechanics/Achievements.md)
 
 ### Levels
 
@@ -37,7 +47,7 @@ Cyclops' Cave
 Cyclops' Fortress
 Cyclops' Gate
 Desert
-Desert Chase
+[Desert Chase](/Levels/DesertChase.md)
 Dock
 Final Battle
 Flooded Temple
@@ -58,7 +68,7 @@ King's Arena
 [Lava World](/Levels/LavaWorld.md)
 Level100
 Marsh
-Marsh
+Marsh 2
 Medusa's Lair
 Necromancer's Room
 Painter's Room
@@ -82,3 +92,17 @@ Weapon Frog
 Wedding Crash
 Wizard Castle Interior
 Wizard Castle Takeoff
+
+## Even more info
+
+Links:
+
+- [Castle Crashers Wiki](https://castlecrashers.fandom.com)
+
+Apps:
+
+- [Calculate damage & more](https://a1rpun.github.io/castle-crashers-stats/)
+
+Spreadsheets:
+
+- [CheatEngine data](https://docs.google.com/spreadsheets/d/1vsrf9KrzcrKVIjyHcOtaErx58amaT5JZy50lexA6_F4/edit?usp=sharing)

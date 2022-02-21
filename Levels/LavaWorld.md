@@ -1,12 +1,20 @@
 # Lava World
 
+- [Wiki](https://castlecrashers.fandom.com/wiki/Lava_World)
+
 ## Index
 
+- Fire invulnerability
+- OoB locations
+- AI OoB
 - [Volcano mini-boss strategy](#mini-boss)
+- Behind volcano mini-boss
 - [Boss strategy](#boss)
-- Out of bounds
-- Boss skip
 - [Boss break neck](#boss-break-neck)
+- Wheel skip
+- Wheel unmissable
+- Teleports off
+- Cutscene skip
 - [Hamburger](#hamburger)
 
 ## <a name="mini-boss"></a>Volcano mini-boss strategy
