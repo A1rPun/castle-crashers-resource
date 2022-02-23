@@ -33,7 +33,7 @@ Other:
 Abandoned Mill
 Alien Ship
 Animal Arc
-Barbarian Boss
+[Barbarian Boss](/Levels/BarbarianBoss.md)
 Barbarian War
 Barbarian War Bridge
 Barracks

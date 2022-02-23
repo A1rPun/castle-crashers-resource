@@ -11,6 +11,7 @@
 - Behind volcano mini-boss
 - [Boss strategy](#boss)
 - [Boss break neck](#boss-break-neck)
+- Final door skip
 - Wheel skip
 - Wheel unmissable
 - Teleports off
