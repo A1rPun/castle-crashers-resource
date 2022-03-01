@@ -23,7 +23,7 @@
 
 At the start of the level 2 saracens are entering the screen on camels. After a set time they will move towards you. If you knock them off the camels before this timer they will still enter their walking towards the player animation if the timer completes, resulting them to walk in mid-air.
 
-## <a name="enemy-manip"></a>Entrance animation
+## <a name="enemy-manip"></a>Enemy AI manipulation
 
 Park the camels that spawned in the first wave to the left-most side of the level. This way the second and third wave AI won't go out of the screen looking for camels, they will look to move into your juggle instead.
 
@@ -58,7 +58,7 @@ One player needs to get on the camel which is barely reachable.
 If that player got on the camel they need to walk off the screen and downwards, enter the screen after that and you will be stuck on the bottom of the screen.
 Now the other player(s) needs to clear the third wave and get on a camel.
 
-The player which is stuck at the bottom must stay at the left-most side of the screen while the other player(s) can move towards the cutscene. All players need to spam arrows for this to work. Right before the cutscene is about to start the player on the left must walk out of the screen to the left to trigger a teleport after the cutscene.
+The player which is stuck at the bottom must stay at the left-most side of the screen while the other player(s) can move towards the cutscene. Enter the cutscene. After the cutscene the player on the left must walk out of left the screen while the other player(s) walk out of the right side of the screen while spamming arrows.
 
 ## <a name="camel-oob"></a>Camel OoB
 

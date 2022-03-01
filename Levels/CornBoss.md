@@ -1,6 +1,9 @@
 # Corn boss
 
 - Boss strategy
-- Boss glitch
-- Boss glitch xbox
+- Boss strategy Xbox
+- Boss strategy PS3
 - Infinitek
+- Boomerang + lots of corn
+- Horn civilian
+- Original CC fly in cutscene

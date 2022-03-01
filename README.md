@@ -42,7 +42,7 @@ Blacksmith
 Castle Keep
 Catfish
 Church Store
-Corn Boss
+[Corn Boss](/Levels/CornBoss.md)
 Cyclops' Cave
 Cyclops' Fortress
 Cyclops' Gate
@@ -66,10 +66,10 @@ Insane Mode Node
 Insane Store
 King's Arena
 [Lava World](/Levels/LavaWorld.md)
-Level100
+[Level100](/Levels/Level100.md)
 Marsh
 Marsh 2
-Medusa's Lair
+[Medusa's Lair](/Levels/Medusa.md)
 Necromancer's Room
 Painter's Room
 Parade
@@ -91,7 +91,7 @@ Volcano Store
 Weapon Frog
 Wedding Crash
 Wizard Castle Interior
-Wizard Castle Takeoff
+[Wizard Castle Takeoff](/Levels/WizardCastleTakeoff.md)
 
 ## Even more info
 
