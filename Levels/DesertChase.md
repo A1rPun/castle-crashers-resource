@@ -7,6 +7,7 @@
 
 - [Entrance animation](#entrance)
 - [Enemy AI manipulation](#enemy-manip)
+- [Mount camel](#camel-mount)
 - [Camel dry mouth](#camel-dry)
 - [Camel double spit](#camel-spit)
 - [Camel juggle](#mount-juggle)
@@ -26,6 +27,12 @@ At the start of the level 2 saracens are entering the screen on camels. After a 
 ## <a name="enemy-manip"></a>Enemy AI manipulation
 
 Park the camels that spawned in the first wave to the left-most side of the level. This way the second and third wave AI won't go out of the screen looking for camels, they will look to move into your juggle instead.
+
+## <a name="camel-mount"></a>Mount camel
+
+Press J and immediately press H to get on a camel quickly.
+You can also H-dash into the mount to get on it quickly.
+Tornado characters can use their airnado to get on a mount quickly.
 
 ## <a name="camel-dry"></a>Camel dry mouth
 
@@ -62,7 +69,7 @@ The player which is stuck at the bottom must stay at the left-most side of the s
 
 ## <a name="camel-oob"></a>Camel OoB
 
-Let the saracen walk all the way to the right of the screen. When he moves into the exit hit him off the camel with an arrow or projectile. The saracen in OoB now, so let him get on the camel again and it will move it to a location you can access. Knock the saracen off and get on the camel.
+Let the saracen walk all the way to the right of the screen. When he moves into the exit hit him off the camel with an arrow or projectile. The saracen is OoB now, so let him get on the camel again and it will move it to a location you can access. Knock the saracen off and get on the camel.
 
 ## <a name="cutscene-shorten"></a>Shortened Cutscene
 

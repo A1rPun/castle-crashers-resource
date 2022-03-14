@@ -1,65 +1,84 @@
-# Levels in order
+# Levels
 
-Barracks
-Home Castle
-Castle Keep
-Blacksmith
-Weapon Frog
-Animal Arc
-King's Arena
-Barbarian War
-Barbarian War Bridge
-Barbarian Boss
-Forest Entrance
-Thieves Forest
-Thieves' Store
-Thieves Arena
-Abandoned Mill
-Rapids Ride
-Catfish
-Tall Grass Field
-Pipistrello's Cave
-Flowery Field
-Wedding Crash
-Church Store
-Parade
-Cyclops' Cave
-Cyclops' Gate
-Cyclops' Fortress
-Lava World
-Volcano Store
-Volcano Arena
-Industrial Castle Entrance
-Industrial Castle
-Dock
-Pirate Ship
-Desert
-Alien Ship
-Desert Chase
-Sand Castle Interior
-Sand Castle Roof
-Flooded Temple Entrance
-Marsh
-Marsh 2
-Corn Boss
-Swamp Village Store
-Peasant Arena
-Flooded Temple
-Medusa's Lair
-Full Moon
-Snow World
-Icy Store
-Icy Arena
-Ice Castle Entrance
-Ice Castle
-Wizard Castle Takeoff
-Wizard Castle Interior
-Painter's Room
-Undead Cyclops' Room
-Necromancer's Room
-Final Battle
-Barracks Ending
-Insane Mode Node
-Insane Store
+## Levels in order
 
-Level100
+- Barracks
+- Home Castle
+- Castle Keep
+- Blacksmith (compass)
+  - Weapon Frog
+  - Animal Arc
+- King's Arena
+- Barbarian War (bow)
+  - Barbarian War Bridge
+- Barbarian Boss
+- Forest Entrance (bow)
+- Thieves Forest (bow, boomerang)
+- Thieves' Store
+- Thieves Arena
+- Abandoned Mill
+- Rapids Ride
+- Catfish
+- Tall Grass Field
+- Pipistrello's Cave
+- Flowery Field
+- Wedding Crash
+- Church Store
+- Parade
+- Cyclops' Cave
+- Cyclops' Gate
+- Cyclops' Fortress
+- Lava World (wheel)
+- Volcano Store
+- Volcano Arena
+- Industrial Castle Entrance
+  - Industrial Castle (telescope)
+- Dock
+- Pirate Ship
+- Desert (shovel)
+- Alien Ship
+- Desert Chase
+- Sand Castle Interior
+- Sand Castle Roof (map)
+- Flooded Temple Entrance
+  - Flooded Temple
+- Marsh
+  - Marsh 2
+- Corn Boss (horn)
+- Swamp Village Store
+- Peasant Arena
+- Medusa's Lair
+- Full Moon
+- Snow World
+- Icy Store
+- Icy Arena
+- Ice Castle Entrance
+  - Ice Castle
+- Wizard Castle Takeoff
+- Wizard Castle Interior
+  - Painter's Room
+  - Undead Cyclops' Room
+  - Necromancer's Room
+- Final Battle
+  - Barracks Ending
+- Insane Mode Node
+- Insane Store
+
+## Levels that can be accessed backwards
+
+- Castle Keep via Barbarian War
+- Barbarian War via Barbarian War Bridge
+- Tall Grass Field via Pipistrello's Cave
+- Parade via Cyclops' Cave
+- Cyclops' Gate via Cyclops' Fortress
+- Industrial Castle Entrance via Industrial Castle
+- Sand Castle Interior via Sand Castle Roof
+- Marsh via Marsh 2
+- Flooded Temple Entrance via Flooded Temple
+- Flooded Temple via Medusa's Lair
+- Ice Castle Entrance via Ice Castle Entrance
+- Wizard Castle Takeoff via Wizard Castle Interior
+- Wizard Castle Interior via Wizard Castle Interior
+- Painter's Room via Painter's Room Crystal
+- Undead Cyclops' Room via Undead Cyclops' Room Crystal
+- Necromancer's Room via Necromancer's Room Crystal

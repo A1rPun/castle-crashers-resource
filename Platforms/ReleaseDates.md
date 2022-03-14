@@ -14,6 +14,9 @@ Japan: November 25, 2010
 
 September 26, 2012
 
+Update to Remastered:
+Februari 26, 2019
+
 ## Xbox One
 
 September 9, 2015
