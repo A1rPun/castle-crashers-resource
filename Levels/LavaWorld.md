@@ -9,6 +9,7 @@
 - AI OoB
 - Co-op skip
 - 3 player AI bug
+- Free sandwich
 - [Volcano mini-boss strategy](#mini-boss)
 - Behind volcano mini-boss
 - [Boss strategy](#boss)
