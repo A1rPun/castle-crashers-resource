@@ -35,4 +35,4 @@ Availability: Not available in Australia, Denmark, Germany, Netherlands, New Zea
 
 #### Hatty
 
-Own Castle Crashers and BattleBlock Theater on the same Steam account.
+Own Castle Crashers and BattleBlock Theater on the same Steam account. It's possible to have BBT family shared with you to obtain Hatty.

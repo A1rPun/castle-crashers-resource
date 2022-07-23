@@ -22,75 +22,66 @@ Other:
 
 ### Game-mechanics
 
-- Level skipping
-- Tek (Tech)
+- [Level skipping](/Mechanics/LevelSkip.md)
+- [Tek (Tech)](/Mechanics/Tek.md)
+- [Achievements/Trophies](/Mechanics/Achievements.md)
+- [Unobtainable weapons](/Mechanics/UnobtainableWeapons.md)
 - Combo's
 - Teleports
-- [Achievements/Trophies](/Mechanics/Achievements.md)
 
 ### Levels
 
-Abandoned Mill
+[Abandoned Mill](/Levels/AbandonedMill.md)
 Alien Ship
-Animal Arc
 [Barbarian Boss](/Levels/BarbarianBoss.md)
 Barbarian War
-Barbarian War Bridge
-Barracks
-Barracks Ending
-Blacksmith
+[Barracks](/Levels/Barracks.md)
+[Barracks Ending](/Levels/Barracks.md)
+[Blacksmith](/Levels/Blacksmith.md)
 Castle Keep
-Catfish
-Church Store
+[Catfish](/Levels/Catfish.md)
+[Church Store](/Levels/Stores.md)
 [Corn Boss](/Levels/CornBoss.md)
 Cyclops' Cave
 Cyclops' Fortress
 Cyclops' Gate
 Desert
 [Desert Chase](/Levels/DesertChase.md)
-Dock
+[Dock](/Levels/Dock.md)
 Final Battle
 Flooded Temple
-Flooded Temple Entrance
 Flowery Field
 Forest Entrance
 Full Moon
 Home Castle
 Ice Castle
-Ice Castle Entrance
-Icy Arena
-Icy Store
+[Icy Arena](/Levels/Arenas.md)
+[Icy Store](/Levels/Stores.md)
 Industrial Castle
-Industrial Castle Entrance
 Insane Mode Node
-Insane Store
-King's Arena
+[Insane Store](/Levels/Stores.md)
+[King's Arena](/Levels/Arenas.md)
 [Lava World](/Levels/LavaWorld.md)
 [Level100](/Levels/Level100.md)
 Marsh
-Marsh 2
 [Medusa's Lair](/Levels/Medusa.md)
-Necromancer's Room
-Painter's Room
-Parade
-Peasant Arena
+[Parade](/Levels/Parade.md)
+[Peasant Arena](/Levels/Arenas.md)
 Pipistrello's Cave
 Pirate Ship
 Rapids Ride
 Sand Castle Interior
 Sand Castle Roof
 Snow World
-Swamp Village Store
+[Swamp Village Store](/Levels/Stores.md)
 Tall Grass Field
-Thieves Arena
+[Thieves Arena](/Levels/Arenas.md)
 Thieves Forest
-Thieves' Store
-Undead Cyclops' Room
-Volcano Arena
-Volcano Store
-Weapon Frog
+[Thieves' Store](/Levels/Stores.md)
+[Volcano Arena](/Levels/Arenas.md)
+[Volcano Store](/Levels/Stores.md)
 Wedding Crash
-Wizard Castle Interior
+[Wizard Castle Interior](/Levels/WizardCastleInterior.md)
 [Wizard Castle Takeoff](/Levels/WizardCastleTakeoff.md)
 
 ## Even more info

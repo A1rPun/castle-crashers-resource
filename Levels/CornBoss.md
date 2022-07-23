@@ -1,9 +1,12 @@
 # Corn boss
 
 - Boss strategy
-- Boss strategy Xbox
+- [Boss strategy Xbox](#boss-xbox)
 - Boss strategy PS3
-- Infinitek
 - Boomerang + lots of corn
 - Horn civilian
 - Original CC fly in cutscene
+
+## <a name="boss-xbox"></a>Boss strategy Xbox
+
+Just spam arrows.

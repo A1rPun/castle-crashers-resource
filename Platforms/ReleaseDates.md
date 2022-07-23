@@ -31,4 +31,6 @@ September 17, 2019
 
 ## PlayStation 5
 
+*Release date of PlayStation 5*
+
 November 12, 2020

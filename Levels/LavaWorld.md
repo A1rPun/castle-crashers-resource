@@ -19,6 +19,7 @@
 - Wheel unmissable
 - Teleports off
 - Cutscene skip
+- Ice Sword + Horn = Flying Fire Demons
 - [Hamburger](#hamburger)
 
 ## <a name="mini-boss"></a>Volcano mini-boss strategy
