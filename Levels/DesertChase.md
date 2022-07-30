@@ -73,7 +73,7 @@ Let the saracen walk all the way to the right of the screen. When he moves into 
 
 ## <a name="cutscene-shorten"></a>Shortened Cutscene
 
-Before triggering the cutscene shoot an arrow or projectile at the right spot to knock the saracen off the camel in the cutscene. This appears to shorten the cutscene, or at least it makes the quicksand dissapear immediately.
+Before triggering the cutscene shoot an arrow or projectile at the right spot to knock the saracen off the camel in the cutscene. This appears to shorten the cutscene, or at least it makes the quicksand disappear immediately.
 
 ## <a name="scorpion-blind"></a>Blind scorpions
 
