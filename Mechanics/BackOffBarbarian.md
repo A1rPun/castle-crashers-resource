@@ -3,6 +3,18 @@
 - [Pattern](#pattern)
 - [4th player glitch spot](#glitch-spot)
 - [Maps](#maps)
+  - [Home Castle Drawbridge](#castledrawbridge)
+  - [Home Castle Outskirts](#castleoutskirts)
+  - [Mountain](#mountain)
+  - [Triple Layered Overworld](#overworld1)
+  - [Vertically Longways Overworld](#overworld2)
+  - [Horizontally Longways Overworld](#overworld3)
+  - [Forest Waterfall](#overworld4)
+  - [Compacted Lava World](#lavaworld1)
+  - [Vertically Longways Lava World](#lavaworld2)
+  - [Snow World Cashe](#snowworld1)
+  - [Double Layered Snow World](#snowworld2)
+  - [Horizontally Longways Snow World](#snowworld3)
 - [Spots](#spots)
 - [Tierlist according to WR holder Meme_Cuisine](#tierlist)
 
@@ -16,67 +28,72 @@ This pattern will appear in every map, the rotation or flip is determined random
 
 Mostly used for boosting the BoB achievement/trophy quickly. Only works for the 4th player.
 
-- Play until you enter Snow World3 (RNG)
+- Play until you enter [Double Layered Snow World](#snowworld2) (RNG)
 - Player 1, 2 and 3 need to leave when that happens
 - Player 4 doesn't move in the spot until 2:30 passes
 
 ## <a name="maps"></a>Maps
 
-### Castle drawbridge
+### <a name="castledrawbridge"></a>Home Castle Drawbridge
 
 ![image](/Images/BoBMaps/bob_castle_drawbridge.jpeg)
 
-### Castle Outskirts
+### <a name="castleoutskirts"></a>Home Castle Outskirts
 
 ![image](/Images/BoBMaps/bob_castle_outskirts.jpeg)
 
-### Mountain
+### <a name="mountain"></a>Mountain
 
 ![image](/Images/BoBMaps/bob_mountain.jpeg)
 
-### Overworld1
+### <a name="overworld1"></a>Triple Layered Overworld
 
 ![image](/Images/BoBMaps/bob_overworld1.jpeg)
 
-### Overworld2
+### <a name="overworld2"></a>Vertically Longways Overworld
 
 ![image](/Images/BoBMaps/bob_overworld2.jpeg)
 
-### Longways Overworld
+### <a name="overworld3"></a>Horizontally Longways Overworld
 
 ![image](/Images/BoBMaps/bob_overworld3.jpeg)
 
-### Overworld4
+### <a name="overworld4"></a>Forest Waterfall
 
 ![image](/Images/BoBMaps/bob_overworld4.jpeg)
 
-### Lava World1
+### <a name="lavaworld1"></a>Compacted Lava World
 
 ![image](/Images/BoBMaps/bob_lava_world1.jpeg)
 
-### Lava World2
+### <a name="lavaworld2"></a>Vertically Longways Lava World
 
 ![image](/Images/BoBMaps/bob_lava_world2.jpeg)
 
-### Snow World1
+### <a name="snowworld1"></a>Snow World Cashe
 
 ![image](/Images/BoBMaps/bob_snow_world1.jpeg)
 
-### Snow World2
+### <a name="snowworld2"></a>Double Layered Snow World
 
 ![image](/Images/BoBMaps/bob_snow_world2.jpeg)
 
-### Snow World3
+### <a name="snowworld3"></a>Horizontally Longways Snow World
 
 ![image](/Images/BoBMaps/bob_snow_world3.jpeg)
 
 ## <a name="spots"></a>Spots
 
-Stuck AI spot on Longways Overworld
+If the player stands on the indicated spot on the top layer, the AI will attempt to chase the player by going upwards. This of course is not possible but the AI attempts to do so anyway. This is an effective method for surviving without having to run away as you can sit in this one spot and watch as they try to get you from being stuck in the middle layer. This does not last forever however, as the AI will eventually make a random move and go around and up to chase you, in which you then would need to start running. This can be repeated if the AI's are NOT on the top layer of this map, and they are stuck in the middle and/or or bottom layers. 
+
+[Triple Layered Overworld](#overworld1)
+![image](/Images/BoBAIStuck.png)
+
+Stuck AI spot on [Horizontally Longways Overworld](#overworld3)
 
 ![image](/Images/Overworld3Spot.jpg)
 
-Just for fun spot on Snow World3
+Just for fun spot on [Horizontally Longways Snow World](#snowworld3)
 
 ![image](/Images/SnowWorldSpot.jpg)
 
