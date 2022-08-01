@@ -1,5 +1,6 @@
 # Back Off Barbarian
 
+- [Strategy](#strategy)
 - [Pattern](#pattern)
 - [4th player glitch spot](#glitch-spot)
 - [Maps](#maps)
@@ -12,11 +13,28 @@
   - [Forest Waterfall](#overworld4)
   - [Compacted Lava World](#lavaworld1)
   - [Vertically Longways Lava World](#lavaworld2)
-  - [Snow World Cashe](#snowworld1)
+  - [Snow World Castle](#snowworld1)
   - [Double Layered Snow World](#snowworld2)
   - [Horizontally Longways Snow World](#snowworld3)
 - [Spots](#spots)
 - [Tierlist according to WR holder Meme_Cuisine](#tierlist)
+
+## <a name="strategy"></a>Strategy
+
+Meme_Cuisine wrote:
+
+- Memorize patterns and how maps are structured
+- Get used to map & pattern rotation
+- Keep a fair 1-3 open space between you and the enemies
+- Keep enemies grouped together so they aren't spread out and one won't randomly be in your way while the rest are on the other side of the map
+- If you have to, button mash with some kind of momentum beforehand so you don't fatigue so fast
+- Hop to the beat of the music if that helps (it does for me)
+- Some good maps are castle drawbridge, ice castle, vertically longways lava world, castle outskirts, pretty much maps with open space and room to traverse corners
+- Pick a character that stands out from the background (Red Knight for example)
+- BE A GOOD TEAMMATE, it's critical for success in this gamemode. It's best to stay as close to each other as possible to keep the enemy horde compact and away from the team
+- If you're playing with a team, don't go afk or sit in a spot where it blocks your teammates' path. It's annoying enough as it is
+- Keep the spamming to a low, the more you spam aimlessly the more tired your character gets, and the more tired your character gets the chances of you getting stomped also increases
+- If all else fails, pause buffer
 
 ## <a name="pattern"></a>Pattern
 
@@ -70,7 +88,7 @@ Mostly used for boosting the BoB achievement/trophy quickly. Only works for the 
 
 ![image](/Images/BoBMaps/bob_lava_world2.jpeg)
 
-### <a name="snowworld1"></a>Snow World Cashe
+### <a name="snowworld1"></a>Snow World Castle
 
 ![image](/Images/BoBMaps/bob_snow_world1.jpeg)
 

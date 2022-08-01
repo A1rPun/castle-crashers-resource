@@ -15,17 +15,21 @@ Controls:
 
 Other:
 
-- CC = Castle Crashers (ofcourse)
+- CC = Castle Crashers
+- CCR = Castle Crashers Remastered
 - OoB = Out of Bounds
 
 ## Index
 
 ### Game-mechanics
 
+- [Arena](/Mechanics/Arena.md)
+- [Achievements/Trophies](/Mechanics/Achievements.md)
+- [Back off Barbarian](/Mechanics/BackOffBarbarian.md)
 - [Level skipping](/Mechanics/LevelSkip.md)
 - [Tek (Tech)](/Mechanics/Tek.md)
-- [Achievements/Trophies](/Mechanics/Achievements.md)
 - [Unobtainable weapons](/Mechanics/UnobtainableWeapons.md)
+- [WaveSkip](/Mechanics/WaveSkip.md)
 - Combo's
 - Teleports
 
@@ -36,7 +40,6 @@ Alien Ship
 [Barbarian Boss](/Levels/BarbarianBoss.md)
 Barbarian War
 [Barracks](/Levels/Barracks.md)
-[Barracks Ending](/Levels/Barracks.md)
 [Blacksmith](/Levels/Blacksmith.md)
 Castle Keep
 [Catfish](/Levels/Catfish.md)
