@@ -1,10 +1,10 @@
 # Arena
 
+- [Unwritten rules](#rules)
 - [Characters](#characters)
 - [Pets](#pets)
 - [Weapons](#weapons)
 - [Strats](#strats)
-  - Unwritten rules
   - Stat distribution
   - Resets
     - Magic jump reset
@@ -15,6 +15,16 @@
     - Projectile reset
     - Bomb reset
     - Arrow reset
+
+## <a name="rules"></a>Unwritten rules
+
+- Don't tek abuse. This just means that you don't rely on tek to combo someone
+- If you get the arena with the mount, escort it to the top (corner) before starting the fight
+- Refrain from comboing people when they got hit by the cat or geyser
+- Controllers can disconnect or people can be AFK, it's nice if you don't hit them while they're standing still
+- If you hit someone accidentally before the fight they have the right to do the same damage back
+- Tornado sliding is considered cheap
+- Don't use potions in campaign arena
 
 ## <a name="characters"></a>Characters
 
@@ -39,7 +49,7 @@ Most useful:
 - Yeti (blue/iceskimo counter)
 
 Least useful:
-- Golden Whale (except for treasure)
+- Golden Whale
 - Mr. Buddy (except for treasure)
 - Sherbert
 - Hawkster
@@ -53,6 +63,7 @@ Least useful:
 
 Most useful:
 - Ribeye
+- Sai (Fencer's pick)
 
 Least useful:
 - Too many to list
