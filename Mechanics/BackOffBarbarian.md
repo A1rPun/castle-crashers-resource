@@ -17,6 +17,7 @@
   - [Double Layered Snow World](#snowworld2)
   - [Horizontally Longways Snow World](#snowworld3)
 - [Spots](#spots)
+- [WR](#wr)
 - [Tierlist according to WR holder Meme_Cuisine](#tierlist)
 
 ## <a name="strategy"></a>Strategy
@@ -102,9 +103,9 @@ Mostly used for boosting the BoB achievement/trophy quickly. Only works for the 
 
 ## <a name="spots"></a>Spots
 
-If the player stands on the indicated spot on the top layer, the AI will attempt to chase the player by going upwards. This of course is not possible but the AI attempts to do so anyway. This is an effective method for surviving without having to run away as you can sit in this one spot and watch as they try to get you from being stuck in the middle layer. This does not last forever however, as the AI will eventually make a random move and go around and up to chase you, in which you then would need to start running. This can be repeated if the AI's are NOT on the top layer of this map, and they are stuck in the middle and/or or bottom layers. 
+In [Triple Layered Overworld](#overworld1).
+If the player stands on the indicated spot on the top layer, the AI will attempt to chase the player by going upwards. This of course is not possible but the AI attempts to do so anyway. This is an effective method for surviving without having to run away as you can sit in this one spot and watch as they try to get you from being stuck in the middle layer. This does not last forever however, as the AI will eventually make a random move and go around and up to chase you, in which you then would need to start running. This can be repeated if the AI's are NOT on the top layer of this map, and they are stuck in the middle and/or or bottom layers.
 
-[Triple Layered Overworld](#overworld1)
 ![image](/Images/BoBAIStuck.png)
 
 Stuck AI spot on [Horizontally Longways Overworld](#overworld3)
@@ -115,6 +116,14 @@ Just for fun spot on [Horizontally Longways Snow World](#snowworld3)
 
 ![image](/Images/SnowWorldSpot.jpg)
 
+## <a name="wr"></a>WR
+
+[Back Off Barbarian Personal Record [25:23]](https://youtu.be/XGnrI5ez91k)
+
+[Back Off Barbarian Current Co-Op Record [6:14]](https://youtu.be/KaPz2pSqQCY)
+
 ## <a name="tierlist"></a>Tierlist according to WR holder Meme_Cuisine
 
 ![image](/Images/BoBTiers.png)
+
+[Create your own here](https://tiermaker.com/create/castle-crashers---back-off-barbarian-maps-1169651)
