@@ -20,7 +20,8 @@ Alternativly, if you have an RGH/JTAG/Dev you can FTP the save data to/from the 
 Save data info:
 
 All Characters Unlockable Items:
-Data starts before Green Knight's data, the first character in the save. This includes weapons, pets & iventory.
+
+Locating: Data starts before Green Knight's data, the first character in the save. This includes weapons, pets & iventory.
 - 00 00 00 00 00 00 00 00 - First 4 arrays are pets, next 2 are unlockable items (includes hidden ones such as mittens) then 2 arrays of padding.
 - 00 00 00 00 00 00 00 00 - Weapons set 1
 - 00 00 00 00 00 00 00 00 - Weapons set 2
