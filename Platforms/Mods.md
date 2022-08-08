@@ -96,3 +96,71 @@ Individual Character Data
 - byte InsaneLevelProgress3 – Progress for Wizard Castle and Final Battle
 - byte Skull - What skull the character has, 0x00 for none, 0x01 for normal, 0x02 for gold
 - int Padding – Empty space that is not used, int32
+
+
+Specific LevelProgress values (Same for Normal & Insane mode):
+
+First LevelProgress array:
+- 01 - Castle Keep (Unlocks Blacksmith[level] & King's Arena)
+- 03 - Barbarian boss
+- 07 - Thieves' forest (Unlocks Thieves' Arena)
+- 0F - Catfish
+- 1f - Pipistrello's Cave
+- 3f - Cyclops' Cave 
+- 7F - Cyclops' Fortress
+- FF - Lava World
+
+Second LevelProgress array:
+- 01 - Industrial castle
+- 03 - Pirate Ship
+- 07 - Sand Castle Interior
+- 0F - Sand Castle Roof (Adds map to inventory)
+- 1f - Corn Boss
+- 3F - Medusa's Lair
+- 7F - Full Moon
+- FF - Ice Castle
+
+
+Specific Collectable Progess values: 
+
+Normal Mode:
+- 00 - nothing
+- 01 - Compass
+- 02 - Wheel
+- 03 - Compass + Wheel
+- 04 - Telescope
+- 05 - Compass + Telescope
+- 06 - Wheel + Telescope
+- 07 - Compass + Wheel + Telescope
+- 08 - Horn
+- 09 - Compass + Horn
+- 0A - Wheel + Horn
+- 0B - Compass + Wheel + Horn
+- 0C - Telescope + Horn
+- 0D - Compass + Telescope + Horn
+- 0E - Wheel + Telescope + Horn
+- 0F - Compass + Wheel + Telescope + Horn
+
+Insane Mode (Includes Compass, Wheel, Telescope and Horn for Normal mode):
+- 1F - Compass
+- 2F - Wheel
+- 3F - Compass + Wheel
+- 4F - Telescope
+- 5F - Compass + Telescope
+- 6F - Wheel + Telescope
+- 7F - Compass + Wheel + Telescope
+- 8F - Horn
+- 9F - Compass + Horn
+- AF - Wheel + Horn
+- BF - Compass + Wheel + Horn
+- CF - Telescope + Horn
+- DF - Compass + Telescope + Horn
+- EF - Wheel + Telescope + Horn
+- FF - Compass + Wheel + Telescope + Horn
+
+
+Example of a lvl 99 gold skull with a man catcher, snoot, full inventory, gold skull, all the goodies:
+80 62 00 02 7F 7D 48 11
+19 19 19 19 FF FF 01 05
+09 09 FF 00 01 4C AA 01
+FF FF 01 02
