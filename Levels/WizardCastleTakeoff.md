@@ -9,7 +9,9 @@
 
 *TODO: insert image*
 
-Hold block before the cutscene starts and you will be OoB after the cutscene.
+- Hold block before the cutscene starts and you will be OoB after the cutscene.
+or
+- Stand behind the destroyed well while another player starts the cutscene.
 
 ## <a name="fastexit"></a>Fast exit with boomerang
 
