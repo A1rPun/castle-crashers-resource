@@ -39,7 +39,7 @@ After the credits you can just use a sandwich to get the other player OoB. Grab 
 
 ## <a name="headless"></a>Headless
 
-After the credits there is a good place to setup the headless glitch. The player that get's headless needs to stand behind the princess next to the fruit. Make sure a fruit is spawned and no player is getting it. Another player needs to decapitate that player by tapping L.
+After the credits there is a good place to setup the headless glitch. The player that gets headless needs to stand behind the princess next to the fruit. Make sure a fruit is spawned and no player is getting it. Another player needs to decapitate that player by tapping L.
 
 Having a crit weapon may interfere with this glitch.
 Having BiPolar as a pet will interfere with this glitch.
@@ -48,6 +48,7 @@ Having BiPolar as a pet will interfere with this glitch.
 
 This infamous sword can be dug up after the credits, only in the Remastered version.
 You can get it solo by standing on the dig spot and you need to be below the arrow spam that's coming from the thief. Hold block to position yourself more precisely.
+If you have 2 players, have one player block the arrows while the other player digs up the sword.
 
 ## <a name="softlock"></a>Battle softlock
 
