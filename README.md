@@ -7,6 +7,7 @@
 - CC = Castle Crashers
 - CCR = Castle Crashers Remastered
 - OOB = Out Of Bounds
+- M = Magic
 - J = Jump
 - L = Light Attack
 - H = Heavy Attack
