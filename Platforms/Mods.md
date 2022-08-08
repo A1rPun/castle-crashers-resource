@@ -33,5 +33,10 @@ Save data info:
 - byte Bombs – Stores number of bombs
 - byte Sandwiches – Stores number of sandwiches
 - byte Collectables – Collectable items such as the Compass and Telescope. Change to 0xFE to unlock all
+- int Gold - in32, stores Gold value
 - byte EnableInsaneMode – Unlock insane mode. Change to 0x01 to enable
+- byte InsaneLevelProgress1 – Progress for story on left side of the dock (0xFF Unlocks all)
+- byte InsaneLevelProgress2 - Progress for story on right side of the dock (0xFF Unlocks all)
+- byte InsaneLevelProgress3 – Progress for Wizard Castle and Final Battle
+- byte Skull - What skull the character has, 0x00 for none, 0x01 for normal, 0x02 for gold
 - int Padding – Empty space that is not used, int32
