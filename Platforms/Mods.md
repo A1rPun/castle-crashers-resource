@@ -25,6 +25,35 @@ The requirements are:
 - Rehasher and resigner
 Alternativly, if you have an RGH/JTAG/Dev you can FTP the save data to/from the console
 
+How to mod your Xbox profile data using a hex editor 
+
+Part 1: Getting your profile onto your computer from your Xbox360 
+- Tutorial for using a USB and Horizon which I find easiest for non RGH/JTAG users: https://youtu.be/0N90fDUcSCA?t=15
+
+Part 2: Hex editing the profile data (I'm using HxD for the hex editing instructions)
+- Step 1. Use ctrl + f or click "Search" then "Find" to bring up the memory search box
+- Step 2. Select "Hex-values" then input your character data in hexidecimal form
+- Step 2. example: If my character has maxed out stats and has completed normal mode, I would search: 19 19 19 19 FF FF 01 (first 4 arrays are character stats, then the next 3 arrays are level progress)
+- Step 3. If done correctly, the bottom half of the memory viewer will display your save data, which you can edit from the main menu using the information below.
+
+Part 3: Rehash and Resign (Using Horizon)
+- Step 1. At the top of Horizon, click on "Quick Fix"
+- Step 2. Select your profile, then click "Ok"
+
+Part 4: Moving the profile back to Xbox (Using USB and Horizon)
+- Step 1. Drag and drop the profile into Horizon
+- Step 2. Click "Save to Device" and select your USB
+- Step 3. It should ask you to overwrite, select Yes
+- Step 4. Eject the USB from your computer (Windows 10 or 11 tutorial: https://youtu.be/IX7DLzFMLpk?t=67)
+- Step 5. Plug the USB into your console, then move the profile back to the device you want it on
+
+That is it for modding it on Xbox 360, if you want to transfer that data to your Xbox One do this:
+- Step 1. Go to "Player Statistics" while in Castle Crashers
+- Step 2. Upload data to Xbox One
+- Step 3. Go on the same profile on your Xbox One
+- Step 4. Go in Castle Crashers Remastered, then open the Player Statistics menu
+- Step 5. Download data from Xbox 360
+
 Save data info:
 
 All Characters Unlockable Items:
@@ -39,6 +68,8 @@ Locating: Data starts before Green Knight's data, the first character in the sav
 - 00 00 00 00 00 00 00 00
 - (then Green Knight's data starts here)
 - 80 62 00 00 FF FF 40 11 E.T.C.
+
+Specific values for weapons or pets, go to this link and use the Hex values: https://docs.google.com/spreadsheets/d/18odK4GIBrYB85iHiTFYLg1QZPojBO3gHNoS2s9FbLeQ/edit?usp=sharing
 
 Individual Character Data
 - bool Unlocked – One byte, unlock flag for the character (Locked is 0x00, unlocked is 0x80)
