@@ -5,7 +5,15 @@
 
 ## <a name="cheatengine"></a>Cheatengine
 
-*TODO: details*
+The save data is structured the exact same way on Xbox 360, so you can use all of the information below to edit the save data.
+
+Here are the steps to start modifying the save data:
+- Step 1. Find the character data through cheat engine, first select castle.exe in the process menu
+- Step 2. Click on "Memory View" under the scan list
+- Step 3. Use ctrl + f or click "Search" then "Find memory" to bring up the memory search box
+- Step 4. Select (Array of) byte then input your character data in hexidecimal form
+- Step 4 example: If my character has maxed out stats and has completed normal mode, I would search: 19 19 19 19 FF FF 01 (first 4 arrays are character stats, then the next 3 arrays are level progress)
+- Step 5. If done correctly, the bottom half of the memory viewer will display your save data, which you can edit from the main menu using the information below.
 
 ## <a name="xbox360"></a>xbox 360
 
