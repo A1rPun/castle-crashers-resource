@@ -43,7 +43,7 @@ If you got the right animation you need to keep moving, by for example holding u
 ## <a name="camel-spit"></a>Camel double spit
 
 Get on a camel. Hold H to spit and repeatedly tap left or right. Sometimes the camel will spit 2 balls of spit.
-It seems like only one can damage enemies tho.
+It seems only one can damage enemies though.
 
 ## <a name="mount-juggle"></a>Camel juggle
 
@@ -69,11 +69,13 @@ The player which is stuck at the bottom must stay at the left-most side of the s
 
 ## <a name="camel-oob"></a>Camel OoB
 
+Before you do this you need to make sure teleports are off.
 Let the saracen walk all the way to the right of the screen. When he moves into the exit hit him off the camel with an arrow or projectile. The saracen is OoB now, so let him get on the camel again and it will move it to a location you can access. Knock the saracen off and get on the camel.
 
 ## <a name="cutscene-shorten"></a>Shortened Cutscene
 
 Before triggering the cutscene shoot an arrow or projectile at the right spot to knock the saracen off the camel in the cutscene. This appears to shorten the cutscene, or at least it makes the quicksand disappear immediately.
+- To know where to fire the projectile, line up with the cactus in the middle of the second wave
 
 ## <a name="scorpion-blind"></a>Blind scorpions
 
