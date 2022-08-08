@@ -7,6 +7,8 @@
 - CC = Castle Crashers
 - CCR = Castle Crashers Remastered
 - OOB = Out Of Bounds
+- L = Light Attack
+- H = Heavy Attack
 
 ## Index
 
