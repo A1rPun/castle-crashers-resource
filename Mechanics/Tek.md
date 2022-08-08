@@ -29,6 +29,7 @@ You can get back into the air with LH L+H LHH combo.
 
 Common usages:
 
+- Necromancer cheese
 - Arena cheese
 - Pretty useless
 
