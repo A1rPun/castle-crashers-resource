@@ -3,7 +3,7 @@
 - [Cheatengine](#cheatengine)
 - [xbox 360](#xbox360)
 
-## <a name="cheatengine"></a>Cheatengine
+## <a name="cheatengine"></a>Cheat Engine
 
 The save data is structured the exact same way on Xbox 360, so you can use all of the information below to edit the save data.
 
