@@ -10,16 +10,18 @@
 
 ## <a name="controls"></a>Controls
 
-`J` = Jump
-`L` = Light attack
-`H` = Heavy attack
-`B` = Block
-`U` = Use (Arrow, Shovel, Boomerang, Horn, Bomb, Potion, Sandwich)
-`,` = Just a seperator
-`+` = Press buttons at the same time
-`()` = Press the button but make sure not to hit an enemy
-`[]` = Hold button till animation completes
-`...` = repeat a bunch of times
+abbreviation|meaning
+---|---
+`J`|Jump
+`L`|Light attack
+`H`|Heavy attack
+`B`|Block
+`U`|Use (Arrow, Shovel, Boomerang, Horn, Bomb, Potion, Sandwich)
+`,`|Just a seperator
+`+`|Press buttons at the same time
+`()`|Press the button but make sure not to hit an enemy
+`[]`|Hold button till animation completes
+`...`|repeat a bunch of times
 
 ## <a name="basic"></a>Basic
 

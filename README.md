@@ -7,10 +7,11 @@
 - CC = Castle Crashers
 - CCR = Castle Crashers Remastered
 - OOB = Out Of Bounds
-- M = Magic
 - J = Jump
 - L = Light Attack
 - H = Heavy Attack
+- M = Magic
+- B = Block
 
 ## Index
 
@@ -90,7 +91,7 @@ Links:
 
 Apps:
 
-- [Calculate damage & more](https://a1rpun.github.io/castle-crashers-stats/)
+- [Calculate damage & more](https://github.com/A1rPun/castle-crashers-stats#readme)
 
 Spreadsheets:
 
