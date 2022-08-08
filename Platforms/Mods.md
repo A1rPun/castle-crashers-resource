@@ -10,13 +10,28 @@
 ## <a name="xbox360"></a>xbox 360
 
 The requirements are:
-- Xbox 360 Transfer Cable/XSATA/XPORT (Hardware)
-- Xplorer360/ Xport360 (Software)
+- Xbox 360 Transfer Cable/XSATA/XPORT/USB (Hardware)
+- Xplorer360/Xport360/Horizon/Modio/Velocity (Pick a Software)
 - Profile with Castle Crashers save data
-- Hex Editor
+- Hex Editor (HxD is great)
 - Rehasher and resigner
+Alternativly, if you have an RGH/JTAG/Dev you can FTP the save data to/from the console
 
 Save data info:
+
+All Characters Unlockable Items:
+- Data starts before Green Knight's data, the first character in the save. This includes weapons, pets & iventory.
+00 00 00 00 00 00 00 00 - First 4 arrays are pets, next 2 are unlockable items (includes hidden ones such as mittens) then 2 arrays of padding.
+00 00 00 00 00 00 00 00 - Weapons set 1
+00 00 00 00 00 00 00 00 - Weapons set 2
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00
+- (then Green Knight's data starts here)
+80 62 00 00 FF FF 40 11 E.T.C.
+
+Individual Character Data
 - bool Unlocked – One byte, unlock flag for the character (Locked is 0x00, unlocked is 0x80)
 - byte Level – Stores level value, can be edited to 0xFF for maximum (level 256)
 - int EXP – int32, stores EXP value
