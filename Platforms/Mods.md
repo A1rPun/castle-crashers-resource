@@ -1,7 +1,8 @@
 # Mods
 
-- [Cheatengine](#cheatengine)
-- [xbox 360](#xbox360)
+- [Cheat Engine](#cheatengine)
+- [Xbox 360](#xbox360)
+- [Hex Info](#hexinfo)
 
 ## <a name="cheatengine"></a>Cheat Engine
 
@@ -15,7 +16,7 @@ Here are the steps to start modifying the save data:
 - Step 4 example: If my character has maxed out stats and has completed normal mode, I would search: 19 19 19 19 FF FF 01 (first 4 arrays are character stats, then the next 3 arrays are level progress)
 - Step 5. If done correctly, the bottom half of the memory viewer will display your save data, which you can edit from the main menu using the information below.
 
-## <a name="xbox360"></a>xbox 360
+## <a name="xbox360"></a>Xbox 360
 
 The requirements are:
 - Xbox 360 Transfer Cable/XSATA/XPORT/USB (Hardware)
@@ -54,7 +55,7 @@ That is it for modding it on Xbox 360, if you want to transfer that data to your
 - Step 4. Go in Castle Crashers Remastered, then open the Player Statistics menu
 - Step 5. Download data from Xbox 360
 
-Save data info:
+## <a name="hexinfo"></a>Hex Info
 
 All Characters Unlockable Items:
 
