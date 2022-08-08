@@ -2,9 +2,11 @@
 
 There is always one enemy chasing you.
 
+You can calculate exact values on this page: https://a1rpun.github.io/castle-crashers-stats/
+
 ## Lightweight
 
-LLHH
+LLHH/HHLL
 
 Enemies include:            Normal/Insane HP/Necro/Necrosane (singleplayer)
 - barbarian                 50/500/150/1500
@@ -47,3 +49,16 @@ Enemies include:            Normal/Insane HP/Necro/Necrosane (singleplayer)
 - Conehead (Sometimes)      170/1700/270/2700
 - Brute                     300/2550/400/4000
 - Royal Guard               220/2200/320/3200
+
+## Special
+
+These enemies either can't be juggled normally or at all, or have their own unique weight class.
+
+Enemies include:            Normal/Insane HP/Necro/Necrosane (singleplayer)
+- Big Fish                  60/600
+- Slime                     75/750
+- Conehead (Ultra Heavy)    170/1700
+- Antlion                   200/2000
+- Beetle                    230/2300
+- Fishmen                   300/3000
+- Stoveface (Mid Heavy)     330/3300
