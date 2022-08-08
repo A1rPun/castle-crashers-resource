@@ -28,7 +28,7 @@ Save data info:
 - byte Agility – Agility Value
 - byte LevelProgress1 – Progress for story on left side of the dock (0xFF Unlocks all)
 - byte LevelProgress2 - Progress for story on right side of the dock (0xFF Unlocks all)
-- byte unk1 – Not known to do anything (yet?)
+- byte LevelProgress3 – Progress for Wizard Castle and Final Battle
 - byte Potions – Stores number of potions
 - byte Bombs – Stores number of bombs
 - byte Sandwiches – Stores number of sandwiches

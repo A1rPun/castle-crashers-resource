@@ -4,33 +4,24 @@
 
 ## Abbreviations
 
-Controls:
-
-- J = Jump
-- L = Light attack
-- H = Heavy attack
-- U = Use item (ex: arrow)
-- M = Magic
-- B = Block
-
-Other:
-
 - CC = Castle Crashers
 - CCR = Castle Crashers Remastered
-- OoB = Out of Bounds
+- OOB = Out Of Bounds
 
 ## Index
 
 ### Game-mechanics
 
-- [Arena](/Mechanics/Arena.md)
 - [Achievements/Trophies](/Mechanics/Achievements.md)
+- [Arena](/Mechanics/Arena.md)
+- [AYCQ](/Mechanics/AYCQ.md)
 - [Back off Barbarian](/Mechanics/BackOffBarbarian.md)
+- [Combo's](/Mechanics/Combos.md)
 - [Level skipping](/Mechanics/LevelSkip.md)
+- [Relics](/Mechanics/Relics.md)
 - [Tek (Tech)](/Mechanics/Tek.md)
 - [Unobtainable weapons](/Mechanics/UnobtainableWeapons.md)
 - [WaveSkip](/Mechanics/WaveSkip.md)
-- Combo's
 - Teleports
 
 ### Levels
@@ -52,12 +43,12 @@ Desert
 [Desert Chase](/Levels/DesertChase.md)
 [Dock](/Levels/Dock.md)
 Final Battle
-Flooded Temple
+[Flooded Temple](/Levels/FloodedTemple.md)
 Flowery Field
 Forest Entrance
-Full Moon
+[Full Moon](/Levels/FullMoon.md)
 Home Castle
-Ice Castle
+[Ice Castle](/Levels/IceCastle.md)
 [Icy Arena](/Levels/Arenas.md)
 [Icy Store](/Levels/Stores.md)
 Industrial Castle
@@ -74,7 +65,7 @@ Pipistrello's Cave
 Pirate Ship
 Rapids Ride
 Sand Castle Interior
-Sand Castle Roof
+[Sand Castle Roof](/Levels/SandCastleRoof.md)
 Snow World
 [Swamp Village Store](/Levels/Stores.md)
 Tall Grass Field

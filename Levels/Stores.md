@@ -9,5 +9,5 @@
 - [Thieves' Store](https://castlecrashers.fandom.com/wiki/Thieves%27_Store)
 - [Volcano Store](https://castlecrashers.fandom.com/wiki/Volcano_Store)
 
-- Fast buy
+- Quick buy
 - Same glitch different store
