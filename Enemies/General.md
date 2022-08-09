@@ -56,9 +56,9 @@ These enemies either can't be juggled normally or at all, or have their own uniq
 
 Enemies include:            Normal/Insane HP/Necro/Necrosane (singleplayer)
 - Big Fish                  60/600
-- Slime                     75/750
+- Slime                     75/750    (JXYY or Drill) 
 - Conehead (Ultra Heavy)    170/1700
 - Antlion                   200/2000
 - Beetle                    230/2300
-- Fishmen                   300/3000
+- Fishmen                   300/3000  [Information](https://github.com/A1rPun/castle-crashers-resource/blob/main/Enemies/Fishmen.md)
 - Stoveface (Mid Heavy)     330/3300
