@@ -2,7 +2,7 @@
 
 - Ladder glitches
 - Ladder tek (see tek)
-- OoB with Beefy
+- OOB with Beefy
 - Beefy strategy
 - Infinite roll
 - Co-op waveskip with ladder

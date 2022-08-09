@@ -12,7 +12,7 @@
 - [Camel double spit](#camel-spit)
 - [Camel juggle](#mount-juggle)
 - [Speedy camels](#camel-speed)
-- [Camel OoB](#camel-oob)
+- [Camel OOB](#camel-oob)
 - [Shortened Cutscene](#cutscene-shorten)
 - Cutscene glitch original CC
 - [Blind scorpions](#scorpion-blind)
@@ -67,10 +67,10 @@ Now the other player(s) needs to clear the third wave and get on a camel.
 
 The player which is stuck at the bottom must stay at the left-most side of the screen while the other player(s) can move towards the cutscene. Enter the cutscene. After the cutscene the player on the left must walk out of left the screen while the other player(s) walk out of the right side of the screen while spamming arrows.
 
-## <a name="camel-oob"></a>Camel OoB
+## <a name="camel-oob"></a>Camel OOB
 
 Before you do this you need to make sure teleports are off.
-Let the saracen walk all the way to the right of the screen. When he moves into the exit hit him off the camel with an arrow or projectile. The saracen is OoB now, so let him get on the camel again and it will move it to a location you can access. Knock the saracen off and get on the camel.
+Let the saracen walk all the way to the right of the screen. When he moves into the exit hit him off the camel with an arrow or projectile. The saracen is OOB now, so let him get on the camel again and it will move it to a location you can access. Knock the saracen off and get on the camel.
 
 ## <a name="cutscene-shorten"></a>Shortened Cutscene
 

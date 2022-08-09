@@ -3,7 +3,7 @@
 - [Free potion](#potion)
 - [Exit to map](#exit-to-map)
 - [AFK money glitch](#money-glitch)
-- [OoB locations](#oob)
+- [OOB locations](#oob)
 - [Headless](#headless)
 - [Rubber-Handle](#rubber-handle)
 - [Battle softlock](#softlock)
@@ -31,11 +31,11 @@ Equip a golden whale, optimally you'll need 4 golden whales.
 Go to the digspot where Mr. Buddy is, position youself so that you look to the right.
 Equip the shovel and start to dig. You will now pick up gold without giving any input.
 
-## <a name="oob"></a>OoB locations
+## <a name="oob"></a>OOB locations
 
 Die on the sloped area next to the door, do this by one player getting himself killed by BiPolar while on low health. Revive this player while standing on flat ground. The revived player can now walk out of bounds.
 
-After the credits you can just use a sandwich to get the other player OoB. Grab him whilst in beefy form and walk to a spot where the other player hangs outside of the level. For example the door on the right. Wait till the beefy timer is done and the other player is OoB. Because teleports are on the other player needs to use a sandwich immidiately and grab the player that is standing in bounds. When succesfully executed both players will be OoB.
+After the credits you can just use a sandwich to get the other player OOB. Grab him whilst in beefy form and walk to a spot where the other player hangs outside of the level. For example the door on the right. Wait till the beefy timer is done and the other player is OOB. Because teleports are on the other player needs to use a sandwich immidiately and grab the player that is standing in bounds. When succesfully executed both players will be OOB.
 
 ## <a name="headless"></a>Headless
 

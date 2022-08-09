@@ -4,7 +4,7 @@
 - Barbarian alive after boss kill
 - [Move during kiss](#move)
 - Headless
-- [Arena OoB](#oob)
+- [Arena OOB](#oob)
 
 ## <a name="boss"></a>Boss strategy
 
@@ -24,7 +24,7 @@ Allow the player to move when kissing the princess
 - the sandwich clock will cancel the animation, allowing you to move
 
 
-## <a name="oob"></a>Arena OoB
+## <a name="oob"></a>Arena OOB
 
 Get out of bounds during the PvP fight 
 

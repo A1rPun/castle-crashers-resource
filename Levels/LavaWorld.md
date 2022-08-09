@@ -5,8 +5,8 @@
 ## Index
 
 - Fire invulnerability
-- OoB locations
-- AI OoB
+- OOB locations
+- AI OOB
 - Co-op skip
 - 3 player AI bug
 - Free sandwich

@@ -29,4 +29,4 @@ Full agility -3 setup
 3. (Buffer) up once
 4. (Buffer) 5 steps left with shield
 5. Tornado left 1 frame
-6. Shoot arrow to check of you have OoB, if not repeat step 5
+6. Shoot arrow to check of you have OOB, if not repeat step 5
