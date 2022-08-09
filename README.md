@@ -66,7 +66,7 @@ Marsh
 [Medusa's Lair](/Levels/Medusa.md)
 [Parade](/Levels/Parade.md)
 [Peasant Arena](/Levels/Arenas.md)
-Pipistrello's Cave
+[Pipistrello's Cave](/Levels/Pipistrello.md)
 Pirate Ship
 Rapids Ride
 Sand Castle Interior
