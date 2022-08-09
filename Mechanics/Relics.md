@@ -34,7 +34,6 @@ Used for:
 - Used in CC & CCR for an EXP glitch on the first antlion in desert
 - Used in PS3 CC for an EXP glitch on the pillars in industrial castle
 - It was used in Xbox360 CC for an EXP glitch on catfish, that was patched
-- Glitched on PS3 insane mode, you can bring it over from normal mode if you need it
 - Makes an annoying sound if you throw it at beefy/horn doors
 - Release a frozen beefy by throwing a boomerang, the beefy timer stays frozen
 - Used to line up enemies for a juggle, throw it at the start of a wave
@@ -43,7 +42,7 @@ Used for:
 
 ## <a name="horn"></a>Horn
 
-Annoying and obsolete :) can play 4 tones.
+Annoying and obsolete :) can play 4 tones. Bugged on PS3 insane mode, you can bring it over from normal mode if you need it.
 
 ## <a name="bomb"></a>Bomb
 
