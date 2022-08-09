@@ -160,4 +160,4 @@ Insane Mode (Includes Compass, Wheel, Telescope and Horn for Normal mode):
 
 
 Example Diagram:
-![image](/Images/Player Data Diagram.png)
+![image](/Images/PlayerDataDiagram.png)
