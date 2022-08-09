@@ -6,6 +6,7 @@
 - [Novice](#novice)
 - [Advanced](#advanced)
 - [Expert](#expert)
+- [Arena](#arena)
 - [Character specific](#character)
 
 ## <a name="controls"></a>Controls
@@ -110,6 +111,19 @@ mlvl 10|Projectile spam|in slowfall air, LH, AP...
 mlvl 15|Infusion cancel|LLLH, Arrow
 mlvl 15|Infusion cancel tornado|LLLH, Tornado
 
+## <a name="arena"></a>Arena
+
+You can use any combo you want really, depending on your style.
+
+combo|execution
+---|---
+From ground 1|MJ+L, HH, LHH, LH, LHH, LH, LH, LH, LH
+From ground 2|MJ+L, H[H], LH[H], LH[H], LH, LH, LH, LH
+From ground 3|MJ+L, HH, LL, LHH, LH, LHLJ, LH, LH
+Aerial 1|in air, LHL, LHH, LHH, LHLJ, LH, LH, LH
+Aerial 3|in air, HH, LLHH, LHL, LHL, LHLJ, LH, LH
+Aerial 3 (TODO)|in air, LH, LHH, LHH, LHLJ, LH, LH
+
 ## <a name="character"></a>Character specific
 
 ### Elemental Knights
@@ -124,7 +138,7 @@ lvl|combo|execution
 ---|---|---
 0|Green knight lightweight juggle|in air, LLH, LLHH
 8|Green knight middleweight juggle|J, LLH, LHH, LH, LHH, LH
-8|Green knight middleweight juggle|
+8|Green knight arena juggle|
 8|Green knight heavyweight juggle|in air, H, LH
 
 ### Tornado Characters
@@ -135,6 +149,6 @@ mlvl 10|Tornado that blocks some attacks|in air, [AP]
 mlvl 10|Tornado lightweight juggle|LLH, AP
 mlvl 10|Tornado lightweight juggle|LLHH, AP
 8 mlvl 10|Tornado middleweight juggle|J, LHH, LHH, AP, LHH, AP, LH
-8 mlvl 10|Tornado middleweight juggle|
+8 mlvl 10|Tornado arena juggle|
 mlvl 10|Tornado heavyweight juggle|J, HH, [AP]
 8 mlvl 10|Tornado slide|in air, AP, (the frame after you exit tornado) LHL

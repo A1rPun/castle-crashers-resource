@@ -2,6 +2,7 @@
 
 - [Sequence](#sequence)
 - Speedrun swag strat (30fps)
+- Weird log hitbox
 
 ## <a name="sequence"></a>Sequence
 
@@ -11,7 +12,7 @@
 - jump or bottom
 - jump or top
 - jump
-- jump
+- jump (weird log)
 - middle
 - jump
 - jump

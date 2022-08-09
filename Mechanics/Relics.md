@@ -21,11 +21,11 @@ Does 2 hits of damage. A light attack and heavy attack. Press all action buttons
 
 Used for:
 
-- Does 1 damage per hit, ...dps if stuck
+- Does 1 damage per hit, _TODO: quote needed_ DPS
 - Can be blocked if facing it
 - Opens breakable doors quickly
 - Let's you get to max running speed with the press of 2 buttons
-- Let's you pickup coins/food/weapons offscreen 
+- Let's you pickup coins/food/weapons offscreen
 - Let's you pickup coins/food/weapons while airborne
 - You can throw a boomerang at a weapon and press L to pick it up from a distance
 - When you hit a stunned enemy, canceling the stun, he will get immune to a boomerang. Fix this by doing a headbutt
@@ -50,11 +50,11 @@ Can be used for quick kills, mostly used on final boss.
 
 ## <a name="potion"></a>Potion
 
-Better bring 5,. Auto-uses in Multiplayer only if 2+ players are alive.
+Better bring 5. Auto-uses in Multiplayer only if 2+ players are alive.
 
 ## <a name="sandwich"></a>Sandwich
 
-Used for Volcano boss and OOB's.
+Used for Industrial door, secrets, Volcano dragon skip and OOB's.
 
 ## <a name="unused"></a>Unused
 
