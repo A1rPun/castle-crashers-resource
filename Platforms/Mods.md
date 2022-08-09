@@ -159,8 +159,5 @@ Insane Mode (Includes Compass, Wheel, Telescope and Horn for Normal mode):
 - FF - Compass + Wheel + Telescope + Horn
 
 
-Example of a lvl 99 gold skull with a man catcher, snoot, full inventory, gold skull, all the goodies:
-80 62 00 02 7F 7D 48 11
-19 19 19 19 FF FF 01 05
-09 09 FF 00 01 4C AA 01
-FF FF 01 02
+Example Diagram:
+![image](/Images/Player Data Diagram.png)
