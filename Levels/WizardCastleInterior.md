@@ -7,6 +7,9 @@
   - OOB
 - [Undead Cyclops' Room](#cyclops)
   - OOB original CC
+  - Unslammable
+  - Cyclops OOB
+  - Undead groom OOB
 - [Necromancer's Room](#necromancer)
   - Wave strategy
   - Boss strategy

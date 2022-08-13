@@ -5,6 +5,7 @@
 - Offset glitch on beetle cutscene
 - [AFK kill glitch](#kill-glitch)
 - [AFK gold](#gold)
+- Unslammable
 - Bush
 
 ## <a name="boss"></a>Mini-boss strategy

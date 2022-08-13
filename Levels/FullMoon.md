@@ -1,6 +1,8 @@
 # Full Moon
 
 - Ladder glitches
+  - Tornado
+  - Sandwich
 - Ladder tek (see tek)
 - OOB with Beefy
 - Beefy strategy
