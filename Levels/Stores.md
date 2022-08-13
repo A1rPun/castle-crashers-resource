@@ -11,3 +11,4 @@
 
 - Quick buy
 - Same glitch different store
+- Insane Store Bush

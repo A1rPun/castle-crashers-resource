@@ -9,6 +9,7 @@
 - No beefy juggle
 - Local mid-game join
 - Industrial Castle boss experience glitch
+- Scissor enemy
 - OOB spots
   - Alien Ship
   - Sand Castle Interior

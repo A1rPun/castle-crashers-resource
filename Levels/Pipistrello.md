@@ -6,6 +6,7 @@
 - Slime duplication
 - Beefy grab slime
 - Kill farm
+- Invisible poop
 - Same level as Tall Grass Field cave
 - Super secret AFK kill glitch
 

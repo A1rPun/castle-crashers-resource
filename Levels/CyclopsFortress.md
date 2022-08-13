@@ -1,8 +1,8 @@
 # Cyclops' Fortress
 
 - [Boss strategy](#boss)
-- Conehead with flag strategy
-- Double damage Conehead with flag
+- Elite Conehead strategy
+- Double damage Elite Conehead
 - [Stuck in Cyclops cutscene fix](#cutscenefix)
 - Decapitation glitch setup
 
