@@ -7,11 +7,13 @@
 - CC = Castle Crashers
 - CCR = Castle Crashers Remastered
 - OOB = Out Of Bounds
+- AFK = Away From Keyboard
 - J = Jump
 - L = Light Attack
 - H = Heavy Attack
 - M = Magic
 - B = Block
+- U = Use
 
 ## Index
 
@@ -41,54 +43,53 @@
 ### Levels
 
 [Abandoned Mill](/Levels/AbandonedMill.md)
-Alien Ship
+[Alien Ship](/Levels/AlienShip.md)
 [Barbarian Boss](/Levels/BarbarianBoss.md)
-Barbarian War
+[Barbarian War](/Levels/BarbarianWar.md)
 [Barracks](/Levels/Barracks.md)
 [Blacksmith](/Levels/Blacksmith.md)
-Castle Keep
+[Castle Keep](/Levels/CastleKeep.md)
 [Catfish](/Levels/Catfish.md)
 [Church Store](/Levels/Stores.md)
 [Corn Boss](/Levels/CornBoss.md)
-Cyclops' Cave
-Cyclops' Fortress
-Cyclops' Gate
-Desert
+[Cyclops' Cave](/Levels/CyclopsCave.md)
+[Cyclops' Fortress](/Levels/CyclopsFortress.md)
+[Cyclops' Gate](/Levels/CyclopsGate.md)
+[Desert](/Levels/Desert.md)
 [Desert Chase](/Levels/DesertChase.md)
 [Dock](/Levels/Dock.md)
-Final Battle
+[Final Battle](/Levels/FinalBattle.md)
 [Flooded Temple](/Levels/FloodedTemple.md)
-Flowery Field
-Forest Entrance
+[Flowery Field](/Levels/FloweryField.md)
+[Forest Entrance](/Levels/ForestEntrance.md)
 [Full Moon](/Levels/FullMoon.md)
-Home Castle
+[Home Castle](/Levels/HomeCastle.md)
 [Ice Castle](/Levels/IceCastle.md)
 [Icy Arena](/Levels/Arenas.md)
 [Icy Store](/Levels/Stores.md)
-Industrial Castle
-Insane Mode Node
+[Industrial Castle](/Levels/IndustrialCastle.md)
 [Insane Store](/Levels/Stores.md)
 [King's Arena](/Levels/Arenas.md)
 [Lava World](/Levels/LavaWorld.md)
 [Level100](/Levels/Level100.md)
-Marsh
+[Marsh](/Levels/Marsh.md)
 [Medusa's Lair](/Levels/Medusa.md)
 [Parade](/Levels/Parade.md)
 [Peasant Arena](/Levels/Arenas.md)
 [Pipistrello's Cave](/Levels/Pipistrello.md)
-Pirate Ship
-Rapids Ride
-Sand Castle Interior
+[Pirate Ship](/Levels/PirateShip.md)
+[Rapids Ride](/Levels/RapidsRide.md)
+[Sand Castle Interior](/Levels/SandCastleInterior.md)
 [Sand Castle Roof](/Levels/SandCastleRoof.md)
-Snow World
+[Snow World](/Levels/SnowWorld.md)
 [Swamp Village Store](/Levels/Stores.md)
-Tall Grass Field
+[Tall Grass Field](/Levels/TallGrassField.md)
 [Thieves Arena](/Levels/Arenas.md)
-Thieves Forest
+[Thieves Forest](/Levels/ThievesForest.md)
 [Thieves' Store](/Levels/Stores.md)
 [Volcano Arena](/Levels/Arenas.md)
 [Volcano Store](/Levels/Stores.md)
-Wedding Crash
+[Wedding Crash](/Levels/WeddingCrash.md)
 [Wizard Castle Interior](/Levels/WizardCastleInterior.md)
 [Wizard Castle Takeoff](/Levels/WizardCastleTakeoff.md)
 
@@ -97,6 +98,7 @@ Wedding Crash
 Links:
 
 - [Castle Crashers Wiki](https://castlecrashers.fandom.com)
+- [A1rPun's CC GIFs - Aug 2015](https://gfycat.com/@a1rpun)
 
 Apps:
 
@@ -104,4 +106,4 @@ Apps:
 
 Spreadsheets:
 
-- [CheatEngine data](https://docs.google.com/spreadsheets/d/1vsrf9KrzcrKVIjyHcOtaErx58amaT5JZy50lexA6_F4/edit?usp=sharing)
+- [A1rPun's CheatEngine Data](https://docs.google.com/spreadsheets/d/1vsrf9KrzcrKVIjyHcOtaErx58amaT5JZy50lexA6_F4/edit?usp=sharing)

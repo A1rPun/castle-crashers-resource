@@ -3,7 +3,7 @@
 - Elemental knights exp glitch
 - Barrier skip in multiplayer
 - [Painter's Room](#painter)
-  - Money farm method
+  - Gold farm method
   - OOB
 - [Undead Cyclops' Room](#cyclops)
   - OOB original CC

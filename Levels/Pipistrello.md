@@ -1,8 +1,12 @@
 # Pipistrello's Cave
 
-- Boss strategy
+- [Boss strategy](#boss)
 - Slime juggle
 - Slime drill
 - Slime duplication
+- Beefy grab slime
 - Kill farm
-- Super secret afk kill glitch
+- Same level as Tall Grass Field cave
+- Super secret AFK kill glitch
+
+## <a name="boss"></a>Boss strategy

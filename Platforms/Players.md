@@ -7,14 +7,18 @@
 - 16 inch sub
 - A SupaNova
 - aced211
+- Aichomancer
 - Amotinu
 - BeatsByDay
+- Beermeup
 - ccvector
 - Clawifii
 - Credd
 - DaNastyOne
 - Dez
+- drunken feedle
 - Fencer Main
+- FenixStryk
 - Flamming
 - FTG-Legacy
 - GameCrazy_02
@@ -32,6 +36,7 @@
 - Meme_Cuisine_
 - meowtactic
 - OJKamo
+- otto
 - Papa Quill
 - Periphery
 - SriiZz
@@ -39,8 +44,11 @@
 - TheArtOfGriefing (T.A.G.)
 - TheForgottenKnight
 - TheWorst429
+- Toddo
+- TPTS XSNIPERZ
 - Tree (kidshoota411)
 - Tri_Tri_Chenille
+- U-Knighted
 - Unxqee
 - v MoTiioNz ii
 - VeryBadPlayer (arcadeclassics)

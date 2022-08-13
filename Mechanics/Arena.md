@@ -149,7 +149,7 @@ If the opponent doesn't know how to tek you can zero-to-death by repeatedly stom
 
 ## <a name="treasure"></a>Treasure
 
-Try to get as much money as you can obviously.
+Try to get as much gold as you can obviously.
 
 Shovel does damage and can be used to get your opponent out of a dig. If an opponent tries to shovel you, block or run away. Always try shovel with your back to the opponent so you can hit them if they come near.
 

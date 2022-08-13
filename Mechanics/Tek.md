@@ -54,7 +54,7 @@ Bear & Saracen only.
 Common usages:
 
 - Kill farm
-- Money farm
+- Gold farm
 - Arena cheese
 
 https://youtu.be/nRPVWWTLpzg

@@ -8,6 +8,7 @@
 - [Expert](#expert)
 - [Arena](#arena)
 - [Character specific](#character)
+- [Coop](#coop)
 
 ## <a name="controls"></a>Controls
 
@@ -112,7 +113,7 @@ mlvl 15|Infusion cancel tornado|LLLH, Tornado
 
 ## <a name="arena"></a>Arena
 
-You can use any combo you want really, depending on your style.
+You can use any middleweight juggle you want really, depending on your style.
 
 combo|execution
 ---|---
@@ -144,10 +145,19 @@ lvl|combo|execution
 
 lvl|combo|execution
 ---|---|---
-mlvl 10|Tornado that blocks some attacks|in air, [AP]
+mlvl 10|Tornado that blocks melee attacks|in air, [AP]
 mlvl 10|Tornado lightweight juggle|LLH, AP
 mlvl 10|Tornado lightweight juggle|LLHH, AP
 8 mlvl 10|Tornado middleweight juggle|J, LHH, LHH, AP, LHH, AP, LH
 8 mlvl 10|Tornado arena juggle|
 mlvl 10|Tornado heavyweight juggle|J, HH, [AP]
 8 mlvl 10|Tornado slide|in air, AP, (the frame after you exit tornado) LHL
+
+## <a name="coop"></a>Coop
+
+lvl|combo|execution
+---|---|---
+0|Infinite middleweight stomp setup|on downed enemy, H
+0|Infinite middleweight stomp combo|any middleweight combo
+8|Heavyweight destroyer setup|sprint, H, J+LHL, LH, LH
+8|Heavyweight destroyer combo|in air, LHLJ, LHHH

@@ -1,5 +1,6 @@
 # Parade
 
+- Teleports off
 - General strategy
 - Softlock
 - [No hit](#no-hit)

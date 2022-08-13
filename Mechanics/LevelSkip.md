@@ -48,6 +48,11 @@ If you beat Barbarian Boss you will unlock the requirement for Barbarian War aft
 ### Wedding Crash & Parade skip
 Enter Cyclops' Cave, exit left to Parade, exit right into Cyclops' Cave again and then exit to map. This will unlock the requirement for Wedding Crash and unlock Parade as checkpoint level after refreshing the lobby.
 
+### Pirate Ship skip
+
+Pirate Ship is not needed for completion but it blocks traversal to the right side of the dock. To access the Desert without beating Pirate Ship you need to have beaten Desert Chase and have the relics needed for Dock.
+Enter Dock and exit to map when you enter Pirate Ship, now you can traverse to Desert and beyond.
+
 ### Alien Ship skip
 If you beat Desert Chase you will unlock the requirement for Alien Ship after refreshing the lobby.
 

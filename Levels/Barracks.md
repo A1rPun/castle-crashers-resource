@@ -2,7 +2,7 @@
 
 - [Free potion](#potion)
 - [Exit to map](#exit-to-map)
-- [AFK money glitch](#money-glitch)
+- [AFK gold](#gold)
 - [OOB locations](#oob)
 - [Headless](#headless)
 - [Rubber-Handle](#rubber-handle)
@@ -25,7 +25,7 @@ Fastest way to exit to map
 - Arrow up
 - Select menu option "yes"
 
-## <a name="money-glitch"></a>AFK money glitch
+## <a name="gold"></a>AFK gold
 
 Equip a golden whale, optimally you'll need 4 golden whales.
 Go to the digspot where Mr. Buddy is, position youself so that you look to the right.
