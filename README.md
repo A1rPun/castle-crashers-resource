@@ -29,6 +29,15 @@
 - [WaveSkip](/Mechanics/WaveSkip.md)
 - Teleports
 
+### Platforms
+
+- [Playstation 3](/Platforms/Playstation3.md)
+- [Steam](/Platforms/Steam.md)
+- [Downloadable content (DLC)](/Platforms/DLC.md)
+- [Savegame modding](/Platforms/Mods.md)
+- [Modding tutorial](/Platforms/ModTutorial.md)
+- [Release dates](/Platforms/ReleaseDates.md)
+
 ### Levels
 
 [Abandoned Mill](/Levels/AbandonedMill.md)

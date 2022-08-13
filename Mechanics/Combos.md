@@ -122,7 +122,7 @@ From ground 2|MJ+L, H[H], LH[H], LH[H], LH, LH, LH, LH
 From ground 3|MJ+L, HH, LL, LHH, LH, LHLJ, LH, LH
 Aerial 1|in air, LHL, LHH, LHH, LHLJ, LH, LH, LH
 Aerial 3|in air, HH, LLHH, LHL, LHL, LHLJ, LH, LH
-Aerial 3 (TODO)|in air, LH, LHH, LHH, LHLJ, LH, LH
+Aerial 3 |in air, LH, LHH, LHH, LH, LHLJ, LH, LH
 
 ## <a name="character"></a>Character specific
 
