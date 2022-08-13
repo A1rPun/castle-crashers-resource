@@ -7,7 +7,8 @@
 - Climb stuck
 - Deathtek
 - Fly over arrow machines
-- Arrow machine bear waveskip
+- Waveskips
+  - Arrow machine bear
 - Cave
   - Projectile spam to access Burly Bear
   - Same level as Pipistrello's Cave

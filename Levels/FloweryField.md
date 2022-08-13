@@ -6,6 +6,7 @@
 - Catapult failed eyes
 - [Item glitch on ladder](#item-glitch)
 - OOB below ladder
+- Waveskips
 - Jump down prevention
 - Don't break the glass
 - Best(?) background animations

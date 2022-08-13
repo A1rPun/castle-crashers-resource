@@ -1,7 +1,8 @@
 # Sand Castle Roof
 
-- [Solo waveskip](#solo-waveskip)
-- Co-op waveskip
+- Waveskips
+  - [Solo waveskip](#solo-waveskip)
+  - Co-op waveskip
 - Volleyball
   - General glitches
   - Map saracen stun

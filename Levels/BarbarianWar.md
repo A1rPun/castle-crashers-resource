@@ -2,7 +2,8 @@
 
 - [Mini-boss strategy](#boss)
 - War Machine kill before it spawns
-- Punching barbarian wave skip
+- Waveskips
+  - Punching barbarian
 - Sleeping barbarians
 - Destroy door in the last wave
 

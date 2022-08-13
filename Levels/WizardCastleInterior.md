@@ -11,6 +11,7 @@
   - Wave strategy
   - Boss strategy
   - Necro OOB
+  - Waveskip
 
 ## <a name="painter"></a>Painter's Room
 

@@ -1,6 +1,7 @@
 # Forest Entrance
 
 - [Reversed mount](#reversed)
+- Waveskip
 - Beefy same health as in normal mode
 
 ## <a name="reversed"></a>Reversed mount
