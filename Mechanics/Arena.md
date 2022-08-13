@@ -76,7 +76,13 @@ Least useful:
 Most useful:
 
 - Ribeye
+- GS Mace
+- Mancatcher
 - Sai (Fencer's pick)
+- Butcher Knife
+- Wooden Mace
+- Demon Sword
+- Ninja Claw
 
 Least useful:
 

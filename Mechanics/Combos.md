@@ -8,6 +8,7 @@
 - [Expert](#expert)
 - [Arena](#arena)
 - [Character specific](#character)
+- [Weapon specific](#weapon)
 - [Coop](#coop)
 
 ## <a name="controls"></a>Controls
@@ -64,12 +65,15 @@ lvl|combo|execution
 0|Parry|B at the same time you get attacked
 0|<details><summary>Horn</summary>![Horn](/Images/Animations/horn.gif)</details>|Can play 4 different tones depending on pressed direction
 0|Walk backwards shooting arrows|hold block while shooting arrows
+4|Sprint combo|sprint, LHL
 8|Simple lightweight juggle|J, HH
 8|<details><summary>Lightweight juggle</summary>![Lightweight juggle](/Images/Animations/lightweightjuggle1.gif)</details>|in air, LL, H
 8|<details><summary>Lightweight juggle</summary>![Lightweight juggle](/Images/Animations/lightweightjuggle2.gif)</details>|in air, LL, HH
 8|Middleweight juggle|J+LLHH, LHH, LHH, LH...
 8|<details><summary>Fly</summary>![Fly](/Images/Animations/fly.gif)</details>|in air, LHH
 8 mlvl 20|<details><summary>Slowfall fly*</summary>![Slowfall fly](/Images/Animations/slowfall.gif)</details>|MJ, J, LHH
+8|Spellweave|in air, AP, LHH
+<mlvl 15|Beefy glitch combo|HHH
 
 *Slowfall is gained by canceling the spin animation, if you don't want slowfall you have to let the spin animation complete
 
@@ -89,7 +93,6 @@ lvl|combo|execution
 8|Slowfall fly|J, J+L, HH
 8|Slowfall mid-air|in air, LHL, J+L, HH
 8|Slowfall juggle|in slowfall air, LHHH
-<mlvl 15|Beefy glitch combo|HHH
 mlvl 15|Beefy glitch combo|(L)LLH
 
 ## <a name="expert"></a>Expert
@@ -105,7 +108,6 @@ lvl|combo|execution
 8|Fly without jump|LH, L+H, LHH
 8|Projectile juggle|J, LLH, LHH, LL, AP, LHH, LL, AP, LHH
 8|High juggle|J, LLH, LHH, LL..., HH, LHH, LL..., HH
-8|Coop heavyweight juggle|sprint, H, MJ, LH. Other person does LH and/or LHLJ
 16|Infinite headbutt|(L)LH
 mlvl 10|Projectile spam|in slowfall air, LH, AP...
 mlvl 15|Infusion cancel|LLLH, Arrow
@@ -153,11 +155,17 @@ mlvl 10|Tornado lightweight juggle|LLHH, AP
 mlvl 10|Tornado heavyweight juggle|J, HH, [AP]
 8 mlvl 10|Tornado slide|in air, AP, (the frame after you exit tornado) LHL
 
+## <a name="weapon"></a>Weapon specific
+
+Cattle prod heavyweight combo.
+
 ## <a name="coop"></a>Coop
 
 lvl|combo|execution
 ---|---|---
 0|Infinite middleweight stomp setup|on downed enemy, H
 0|Infinite middleweight stomp combo|any middleweight combo
+0|Beefy stomp&arrow combo|on downed beefy, H
+agility lvl 25|Beefy stomp&arrow combo|spam arrows
 8|Heavyweight destroyer setup|sprint, H, J+LHL, LH, LH
 8|Heavyweight destroyer combo|in air, LHLJ, LHHH

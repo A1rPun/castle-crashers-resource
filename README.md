@@ -24,6 +24,7 @@
 - [AYCQ](/Mechanics/AYCQ.md)
 - [Back off Barbarian](/Mechanics/BackOffBarbarian.md)
 - [Combo's](/Mechanics/Combos.md)
+- [Items](/Mechanics/Items.md)
 - [Level skipping](/Mechanics/LevelSkip.md)
 - [Relics](/Mechanics/Relics.md)
 - [Tek (Tech)](/Mechanics/Tek.md)
