@@ -1,4 +1,4 @@
-# Tek/Tech
+# Recovery jump/Tek/Tech
 
 - [Tek](#tek)
 - [Ground tek](#tek-ground)
@@ -7,6 +7,8 @@
 - [Running tek](#running-tek)
 - [Ladder tek](#tek-ladder)
 - [Deathtek](#tek-death)
+
+![Recovery jump / Tek](/Images/Animations/tek.gif)
 
 ## <a name="tek"></a>Tek
 

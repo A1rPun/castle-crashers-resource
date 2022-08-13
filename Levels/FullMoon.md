@@ -8,3 +8,5 @@
 - Co-op waveskip with ladder
 - Co-op waveskip
 - Co-op waveskip with beefy
+
+![ladderglitch](/Images/Animations/fullmoonladder.gif)

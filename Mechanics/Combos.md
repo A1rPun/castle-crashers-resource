@@ -13,11 +13,12 @@
 
 abbreviation|meaning
 ---|---
-`J`|Jump
-`L`|Light attack
-`H`|Heavy attack
-`B`|Block
-`U`|Use (Arrow, Shovel, Boomerang, Horn, Bomb, Potion, Sandwich)
+`J`|<details><summary>Jump</summary>![Jump](/Images/Animations/jump.gif)</details>
+`L`|<details><summary>Light attack</summary>![Light attack](/Images/Animations/lightattack.gif)</details>
+`H`|<details><summary>Heavy attack</summary>![Heavy attack](/Images/Animations/heavyattack.gif)</details>
+`B`|<details><summary>Block</summary>![Block](/Images/Animations/block.gif)</details>
+`U`|<details><summary>Use (Arrow, Shovel, Boomerang, Horn, Bomb, Potion, Sandwich)</summary>![arrow](/Images/Animations/arrow.gif)![shovel](/Images/Animations/shovel.gif)![boomerang](/Images/Animations/boomerang.gif)![horn](/Images/Animations/horn.gif)</details>
+`S`|<details><summary>Switch items</summary>![Items](/Images/Animations/items.gif)</details>
 `,`|Just a seperator
 `+`|Press buttons at the same time
 `()`|Press the button but make sure not to hit an enemy
@@ -28,48 +29,46 @@ abbreviation|meaning
 
 lvl|combo|execution
 ---|---|---
-0|Throw|on enemy, H
+0|<details><summary>Throw</summary>![Throw](/Images/Animations/throw.gif)</details>|on enemy, H
 0|Stomp|on downed enemy, H
-0|Jumping strike|J+L
+0|<details><summary>Jumping strike</summary>![Jumping strike](/Images/Animations/jumpingstrike.gif)</details>|J+L
 0|Jumping slam|in air, H
 0|Sword spin|HH
-2|Spin|in air, J
+2|<details><summary>Spin</summary>![Spin](/Images/Animations/spin.gif)</details>|in air, J
 4|Sprint stab / L-dash|sprint, L
 4|Sprint dive / H-dash|sprint, H
-8|Uppercut|LH
-8|Spinning uppercut|LHL
-16|Headbutt|LLH
-32|Headbutt strike|LLHH
-50|Drill|LLLHH
+8|<details><summary>Uppercut</summary>![Uppercut](/Images/Animations/uppercut.gif)</details>|LH
+8|<details><summary>Spinning Uppercut</summary>![Spinning Uppercut](/Images/Animations/spinninguppercut.gif)</details>|LHL
+16|<details><summary>Headbutt</summary>![Headbutt](/Images/Animations/headbutt.gif)</details>|LLH
+32|<details><summary>Headbutt strike</summary>![Headbutt strike](/Images/Animations/headbuttstrike.gif)</details>|LLHH
+50|<details><summary>Drill</summary>![Drill](/Images/Animations/drill.gif)</details>|LLLHH
 
 ## <a name="magic"></a>Magic
 
 mlvl|combo|execution
 ---|---|---
-0|Magic splash|MS
-5|Magic projectile|MP
-10|Magic air projectile|AP
-15|Elemental infusion|LLLH
-20|Magic jump|MJ
+0|<details><summary>Magic splash</summary>![Magic splash](/Images/Animations/magicsplash.gif)</details>|MS
+5|<details><summary>Magic projectile</summary>![Magic projectile](/Images/Animations/magicprojectile.gif)</details>|MP
+10|<details><summary>Magic air projectile</summary>![Magic air projectile](/Images/Animations/magicairprojectile.gif)</details>|AP
+15|<details><summary>Elemental infusion</summary>![Elemental infusion](/Images/Animations/elementalinfusion.gif)</details>|LLLH
+20|<details><summary>Magic jump</summary>![Magic jump](/Images/Animations/magicjump.gif)</details>|MJ
 
 ## <a name="novice"></a>Novice
 
 lvl|combo|execution
 ---|---|---
-0|Insta-revive|while reviving, spam press J+L+H+U at the same time
-0|Insta-dig|while digging, spam press J+L+H+U at the same time
-0|Insta-unfreeze|while frozen, hold left on d-pad and right on analog stick
-0|Insta-escape|while grabbed by a slime or antlion, hold left on d-pad and right on analog stick
-0|Recovery jump / Tek|hold J or press J at the right moment after being knocked down
+0|Insta-mash|while reviving/grappling/digging, spam press J+L+H+U at the same time
+0|Insta-unfreeze|while frozen/grabbed, hold left on d-pad and right on analog stick
+0|<details><summary>Recovery jump / Tek</summary>![Recovery jump / Tek](/Images/Animations/tek.gif)</details>|hold J or press J at the right moment after being knocked down
 0|Parry|B at the same time you get attacked
-0|Horn|Can play 4 different tones depending on pressed direction
+0|<details><summary>Horn</summary>![Horn](/Images/Animations/horn.gif)</details>|Can play 4 different tones depending on pressed direction
 0|Walk backwards shooting arrows|hold block while shooting arrows
 8|Simple lightweight juggle|J, HH
-8|Lightweight juggle|in air, LL, H
-8|Lightweight juggle|in air, LL, HH
+8|<details><summary>Lightweight juggle</summary>![Lightweight juggle](/Images/Animations/lightweightjuggle1.gif)</details>|in air, LL, H
+8|<details><summary>Lightweight juggle</summary>![Lightweight juggle](/Images/Animations/lightweightjuggle2.gif)</details>|in air, LL, HH
 8|Middleweight juggle|J+LLHH, LHH, LHH, LH...
-8|Fly|in air, LHH
-8 mlvl 20|Slowfall fly*|MJ, J, LHH
+8|<details><summary>Fly</summary>![Fly](/Images/Animations/fly.gif)</details>|in air, LHH
+8 mlvl 20|<details><summary>Slowfall fly*</summary>![Slowfall fly](/Images/Animations/slowfall.gif)</details>|MJ, J, LHH
 
 *Slowfall is gained by canceling the spin animation, if you don't want slowfall you have to let the spin animation complete
 
@@ -83,7 +82,7 @@ lvl|combo|execution
 2|Sandwich volcano juggle|in air, [L], [H], J
 2|Sandwich middleweight juggle|in air, L, H, L, H, L, H, J
 8|Beefy juggle|in air, LLL, LHL, J, LHHH...
-8|Air stun|in air, LHL, boomerang
+8|<details><summary>Air stun</summary>![Air stun](/Images/Animations/airstun.gif)</details>|in air, LHL, boomerang
 8|Ice juggle|in air, LHL, HH
 8|Fly|in slowfall air, LHL
 8|Slowfall fly|J, J+L, HH
@@ -101,7 +100,7 @@ lvl|combo|execution
 0|Splash slide|MS on the frame you land
 0|Arrow slide|Shoot arrow on the frame you land
 2|Exp grinder|JJ, arrow, J
-8|MLG Fly|in air, LHLLHL
+8|<details><summary>MLG Fly</summary>![MLG Fly](/Images/Animations/mlgfly.gif)</details>|in air, LHLLHL
 8|Fly without jump|LH, L+H, LHH
 8|Projectile juggle|J, LLH, LHH, LL, AP, LHH, LL, AP, LHH
 8|High juggle|J, LLH, LHH, LL..., HH, LHH, LL..., HH
