@@ -25,18 +25,4 @@ Allow the player to move when kissing the princess
 
 ## <a name="oob"></a>Arena OOB
 
-Get out of bounds during the PvP fight
-
-Requirements:
-
-- 2 players or more
-- At least one player must have a sandwich
-- Both players will need sandwiches if both want to get out of the map
-- Go to Parade or Pirate ship then exit to map to stop players from teleporting
-
-- Have a player use a sandwich
-- Have the beefy player pick up the other player
-- The beefy player must hold the other player outside of the map (Hold them as close to the left or right wall as possible)
-- When the clock ends the player will be out of bounds
-
-If both players brought a sandwich, the player outside of the map can pick up the other player while in beefy form to bring the other outside with them.
+Get [out of bounds using a beefy](/Mechanics/OOB.md#beefy-oob) during the PvP fight.

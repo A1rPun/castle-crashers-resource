@@ -4,3 +4,4 @@ TODO:
 
 - Unlockable characters
 - Grief prevention in MP
+- OOB locations

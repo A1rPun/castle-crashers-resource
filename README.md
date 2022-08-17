@@ -26,19 +26,21 @@
 - [Combo's](/Mechanics/Combos.md)
 - [Items](/Mechanics/Items.md)
 - [Level skipping](/Mechanics/LevelSkip.md)
+- [OOB / Teleporting](/Mechanics/OOB.md)
 - [Relics](/Mechanics/Relics.md)
 - [Tek (Tech)](/Mechanics/Tek.md)
 - [Unobtainable weapons](/Mechanics/UnobtainableWeapons.md)
 - [WaveSkip](/Mechanics/WaveSkip.md)
-- Teleports
 
 ### Platforms
 
 - [Playstation 3](/Platforms/Playstation3.md)
 - [Steam](/Platforms/Steam.md)
+- [Controls](/Mechanics/Controls.md)
 - [Downloadable content (DLC)](/Platforms/DLC.md)
 - [Savegame modding](/Platforms/Mods.md)
 - [Modding tutorial](/Platforms/ModTutorial.md)
+- [Music](/Mechanics/Music.md)
 - [Release dates](/Platforms/ReleaseDates.md)
 
 ### Levels

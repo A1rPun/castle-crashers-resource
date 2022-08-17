@@ -10,6 +10,7 @@
 - [Character specific](#character)
 - [Weapon specific](#weapon)
 - [Coop](#coop)
+- [TheWorst429 Combo Guide on Youtube](https://youtu.be/dcNM5WvhpyA)
 
 ## <a name="controls"></a>Controls
 
@@ -125,6 +126,9 @@ From ground 3|MJ+L, HH, LL, LHH, LH, LHLJ, LH, LH
 Aerial 1|in air, LHL, LHH, LHH, LHLJ, LH, LH, LH
 Aerial 3|in air, HH, LLHH, LHL, LHL, LHLJ, LH, LH
 Aerial 3 |in air, LH, LHH, LHH, LH, LHLJ, LH, LH
+Delayed spinning uppercut|in air, L, AP, HL
+Delayed fly|in air, L, AP, HH
+Delayed spinning sword|_TODO:_
 
 ## <a name="character"></a>Character specific
 
@@ -153,7 +157,7 @@ mlvl 10|Tornado lightweight juggle|LLHH, AP
 8 mlvl 10|Tornado middleweight juggle|J, LHH, LHH, AP, LHH, AP, LH
 8 mlvl 10|Tornado arena juggle|
 mlvl 10|Tornado heavyweight juggle|J, HH, [AP]
-8 mlvl 10|Tornado slide|in air, AP, (the frame after you exit tornado) LHL
+8 mlvl 10|Tornado slide|in air, AP, (the frame after you exit tornado) LHL, AP
 
 ## <a name="weapon"></a>Weapon specific
 
