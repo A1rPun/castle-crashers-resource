@@ -137,7 +137,7 @@ Commonly used by doing a MJ on the frame the opponent stands up. Can be countere
 
 #### <a name="reset-ms"></a>Splash reset
 
-Do a MS just before the opponent stands up. Every character has different timings. Most of the time the opponent bounces towards you for an easy juggle setup.
+Do a MH just before the opponent stands up. Every character has different timings. Most of the time the opponent bounces towards you for an easy juggle setup.
 Can be countered if it's incorrectly timed by holding up or down.
 
 _TODO: insert Flamming's audio/framelength comparison_

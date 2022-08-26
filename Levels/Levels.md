@@ -82,3 +82,19 @@
 - Painter's Room via Painter's Room Crystal
 - Undead Cyclops' Room via Undead Cyclops' Room Crystal
 - Necromancer's Room via Necromancer's Room Crystal
+
+## Levels that send you back to the map after completion
+
+1. Castle Keep
+2. Barbarian Boss
+3. Catfish
+4. Pipistrello's Cave
+5. Cyclops' Fortress
+6. Lava World
+7. Industrial Castle
+8. Sand Castle Roof
+9. Flooded Temple Entrance (forced)
+10. Corn Boss
+11. Medusa's Lair
+12. Ice Castle
+13. Barracks Ending

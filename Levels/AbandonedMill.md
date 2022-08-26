@@ -1,6 +1,7 @@
 # Abandoned Mill
 
 - [Sequence](#sequence)
+- [Sandwich gone](#sandwich)
 - Speedrun swag strat (30fps)
 - Weird log hitbox
 
@@ -34,3 +35,7 @@
 - jump
 - jump
 - jump
+
+## <a name="sandwich"></a>Sandwich gone
+
+One of the few levels that prevent a sandwich from being used.
