@@ -52,7 +52,10 @@ Used for:
 
 ## <a name="horn"></a>Horn
 
-Annoying and obsolete :) can play 4 tones. Bugged on PS3 insane mode, you can bring it over from normal mode if you need it.
+- Annoying and obsolete :)
+- Can play 4 tones depending on the direction you press
+- Spells out H-O-R-N when blown
+- Bugged on PS3 insane mode, you can bring it over from normal mode if you need it
 
 ## <a name="bomb"></a>Bomb
 
@@ -68,13 +71,15 @@ Not to be confused with a raw chicken.
 
 Used for:
 
+- OOB's.
 - Industrial door
 - Tall Grass Field cave door
 - Lava World Volcano
 - Lava World Dragon skip
 - Deathtek
-- Middleweight combo's
-- OOB's.
+- Middleweight combos
+- Heavyweight combos
+- Beefy arena
 
 ## <a name="unused"></a>Unused
 
