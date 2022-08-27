@@ -28,7 +28,7 @@ Most of these levels are checkpoint levels. Checkpoint levels often hold the pro
 - Last chance to refresh lobby for skips (1, 5, 9)
 
 14. Wizard Castle Interior  
-    14.1. Painter's Room Crystal
+    14.1. Painter's Room Crystal  
     14.2. Undead Cyclops' Room Crystal
 15. Final Battle (player needs to be alive)
 
