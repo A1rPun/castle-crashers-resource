@@ -19,7 +19,6 @@
 
 ### Game-mechanics
 
-- [Achievements/Trophies](/Mechanics/Achievements.md)
 - [Arena](/Mechanics/Arena.md)
 - [AYCQ](/Mechanics/AYCQ.md)
 - [Back off Barbarian](/Mechanics/BackOffBarbarian.md)
@@ -37,12 +36,14 @@
 
 - [Playstation 3](/Platforms/Playstation3.md)
 - [Steam](/Platforms/Steam.md)
+- [Achievements/Trophies](/Platforms/Achievements.md)
 - [Controls](/Mechanics/Controls.md)
 - [Downloadable content (DLC)](/Platforms/DLC.md)
 - [Savegame modding](/Platforms/Mods.md)
 - [Modding tutorial](/Platforms/ModTutorial.md)
 - [Music](/Mechanics/Music.md)
 - [Release dates](/Platforms/ReleaseDates.md)
+- [Speedrunning](/Platforms/Speedrun.md)
 - [Invisible player bug](/Platforms/InvisiblePlayerBug.md)
 
 ### Levels
