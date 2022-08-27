@@ -2,64 +2,64 @@
 
 ## Levels in order
 
-- Barracks
-- Home Castle
-- Castle Keep
+- **Barracks**
+- **Home Castle**
+- **Castle Keep**
 - Blacksmith (compass)
   - Weapon Frog
   - Animal Arc
 - King's Arena
-- Barbarian War (bow)
+- **Barbarian War** (bow)
   - Barbarian War Bridge
-- Barbarian Boss
-- Forest Entrance (bow)
-- Thieves Forest (bow, boomerang)
+- **Barbarian Boss**
+- **Forest Entrance** (bow)
+- **Thieves Forest** (bow, boomerang)
 - Thieves' Store
 - Thieves Arena
-- Abandoned Mill
-- Rapids Ride
-- Catfish
-- Tall Grass Field
-- Pipistrello's Cave
-- Flowery Field
-- Wedding Crash
+- **Abandoned Mill**
+- **Rapids Ride**
+- **Catfish**
+- **Tall Grass Field**
+- **Pipistrello's Cave**
+- **Flowery Field**
+- **Wedding Crash**
 - Church Store
-- Parade
-- Cyclops' Cave
-- Cyclops' Gate
-- Cyclops' Fortress
-- Lava World (wheel)
+- **Parade**
+- **Cyclops' Cave**
+- **Cyclops' Gate**
+- **Cyclops' Fortress**
+- **Lava World** (wheel)
 - Volcano Store
 - Volcano Arena
 - Industrial Castle Entrance
-  - Industrial Castle (telescope)
-- Dock
-- Pirate Ship
-- Desert (shovel)
-- Alien Ship
-- Desert Chase
-- Sand Castle Interior
-- Sand Castle Roof (map)
+  - **Industrial Castle** (telescope)
+- **Dock**
+- **Pirate Ship**
+- **Desert (shovel)**
+- **Alien Ship**
+- **Desert Chase**
+- **Sand Castle Interior**
+- **Sand Castle Roof** (map)
 - Flooded Temple Entrance
-  - Flooded Temple
-- Marsh
+  - **Flooded Temple**
+- **Marsh**
   - Marsh 2
-- Corn Boss (horn)
+- **Corn Boss** (horn)
 - Swamp Village Store
 - Peasant Arena
-- Medusa's Lair
-- Full Moon
-- Snow World
+- **Medusa's Lair**
+- **Full Moon**
+- **Snow World**
 - Icy Store
 - Icy Arena
 - Ice Castle Entrance
-  - Ice Castle
-- Wizard Castle Takeoff
-- Wizard Castle Interior
+  - **Ice Castle**
+- **Wizard Castle Takeoff**
+- **Wizard Castle Interior**
   - Painter's Room
   - Undead Cyclops' Room
   - Necromancer's Room
-- Final Battle
+- **Final Battle**
   - Barracks Ending
 - Insane Mode Node
 - Insane Store
