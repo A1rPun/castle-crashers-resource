@@ -46,9 +46,9 @@
 
 ### Modding
 
-- [Savegame modding](/Platforms/Mods.md)
-- [Cheatengine modding tutorial](/Platforms/ModTutorial.md)
-- [A1rPun's scripts explanation](/Platforms/A1rMods.md)
+- [Savegame modding](/Modding/Modding.md)
+- [Cheatengine modding tutorial](/Modding/ModTutorial.md)
+- [A1rPun's scripts explanation](/Modding/A1rMods.md)
 
 ### Levels
 
