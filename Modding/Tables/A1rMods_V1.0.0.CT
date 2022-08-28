@@ -1,0 +1,1945 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="34">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>1</ID>
+      <Description>"A1rPun's Script Collection - ENABLE/DISABLE scripts on campaign world map OR arena mode selection unless stated otherwise"</Description>
+      <LastState Value="" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>11</ID>
+          <Description>"A1rPun's Scripts"</Description>
+          <LastState Value="" RealAddress="00000000"/>
+          <Color>008000</Color>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>111</ID>
+              <Description>"Local Arena Training"</Description>
+              <Options moHideChildren="1" moManualExpandCollapse="1"/>
+              <LastState Value="" RealAddress="00000000"/>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>1111</ID>
+                  <Description>"Choose arena - enable in character select"</Description>
+                  <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+// Partially change code in DefineSprite 140, Frame 152, select.swf
+aobscanregion(selectFrame152,30000000,40000000,96 02 00 04 06 30 18 87 01 00 05 17)
+registersymbol(level1)
+registersymbol(level2)
+registersymbol(level3)
+registersymbol(level4)
+registersymbol(level5)
+
+label(level1)
+selectFrame152+25:
+level1:
+
+label(level2)
+selectFrame152+4b:
+level2:
+
+label(level3)
+selectFrame152+71:
+level3:
+
+label(level4)
+selectFrame152+97:
+level4:
+
+label(level5)
+selectFrame152+bd:
+level5:
+
+
+
+[DISABLE]
+level1:
+ db 2D
+
+level2:
+ db 2E
+
+level3:
+ db 2F
+
+level4:
+ db 30
+
+level5:
+ db 31
+
+unregistersymbol(level1)
+unregistersymbol(level2)
+unregistersymbol(level3)
+unregistersymbol(level4)
+unregistersymbol(level5)
+
+</AssemblerScript>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>11111</ID>
+                      <Description>"King's Arena, Barbarians &amp; cats"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+level1:
+ db 2D
+
+level2:
+ db 2D
+
+level3:
+ db 2D
+
+level4:
+ db 2D
+
+level5:
+ db 2D
+
+[DISABLE]
+
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>11112</ID>
+                      <Description>"Thieves Arena, Thieves"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+level1:
+ db 2E
+
+level2:
+ db 2E
+
+level3:
+ db 2E
+
+level4:
+ db 2E
+
+level5:
+ db 2E
+
+[DISABLE]
+
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>11113</ID>
+                      <Description>"Volcano Arena, Coneheads &amp; geysers"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+level1:
+ db 2F
+
+level2:
+ db 2F
+
+level3:
+ db 2F
+
+level4:
+ db 2F
+
+level5:
+ db 2F
+
+[DISABLE]
+
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>11114</ID>
+                      <Description>"Peasant Arena, Snakeys &amp; cats"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+level1:
+ db 30
+
+level2:
+ db 30
+
+level3:
+ db 30
+
+level4:
+ db 30
+
+level5:
+ db 30
+
+[DISABLE]
+
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>11115</ID>
+                      <Description>"Icy Arena, Eskimos &amp; cats"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+level1:
+ db 31
+
+level2:
+ db 31
+
+level3:
+ db 31
+
+level4:
+ db 31
+
+level5:
+ db 31
+
+[DISABLE]
+
+</AssemblerScript>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>1112</ID>
+                  <Description>"Infinite wave training - enable in arena level"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+// Remove total and wave increment in f_ArenaGates. Rewrite the whole function
+// Remove weight/random_dash_jump/random_dash_roll from arena enemy and set health to 1000
+aobscanregion(fArenaGates,30000000,40000000,8e 1a 00 66 5f 41 72 65 6e 61 47 61 74 65 73 00 01 00 06 6a 00 04 7a 6f 6e 65)
+aobscanregion(arenaCode,30000000,40000000,96 07 00 08 18 07 03 00 00 00 4F)
+aobscanregion(fSpawnThief,30000000,40000000,8e 27 00 66 5f 53 70 61 77 6e 54 68 69 65 66 00 03 00 06 2a 00 05 78 00 04 79 00 03 65 6e 65 6d 79 5f 6c 65 76 65 6c)
+aobscanregion(fSpawnBarbarian,30000000,40000000,8e 2b 00 66 5f 53 70 61 77 6e 42 61 72 62 61 72 69 61 6e 00 03 00 07 2a 00 06 78 00 05 79 00 03 65 6e 65 6d 79 5f 6c 65 76 65 6c)
+aobscanregion(fSpawnConehead,30000000,40000000,8e 2a 00 66 5f 53 70 61 77 6e 43 6f 6e 65 68 65 61 64 00 03 00 07 2a 00 06 78 00 05 79 00 03 65 6e 65 6d 79 5f 6c 65 76 65 6c)
+aobscanregion(fSpawnSnakey,30000000,40000000,8e 28 00 66 5f 53 70 61 77 6e 53 6e 61 6b 65 79 00 03 00 07 2a 00 06 78 00 05 79 00 02 65 6e 65 6d 79 5f 6c 65 76 65 6c)
+aobscanregion(fSpawnEskimo,30000000,40000000,8e 28 00 66 5f 53 70 61 77 6e 45 73 6b 69 6d 6f 00 03 00 07 2a 00 06 78 00 05 79 00 03 65 6e 65 6d 79 5f 6c 65 76 65 6c)
+
+registersymbol(customArena)
+registersymbol(enemyWeight)
+registersymbol(randomDashRoll)
+registersymbol(randomDashJump)
+registersymbol(thiefHealth)
+registersymbol(thiefWeight)
+registersymbol(barbHealth)
+registersymbol(barbWeight)
+registersymbol(coneheadHealth)
+registersymbol(coneheadWeight)
+registersymbol(snakeyHealth)
+registersymbol(eskimoHealth)
+registersymbol(eskimoWeight)
+
+label(customArena)
+fArenaGates+00:
+customArena:
+ db 8E 1A 00 66 5F 41 72 65 6E 61 47 61 74 65 73 00 01 00 06 6A 00 04 7A 6F 6E 65 00 90 05 96 05 00 04 01 09 73 01 4E 96 09 00 06 00 00 00 00 00 00 00 00 67 70 12 9D 02 00 73 05 96 05 00 04 04 09 86 07 4E A2 03 00 09 8B 01 4E 70 12 9D 02 00 5C 05 96 01 00 03 87 01 00 02 17 96 01 00 03 87 01 00 05 17 96 05 00 07 01 00 00 00 87 01 00 03 17 96 06 00 04 03 04 01 08 3A 4E 67 70 12 9D 02 00 5B 00 96 04 00 04 01 08 1C 4E A2 02 00 08 C6 4E A2 02 00 08 C6 4E 96 05 00 09 75 01 04 03 18 47 4E 87 01 00 02 17 96 04 00 04 02 08 8B 4E 12 9D 02 00 19 00 96 0D 00 09 01 08 07 01 00 00 00 04 02 09 91 01 4E 96 03 00 09 4C 02 52 17 96 02 00 04 03 50 87 01 00 03 17 99 02 00 93 FF A0 02 00 08 04 1C 96 05 00 07 18 00 00 00 49 12 9D 02 00 12 00 96 05 00 07 0A 00 00 00 87 01 00 05 17 99 02 00 A9 00 A0 02 00 08 04 1C 96 05 00 07 2E 00 00 00 49 12 9D 02 00 12 00 96 05 00 07 0A 00 00 00 87 01 00 05 17 99 02 00 82 00 A0 02 00 08 04 1C 96 05 00 07 2F 00 00 00 49 12 9D 02 00 12 00 96 05 00 07 0A 00 00 00 87 01 00 05 17 99 02 00 5B 00 A0 02 00 08 04 1C 96 05 00 07 30 00 00 00 49 12 9D 02 00 12 00 96 05 00 07 0A 00 00 00 87 01 00 05 17 99 02 00 34 00 A0 02 00 08 04 1C 96 05 00 07 31 00 00 00 49 12 9D 02 00 12 00 96 05 00 07 0A 00 00 00 87 01 00 05 17 99 02 00 0D 00 96 05 00 07 0A 00 00 00 87 01 00 05 17 96 05 00 04 04 09 D4 01 4E 96 02 00 04 05 67 12 9D 02 00 A2 02 96 0C 00 06 00 00 00 00 00 00 00 00 09 88 07 3D 17 96 05 00 07 01 00 00 00 87 01 00 03 17 A1 05 00 04 03 09 6D 01 1C 67 70 12 9D 02 00 13 02 A0 03 00 09 67 01 1C 96 05 00 09 68 01 04 03 18 47 4E 87 01 00 02 17 96 05 00 04 02 09 6E 01 4E 12 9D 02 00 24 00 96 08 00 09 77 07 07 04 00 00 00 30 96 05 00 07 01 00 00 00 47 47 96 09 00 07 01 00 00 00 04 02 08 13 52 17 96 0B 00 06 00 00 00 00 00 00 00 00 08 0E 3D 96 05 00 07 03 00 00 00 49 70 12 9D 02 00 9A 01 A0 02 00 08 04 1C 96 05 00 07 18 00 00 00 49 12 9D 02 00 3E 00 96 0A 00 07 06 00 00 00 04 02 09 6F 01 4E 96 0A 00 07 02 00 00 00 04 01 09 02 08 52 70 12 9D 02 00 16 00 96 11 00 07 06 00 00 00 04 02 07 02 00 00 00 04 01 09 03 08 52 17 99 02 00 47 01 A0 02 00 08 04 1C 96 05 00 07 2E 00 00 00 49 12 9D 02 00 3E 00 96 0A 00 07 07 00 00 00 04 02 09 6F 01 4E 96 0A 00 07 02 00 00 00 04 01 09 02 08 52 70 12 9D 02 00 16 00 96 11 00 07 07 00 00 00 04 02 07 02 00 00 00 04 01 09 03 08 52 17 99 02 00 F4 00 A0 02 00 08 04 1C 96 05 00 07 2F 00 00 00 49 12 9D 02 00 3E 00 96 0A 00 07 15 00 00 00 04 02 09 6F 01 4E 96 0A 00 07 02 00 00 00 04 01 09 02 08 52 70 12 9D 02 00 16 00 96 11 00 07 15 00 00 00 04 02 07 02 00 00 00 04 01 09 03 08 52 17 99 02 00 A1 00 A0 02 00 08 04 1C 96 05 00 07 30 00 00 00 49 12 9D 02 00 3E 00 96 0A 00 07 12 00 00 00 04 02 09 6F 01 4E 96 0A 00 07 02 00 00 00 04 01 09 02 08 52 70 12 9D 02 00 16 00 96 11 00 07 12 00 00 00 04 02 07 02 00 00 00 04 01 09 03 08 52 17 99 02 00 4E 00 A0 02 00 08 04 1C 96 05 00 07 31 00 00 00 49 12 9D 02 00 39 00 96 0A 00 07 1A 00 00 00 04 02 09 6F 01 4E 96 0A 00 07 02 00 00 00 04 01 09 02 08 52 70 12 9D 02 00 16 00 96 11 00 07 1A 00 00 00 04 02 07 02 00 00 00 04 01 09 03 08 52 17 96 02 00 04 03 50 87 01 00 03 17 99 02 00 DC FD 96 0C 00 09 AC 06 07 01 00 00 00 04 01 08 1C 4E A2 02 00 08 BA 4E 96 03 00 09 4C 02 52 17 96 0C 00 06 00 00 00 00 00 00 00 00 09 B9 07 3D 17 96 0F 00 05 01 07 04 00 00 00 07 02 00 00 00 09 BA 07 3D 17 96 0E 00 07 01 00 00 00 07 01 00 00 00 04 04 08 13 52 17 96 01 00 03 3E 99 02 00 39 01 96 05 00 04 04 09 04 08 4E 96 05 00 07 14 00 00 00 67 12 9D 02 00 0E 00 96 0A 00 04 04 09 04 08 07 14 00 00 00 4F 96 05 00 04 04 09 D4 01 4E 96 05 00 07 0A 00 00 00 3F 96 09 00 06 00 00 00 00 00 00 00 00 49 12 9D 02 00 45 00 96 08 00 04 04 08 04 04 04 08 04 4E 50 4F 96 04 00 04 04 08 04 4E 96 05 00 07 04 00 00 00 67 12 9D 02 00 12 00 96 09 00 04 04 08 04 07 04 00 00 00 4F 99 02 00 0E 00 96 0A 00 04 04 09 04 08 07 02 00 00 00 4F 96 05 00 04 04 09 04 08 4E 96 05 00 07 05 00 00 00 67 12 9D 02 00 56 00 96 05 00 04 04 09 05 08 4E A3 05 00 09 8B 01 05 01 4F 96 0D 00 09 AC 06 07 01 00 00 00 04 04 09 05 08 4E 96 03 00 09 4C 02 52 17 96 05 00 04 04 09 06 08 4E A3 05 00 09 8B 01 05 01 4F 96 0D 00 09 AC 06 07 01 00 00 00 04 04 09 06 08 4E 96 03 00 09 4C 02 52 17 96 05 00 04 04 09 86 07 4E A3 05 00 09 8B 01 05 01 4F 96 0D 00 09 AC 06 07 01 00 00 00 04 04 09 86 07 4E 96 03 00 09 4C 02 52 17 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+label(enemyWeight)
+arenaCode+06:
+enemyWeight:
+ db 00 00 00 00
+
+label(randomDashJump)
+arenaCode+17:
+randomDashJump:
+ db 00 00 00 00
+ 
+label(randomDashRoll)
+arenaCode+28:
+randomDashRoll:
+ db 00 00 00 00
+
+label(thiefHealth)
+fSpawnThief+65:
+thiefHealth:
+ db e8 03 00 00
+
+label(thiefWeight)
+fSpawnThief+3b3:
+thiefWeight:
+ db 22 03 07 01
+
+label(barbHealth)
+fSpawnBarbarian+69:
+barbHealth:
+ db e8 03 00 00
+
+label(barbWeight)
+fSpawnBarbarian+396:
+barbWeight:
+ db 22 03 07 01
+
+label(coneheadHealth)
+fSpawnConehead+68:
+coneheadHealth:
+ db e8 03 00 00
+
+label(coneheadWeight)
+fSpawnConehead+4e2:
+coneheadWeight:
+ db 22 03 07 01
+
+label(snakeyHealth)
+fSpawnSnakey+66:
+snakeyHealth:
+ db e8 03 00 00
+
+label(eskimoHealth)
+fSpawnEskimo+66:
+eskimoHealth:
+ db e8 03 00 00
+
+label(eskimoWeight)
+fSpawnEskimo+4e4:
+eskimoWeight:
+ db 22 03 07 01
+
+
+
+[DISABLE]
+customArena:
+ db 8E 1A 00 66 5F 41 72 65 6E 61 47 61 74 65 73 00 01 00 06 6A 00 04 7A 6F 6E 65 00 90 05 96 05 00 04 01 09 73 01 4E 96 09 00 06 00 00 00 00 00 00 00 00 67 70 12 9D 02 00 73 05 96 05 00 04 04 09 86 07 4E A2 03 00 09 8B 01 4E 70 12 9D 02 00 5C 05 96 01 00 03 87 01 00 02 17 96 01 00 03 87 01 00 05 17 96 05 00 07 01 00 00 00 87 01 00 03 17 96 06 00 04 03 04 01 08 3A 4E 67 70 12 9D 02 00 5B 00 96 04 00 04 01 08 1C 4E A2 02 00 08 C6 4E A2 02 00 08 C6 4E 96 05 00 09 75 01 04 03 18 47 4E 87 01 00 02 17 96 04 00 04 02 08 8B 4E 12 9D 02 00 19 00 96 0D 00 09 01 08 07 01 00 00 00 04 02 09 91 01 4E 96 03 00 09 4C 02 52 17 96 02 00 04 03 50 87 01 00 03 17 99 02 00 93 FF 96 0A 00 04 04 09 D4 01 04 04 09 D4 01 4E 50 4F A0 02 00 08 04 1C 96 05 00 07 18 00 00 00 49 12 9D 02 00 12 00 96 05 00 07 0A 00 00 00 87 01 00 05 17 99 02 00 A9 00 A0 02 00 08 04 1C 96 05 00 07 2E 00 00 00 49 12 9D 02 00 12 00 96 05 00 07 0A 00 00 00 87 01 00 05 17 99 02 00 82 00 A0 02 00 08 04 1C 96 05 00 07 2F 00 00 00 49 12 9D 02 00 12 00 96 05 00 07 0A 00 00 00 87 01 00 05 17 99 02 00 5B 00 A0 02 00 08 04 1C 96 05 00 07 30 00 00 00 49 12 9D 02 00 12 00 96 05 00 07 0A 00 00 00 87 01 00 05 17 99 02 00 34 00 A0 02 00 08 04 1C 96 05 00 07 31 00 00 00 49 12 9D 02 00 12 00 96 05 00 07 0A 00 00 00 87 01 00 05 17 99 02 00 0D 00 96 05 00 07 0A 00 00 00 87 01 00 05 17 96 05 00 04 04 09 D4 01 4E 96 02 00 04 05 67 12 9D 02 00 A2 02 96 0C 00 06 00 00 00 00 00 00 00 00 09 88 07 3D 17 96 05 00 07 01 00 00 00 87 01 00 03 17 A1 05 00 04 03 09 6D 01 1C 67 70 12 9D 02 00 13 02 A0 03 00 09 67 01 1C 96 05 00 09 68 01 04 03 18 47 4E 87 01 00 02 17 96 05 00 04 02 09 6E 01 4E 12 9D 02 00 24 00 96 08 00 09 77 07 07 04 00 00 00 30 96 05 00 07 01 00 00 00 47 47 96 09 00 07 01 00 00 00 04 02 08 13 52 17 96 0B 00 06 00 00 00 00 00 00 00 00 08 0E 3D 96 05 00 07 03 00 00 00 49 70 12 9D 02 00 9A 01 A0 02 00 08 04 1C 96 05 00 07 18 00 00 00 49 12 9D 02 00 3E 00 96 0A 00 07 06 00 00 00 04 02 09 6F 01 4E 96 0A 00 07 02 00 00 00 04 01 09 02 08 52 70 12 9D 02 00 16 00 96 11 00 07 06 00 00 00 04 02 07 02 00 00 00 04 01 09 03 08 52 17 99 02 00 47 01 A0 02 00 08 04 1C 96 05 00 07 2E 00 00 00 49 12 9D 02 00 3E 00 96 0A 00 07 07 00 00 00 04 02 09 6F 01 4E 96 0A 00 07 02 00 00 00 04 01 09 02 08 52 70 12 9D 02 00 16 00 96 11 00 07 07 00 00 00 04 02 07 02 00 00 00 04 01 09 03 08 52 17 99 02 00 F4 00 A0 02 00 08 04 1C 96 05 00 07 2F 00 00 00 49 12 9D 02 00 3E 00 96 0A 00 07 15 00 00 00 04 02 09 6F 01 4E 96 0A 00 07 02 00 00 00 04 01 09 02 08 52 70 12 9D 02 00 16 00 96 11 00 07 15 00 00 00 04 02 07 02 00 00 00 04 01 09 03 08 52 17 99 02 00 A1 00 A0 02 00 08 04 1C 96 05 00 07 30 00 00 00 49 12 9D 02 00 3E 00 96 0A 00 07 12 00 00 00 04 02 09 6F 01 4E 96 0A 00 07 02 00 00 00 04 01 09 02 08 52 70 12 9D 02 00 16 00 96 11 00 07 12 00 00 00 04 02 07 02 00 00 00 04 01 09 03 08 52 17 99 02 00 4E 00 A0 02 00 08 04 1C 96 05 00 07 31 00 00 00 49 12 9D 02 00 39 00 96 0A 00 07 1A 00 00 00 04 02 09 6F 01 4E 96 0A 00 07 02 00 00 00 04 01 09 02 08 52 70 12 9D 02 00 16 00 96 11 00 07 1A 00 00 00 04 02 07 02 00 00 00 04 01 09 03 08 52 17 96 02 00 04 03 50 87 01 00 03 17 99 02 00 DC FD 96 0C 00 09 AC 06 07 01 00 00 00 04 01 08 1C 4E A2 02 00 08 BA 4E 96 03 00 09 4C 02 52 17 96 0C 00 06 00 00 00 00 00 00 00 00 09 B9 07 3D 17 96 0F 00 05 01 07 04 00 00 00 07 02 00 00 00 09 BA 07 3D 17 96 0E 00 07 01 00 00 00 07 01 00 00 00 04 04 08 13 52 17 96 01 00 03 3E 99 02 00 39 01 96 0A 00 04 04 09 04 08 04 04 09 04 08 4E 50 4F 96 05 00 04 04 09 04 08 4E 96 05 00 07 14 00 00 00 67 12 9D 02 00 0E 00 96 0A 00 04 04 09 04 08 07 14 00 00 00 4F 96 05 00 04 04 09 D4 01 4E 96 05 00 07 0A 00 00 00 3F 96 09 00 06 00 00 00 00 00 00 00 00 49 12 9D 02 00 45 00 96 08 00 04 04 08 04 04 04 08 04 4E 50 4F 96 04 00 04 04 08 04 4E 96 05 00 07 04 00 00 00 67 12 9D 02 00 12 00 96 09 00 04 04 08 04 07 04 00 00 00 4F 99 02 00 0E 00 96 0A 00 04 04 09 04 08 07 02 00 00 00 4F 96 05 00 04 04 09 04 08 4E 96 05 00 07 05 00 00 00 67 12 9D 02 00 56 00 96 05 00 04 04 09 05 08 4E A3 05 00 09 8B 01 05 01 4F 96 0D 00 09 AC 06 07 01 00 00 00 04 04 09 05 08 4E 96 03 00 09 4C 02 52 17 96 05 00 04 04 09 06 08 4E A3 05 00 09 8B 01 05 01 4F 96 0D 00 09 AC 06 07 01 00 00 00 04 04 09 06 08 4E 96 03 00 09 4C 02 52 17 96 05 00 04 04 09 86 07 4E A3 05 00 09 8B 01 05 01 4F 96 0D 00 09 AC 06 07 01 00 00 00 04 04 09 86 07 4E 96 03 00 09 4C 02 52 17
+
+enemyWeight:
+ db 03 00 00 00
+
+randomDashJump:
+ db 01 00 00 00
+
+randomDashRoll:
+ db 01 00 00 00
+
+thiefHealth:
+ db 32 00 00 00
+
+thiefWeight:
+ db 08 03 07 05
+
+barbHealth:
+ db 32 00 00 00
+
+barbWeight:
+ db 08 03 07 05
+
+coneheadHealth:
+ db 32 00 00 00
+
+coneheadWeight:
+ db 08 03 07 05
+
+snakeyHealth:
+ db 32 00 00 00
+
+eskimoHealth:
+ db 32 00 00 00
+
+eskimoWeight:
+ db 08 03 07 05
+
+unregistersymbol(customArena)
+unregistersymbol(enemyWeight)
+unregistersymbol(randomDashRoll)
+unregistersymbol(randomDashJump)
+unregistersymbol(thiefHealth)
+unregistersymbol(thiefWeight)
+unregistersymbol(barbHealth)
+unregistersymbol(barbWeight)
+unregistersymbol(coneheadHealth)
+unregistersymbol(coneheadWeight)
+unregistersymbol(snakeyHealth)
+unregistersymbol(eskimoHealth)
+unregistersymbol(eskimoWeight)
+
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>1113</ID>
+                  <Description>"Boss Health Bar - enable in arena level [Flamming]"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+aobscanregion(BossHealth2,35000000,40000000,96 05 00 04 02 09 91 01 4E 96 06 00 08 83 04 02 08 CA 4E 96 05 00 04 02 09 A9 01 4E 47 4F 96 06 00 04 07 04 02 08 C9 4E 96 04 00 04 02 08 CA 4E 47 96 04 00 04 02 08 EF 4E 0B 48 12 9D 02 00 1F 00 96 04 00 04 02 08 C9 4E 96 04 00 04 02 08 CA 4E 47 96 04 00 04 02 08 EF 4E 0B 87 01 00 07 17 96 02 00 04 10 70 12 9D 02 00 55 00 96 16 00 07 64 00 00 00 07 64 00 00 00 09 96 01 04 09 04 07 07 05 00 00 00 47 96 0A 00 04 06 07 06 00 00 00 09 97 01 3D 87 01 00 0A 17 96 05 00 04 02 09 19 03 4E 12 9D 02 00 19 00 96 06 00 04 07 04 02 08 C9 4E 96 0A 00 04 06 07 03 00 00 00 09 33 05 3D 17 96 07 00 04 0A 09 6F 03 04 03 4F 99 02 00 3C 0B 96 04 00 04 02 08 CA 4E 96 09 00 06 00 00 00 00 00 00 00 00 48 96 05 00 04 03 09 4F 03 4E 96 09 00 06 00 00 00 00 00 00 00 00 67 12 10 12 9D 02 00 09 0B 96 06 00 04 17 04 02 08 CA 4E 96 04 00 04 02 08 83 4E 47 67 70 12 9D 02 00 EE 0A 96 06 00 04 16 04 02 08 CA 4E 96 04 00)
+registersymbol(BHealth2)
+
+label(BHealth2)
+BossHealth2+00:
+BHealth2:
+ db 96 04 00 04 01 08 95 4E A3 05 00 09 6B 03 04 02 4F 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+aobscanregion(BossHealth3,35000000,40000000,96 05 00 04 02 09 91 01 4E 96 06 00 08 83 04 02 08 CA 4E 96 05 00 04 02 09 A9 01 4E 47 4F 99 02 00 0A 01 96 07 00 04 04 07 02 00 00 00 49 12 9D 02 00 53 00 96 0A 00 04 02 07 01 00 00 00 09 2C 05 3D 17 96 05 00 04 03 09 D5 02 4E 96 05 00 04 03 09 A9 02 4E 96 0A 00 04 02 07 03 00 00 00 09 93 01 3D 17 96 05 00 04 02 09 91 01 4E 96 06 00 08 83 04 02 08 CA 4E 96 05 00 04 02 09 A9 01 4E 47 4F 99 02 00 A6 00 96 07 00 04 04 07 03 00 00 00 49 12 9D 02 00 53 00 96 0A 00 04 02 07 01 00 00 00 09 2D 05 3D 17 96 05 00 04 03 09 D5 02 4E 96 05 00 04 03 09 A9 02 4E 96 0A 00 04 02 07 03 00 00 00 09 93 01 3D 17 96 05 00)
+registersymbol(BHealth3)
+
+label(BHealth3)
+BossHealth3+00:
+BHealth3:
+ db 96 04 00 04 01 08 95 4E A3 05 00 09 6B 03 04 02 4F 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+aobscanregion(BossHealth4,35000000,40000000,96 05 00 04 02 09 91 01 4E 96 06 00 08 83 04 02 08 CA 4E 96 05 00 04 02 09 A9 01 4E 47 4F 99 02 00 42 00 96 07 00 04 04 07 04 00 00 00 49 12 9D 02 00 31 00 96 0C 00 07 F7 FF FF FF 07 04 00 00 00 08 58 1C 96 05 00 04 03 09 D5 02 4E 96 05 00 04 03 09 AA 02 4E 96 0A 00 04 02 07 06 00 00 00 09 93 01 3D 17 99 02 00 5D 0E 96 07 00 04 04 07 01 00 00 00 49 12 9D 02 00 CF 00 96 0A 00 04 02 09 C6 04 04 02 09 C6 04 4E 50 4F 96 05 00 04 02 09 D6 02 4E 12 96 05 00 04 02 09 C6 04 4E 96 05 00 07 02 00 00 00 67 10 96 05 00 04 02 09 B9 01 4E 12 10 96 05 00)
+registersymbol(BHealth4)
+
+label(BHealth4)
+BossHealth4+00:
+BHealth4:
+ db 96 04 00 04 01 08 95 4E A3 05 00 09 6B 03 04 02 4F 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+aobscanregion(BHealthBar,35000000,40000000,96 0E 00 04 02 09 ED 02 06 00 00 00 00 00 00 00 00 4F 96 0E 00 04 02 09 EE 02 06 00 00 00 00 00 00 00 00 4F 96)
+registersymbol(Steve123)
+
+label(Steve123)
+BHealthBar+00:
+Steve123:
+ db 96 0e 00 07 02 00 00 00 07 01 00 00 00 04 01 08 95 4E 96 02 00 08 13 52 17 96 07 00 04 02 09 eb 02 05 00 4F
+
+aobscanregion(BHealthBar2,35000000,40000000,96 07 00 04 02 09 EA 02 05 00 4F 96 07 00 04 02 09 EB 02 05 00 4F 96 0A 00 04 02 09 EC 02 07 0A 00 00 00 4F 96)
+registersymbol(attach)
+
+label(attach)
+BHealthBar2+00:
+attach:
+ db 96 04 00 04 01 08 95 4E A3 05 00 09 6B 03 04 02 4F 96 01 00 03 26
+
+
+
+[DISABLE]
+BHealth2:
+ db 96 05 00 04 02 09 91 01 4E 96 06 00 08 83 04 02 08 CA 4E 96 05 00 04 02 09 A9 01 4E 47 4F
+
+BHealth3:
+ db 96 05 00 04 02 09 91 01 4E 96 06 00 08 83 04 02 08 CA 4E 96 05 00 04 02 09 A9 01 4E 47 4F
+
+BHealth4:
+ db 96 05 00 04 02 09 91 01 4E 96 06 00 08 83 04 02 08 CA 4E 96 05 00 04 02 09 A9 01 4E 47 4F
+
+Steve123:
+ db 96 0E 00 04 02 09 ED 02 06 00 00 00 00 00 00 00 00 4F 96 0E 00 04 02 09 EE 02 06 00 00 00 00 00 00 00 00 4F
+
+attach:
+ db 96 07 00 04 02 09 EA 02 05 00 4F 96 07 00 04 02 09 EB 02 05 00 4F 96 0A 00 04 02 09 EC 02 07 0A 00 00 00 4F 96
+
+unregistersymbol(BHealth2)
+unregistersymbol(BHealth3)
+unregistersymbol(BHealth4)
+unregistersymbol(Steve123)
+unregistersymbol(attach)
+
+</AssemblerScript>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>112</ID>
+              <Description>"Multiplayer Arena Training"</Description>
+              <Options moHideChildren="1" moManualExpandCollapse="1"/>
+              <LastState Value="" RealAddress="00000000"/>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>1121</ID>
+                  <Description>"Choose arena - this only works once, disable/enable it after match"</Description>
+                  <Options moHideChildren="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+// Partially change SelectExit function in aMenu.swf
+aobscanregion(aMenuSelectExit,30000000,40000000,8E 14 00 66 5F 53 65 6C 65 63 74 45 78 69 74)
+registersymbol(arena)
+registersymbol(level)
+
+label(arena)
+aMenuSelectExit+2f8:
+arena:
+ db 96 0b 00 08 73 07 01 00 00 00 04 01 08 6f 52 17 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+label(level)
+aMenuSelectExit+2fc:
+level:
+ db 73
+ 
+
+
+[DISABLE]
+level:
+ // level gets overwritten when disabling arena symbol
+
+arena:
+ db 96 02 00 04 05 30 18 87 01 00 04 17 96 0b 00 04 04 06 00 00 00 00 00 00 00 00 49 12 9d 02 00 15 00 96 0b 00 08 73 07 01 00 00 00 04 01 08 6f 52 17 99 02 00 93 00 96 07 00 04 04 07 01 00 00 00 49 12 9d 02 00 15 00 96 0b 00 08 74 07 01 00 00 00 04 01 08 6f 52 17 99 02 00 6d 00 96 07 00 04 04 07 02 00 00 00 49 12 9d 02 00 15 00 96 0b 00 08 75 07 01 00 00 00 04 01 08 6f 52 17 99 02 00 47 00 96 07 00 04 04 07 03 00 00 00 49 12 9d 02 00 15 00 96 0b 00 08 76 07 01 00 00 00 04 01 08 6f 52 17 99 02 00 21 00 96 07 00 04 04 07 04 00 00 00 49 12 9d 02 00 10 00 96 0b 00 08 77 07 01 00 00 00 04 01 08 6f 52 17 00
+
+unregistersymbol(arena)
+unregistersymbol(level)
+
+</AssemblerScript>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>11211</ID>
+                      <Description>"Select level"</Description>
+                      <DropDownList ReadOnly="1" DisplayValueAsItem="1">73:King's Arena, cats
+74:Thieves Arena, mount
+75:Volcano Arena, geysers
+76:Peasant Arena, cats
+77:Icy Arena, cats
+</DropDownList>
+                      <ShowAsHex>1</ShowAsHex>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Array of byte</VariableType>
+                      <ByteLength>1</ByteLength>
+                      <Address>level</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>1122</ID>
+                  <Description>"Infinite health"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+// Remove damage substraction from health in f_Damage
+aobscanregion(fDamage,30000000,40000000,8E 51 00 66 5F 44 61 6D 61 67 65 00 06 00 15)
+registersymbol(health)
+
+label(health)
+fDamage+B14:
+health:
+ db 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+
+[DISABLE]
+health:
+ db 96 0A 00 04 03 09 76 01 04 03 09 76 01 4E 96 02 00 04 0C 0B 4F
+
+unregistersymbol(health)
+
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>1123</ID>
+                  <Description>"Infinite magic [Flamming]"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+aobscanregion(fUpdatePlayerAttributes,30000000,40000000,96 11 00 04 02 09 22 04 07 23 00 00 00 04 04 07 05 00 00 00 0C 47 4F 96)
+registersymbol(magic)
+registersymbol(regen)
+
+label(magic)
+fUpdatePlayerAttributes+09:
+magic:
+ db 88 13
+ 
+label(regen)
+fUpdatePlayerAttributes+2f:
+regen:
+ db 00 00 A0 40 00 00 00 00
+
+
+
+[DISABLE]
+magic:
+ db 23 00
+
+regen:
+ db CC CC DC 3F CD CC CC CC
+
+unregistersymbol(magic)
+unregistersymbol(regen)
+
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>1124</ID>
+                  <Description>"Player is lightweight"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+// Set weightplus to 0 in f_SpawnPlayer
+aobscanregion(fSpawnPlayer,30000000,40000000,8e 2a 00 66 5f 53 70 61 77 6e 50 6c 61 79 65 72 00 04 00 08 6a 00 05 75 5f 6e 75 6d 00 04 6e 5f 74 79 70 65 00 07 78 00 06 79)
+registersymbol(weightplus)
+
+label(weightplus)
+fSpawnPlayer+6ae:
+weightplus:
+ db 00
+
+
+
+[DISABLE]
+weightplus:
+ db 01
+
+unregistersymbol(weightplus)
+
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>1125</ID>
+                  <Description>"Player is heavyweight"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+// Set resists[DMG_MELEE] to 65 in f_UpdatePlayerAttributes
+aobscanregion(fUpdatePlayerAttributes,30000000,40000000,8e 26 00 66 5f 55 70 64 61 74 65 50 6c 61 79 65 72 41 74 74 72 69 62 75 74 65 73 00 01 00 06 6a 00 02 7a 6f 6e 65)
+registersymbol(meleeResistance)
+
+label(meleeResistance)
+fUpdatePlayerAttributes+6fd:
+meleeResistance:
+ db 05 00 07 41 00 00 00 18 18 18 18 18 18 18 18 18
+
+
+
+[DISABLE]
+meleeResistance:
+ db 0C 00 07 28 00 00 00 04 04 07 02 00 00 00 0D 47
+
+unregistersymbol(meleeResistance)
+
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>1126</ID>
+                  <Description>"Projectiles can hit players while tossed"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+// Rewrite if(!_loc3_.nohit or zone.hitnohit) to if(1 == 1) in f_ProjectileHit
+aobscanregion(fProjectileHit,30000000,40000000,8e 1d 00 66 5f 50 72 6f 6a 65 63 74 69 6c 65 48 69 74 00 01 00 0b 6a 00 02 7a 6f 6e 65)
+registersymbol(hitnohit)
+
+label(hitnohit)
+fProjectileHit+6c4:
+hitnohit:
+ db 07 01 00 00 00 96 05 00 07 01 00 00 00 18 18 18 49
+
+
+
+[DISABLE]
+hitnohit:
+ db 04 03 09 1B 03 4E 12 96 05 00 04 02 09 25 05 4E 11
+
+unregistersymbol(hitnohit)
+
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>1127</ID>
+                  <Description>"Safety decapitation - blocks first light attack"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+// Replace rage with blocks = true in f_SpawnPlayer
+// rage_goal with block_odds = 1
+aobscanregion(fSpawnPlayer,30000000,40000000,8e 2a 00 66 5f 53 70 61 77 6e 50 6c 61 79 65 72 00 04 00 08 6a 00 05 75 5f 6e 75 6d 00 04 6e 5f 74 79 70 65 00 07 78 00 06 79)
+registersymbol(block)
+registersymbol(blockAir)
+
+label(block)
+fSpawnPlayer+384:
+block:
+ db 96 0a 00 04 02 09 eb 02 07 01 00 00 00 18 4f 96 0a 00 04 02 09 ec 02 07 01 00 00 00 18 4f
+
+// Replace poison_timer with air_block_odds = 1
+// fire_timer with full_block_odds = 1
+label(blockAir)
+fSpawnPlayer+3cf:
+blockAir:
+ db 96 0e 00 04 02 09 ee 02 07 01 00 00 00 18 18 18 18 4f 96 0e 00 04 02 09 ed 02 07 01 00 00 00 18 18 18 18 4f
+
+
+
+[DISABLE]
+block:
+ db 96 0a 00 04 02 09 2e 04 04 03 09 2e 04 4e 4f 96 0a 00 04 02 09 2f 04 04 03 09 2f 04 4e 4f
+
+blockAir:
+ db 96 0E 00 04 02 09 C1 02 06 00 00 00 00 00 00 00 00 4F 96 0E 00 04 02 09 C2 02 06 00 00 00 00 00 00 00 00 4F
+
+unregistersymbol(block)
+unregistersymbol(blockAir)
+
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>1128</ID>
+                  <Description>"Disable ice physics"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+// Set slide speed to 0.0 in f_Walk 
+aobscanregion(fWalk,30000000,40000000,8e 14 00 66 5f 57 61 6c 6b 00 01 00 06 6a 00 02 7a 6f 6e 65)
+registersymbol(iceSlideSpeed)
+
+label(iceSlideSpeed)
+fWalk+84f:
+iceSlideSpeed:
+ db 00 00 00 00 00 00 00 00
+
+
+
+[DISABLE]
+iceSlideSpeed:
+ db 33 33 d3 3f 33 33 33 33
+
+unregistersymbol(iceSlideSpeed)
+
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2121</ID>
+                  <Description>"Ice physics for every floor"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+// Set slide speed to 0.3 in f_Walk
+// Water and ice floors are not affected
+aobscanregion(fWalk,30000000,40000000,8e 14 00 66 5f 57 61 6c 6b 00 01 00 06 6a 00 02 7a 6f 6e 65)
+registersymbol(slideSpeed)
+
+label(slideSpeed)
+fWalk+865:
+slideSpeed:
+ db 33 33 d3 3f 33 33 33 33
+
+
+[DISABLE]
+slideSpeed:
+ db 00 00 00 00 00 00 00 00
+
+unregistersymbol(slideSpeed)
+
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2122</ID>
+                  <Description>"Remove mounts"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+// Make noop's of f_MakeHorse f_MakeMount2 f_MakeMount3 f_MakeMount4
+aobscanregion(fMakeHorse,30000000,40000000,8e 19 00 66 5f 4d 61 6b 65 48 6f 72 73 65 00 02 00 05 6a 00 04 78 00 03 79)
+registersymbol(makeHorse)
+
+label(makeHorse)
+fMakeHorse+00:
+makeHorse:
+ db 8E 19 00 66 5F 4D 61 6B 65 48 6F 72 73 65 00 02 00 05 6A 00 04 78 00 03 79 00 ED 00 3E 8E 1A 00 66 5F 4D 61 6B 65 4D 6F 75 6E 74 32 00 02 00 05 6A 00 04 78 00 03 79 00 32 01 3E 8E 1A 00 66 5F 4D 61 6B 65 4D 6F 75 6E 74 33 00 02 00 05 6A 00 04 78 00 03 79 00 32 01 3E 8E 1A 00 66 5F 4D 61 6B 65 4D 6F 75 6E 74 34 00 02 00 05 6A 00 04 78 00 03 79 00 32 01 3E 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+[DISABLE]
+makeHorse:
+ db 8E 19 00 66 5F 4D 61 6B 65 48 6F 72 73 65 00 02 00 05 6A 00 04 78 00 03 79 00 ED 00 96 08 00 09 18 04 07 01 00 00 00 1D 96 03 00 09 18 04 1C 96 02 00 08 3D 1C 67 70 12 9D 02 00 BF 00 96 04 00 04 01 08 1C 4E 96 02 00 08 C6 4E 96 02 00 08 C6 4E 96 05 00 08 DA 09 18 04 1C 18 47 4E 87 01 00 02 17 96 04 00 04 02 08 8B 4E 70 12 9D 02 00 7A 00 96 06 00 04 02 08 8B 05 01 4F 96 06 00 04 02 08 C8 04 04 4F 96 06 00 04 02 08 C9 04 03 4F 96 06 00 04 02 08 82 04 04 4F 96 06 00 04 02 08 83 04 03 4F 96 09 00 04 02 08 EF 07 38 00 00 00 4F 96 0A 00 04 02 09 F3 04 07 01 00 00 00 4F 96 04 00 04 02 08 C9 4E 96 09 00 04 02 07 02 00 00 00 08 FC 3D 17 96 0C 00 09 57 02 07 01 00 00 00 04 02 08 13 52 17 96 02 00 04 02 3E 96 06 00 09 18 04 09 18 04 1C 50 1D 99 02 00 2C FF 96 09 00 06 00 00 00 00 00 00 00 00 3E 8E 1A 00 66 5F 4D 61 6B 65 4D 6F 75 6E 74 32 00 02 00 05 6A 00 04 78 00 03 79 00 32 01 96 08 00 09 18 04 07 01 00 00 00 1D 96 03 00 09 18 04 1C 96 02 00 08 DC 1C 67 70 12 9D 02 00 04 01 96 04 00 04 01 08 1C 4E 96 02 00 08 C6 4E 96 02 00 08 C6 4E 96 05 00 08 DD 09 18 04 1C 18 47 4E 87 01 00 02 17 96 04 00 04 02 08 8B 4E 70 12 9D 02 00 BF 00 96 06 00 04 02 08 8B 05 01 4F 96 06 00 04 02 08 C8 04 04 4F 96 06 00 04 02 08 C9 04 03 4F 96 06 00 04 02 08 82 04 04 4F 96 06 00 04 02 08 83 04 03 4F 96 09 00 04 02 08 EF 07 2C 00 00 00 4F 96 0A 00 04 02 09 F3 04 07 02 00 00 00 4F 96 08 00 04 02 09 D7 02 09 39 04 1C 4F 96 0A 00 04 02 09 A9 02 07 0A 00 00 00 4F 96 0A 00 04 02 09 AA 02 07 0A 00 00 00 4F 96 0A 00 04 02 09 AB 02 07 0A 00 00 00 4F 96 0A 00 04 02 09 AC 02 07 0A 00 00 00 4F 96 04 00 04 02 08 C9 4E 96 09 00 04 02 07 02 00 00 00 08 FC 3D 17 96 0C 00 09 57 02 07 01 00 00 00 04 02 08 13 52 17 96 02 00 04 02 3E 96 06 00 09 18 04 09 18 04 1C 50 1D 99 02 00 E7 FE 96 09 00 06 00 00 00 00 00 00 00 00 3E 8E 1A 00 66 5F 4D 61 6B 65 4D 6F 75 6E 74 33 00 02 00 05 6A 00 04 78 00 03 79 00 32 01 96 08 00 09 18 04 07 01 00 00 00 1D 96 03 00 09 18 04 1C 96 02 00 08 DF 1C 67 70 12 9D 02 00 04 01 96 04 00 04 01 08 1C 4E 96 02 00 08 C6 4E 96 02 00 08 C6 4E 96 05 00 08 E0 09 18 04 1C 18 47 4E 87 01 00 02 17 96 04 00 04 02 08 8B 4E 70 12 9D 02 00 BF 00 96 06 00 04 02 08 8B 05 01 4F 96 06 00 04 02 08 C8 04 04 4F 96 06 00 04 02 08 C9 04 03 4F 96 06 00 04 02 08 82 04 04 4F 96 06 00 04 02 08 83 04 03 4F 96 09 00 04 02 08 EF 07 2C 00 00 00 4F 96 0A 00 04 02 09 F3 04 07 03 00 00 00 4F 96 08 00 04 02 09 D7 02 09 39 04 1C 4F 96 0A 00 04 02 09 A9 02 07 0A 00 00 00 4F 96 0A 00 04 02 09 AA 02 07 0A 00 00 00 4F 96 0A 00 04 02 09 AB 02 07 0A 00 00 00 4F 96 0A 00 04 02 09 AC 02 07 0A 00 00 00 4F 96 04 00 04 02 08 C9 4E 96 09 00 04 02 07 02 00 00 00 08 FC 3D 17 96 0C 00 09 57 02 07 01 00 00 00 04 02 08 13 52 17 96 02 00 04 02 3E 96 06 00 09 18 04 09 18 04 1C 50 1D 99 02 00 E7 FE 96 09 00 06 00 00 00 00 00 00 00 00 3E 8E 1A 00 66 5F 4D 61 6B 65 4D 6F 75 6E 74 34 00 02 00 05 6A 00 04 78 00 03 79 00 32 01 96 08 00 09 18 04 07 01 00 00 00 1D 96 03 00 09 18 04 1C 96 02 00 08 E2 1C 67 70 12 9D 02 00 04 01 96 04 00 04 01 08 1C 4E 96 02 00 08 C6 4E 96 02 00 08 C6 4E 96 05 00 08 E3 09 18 04 1C 18 47 4E 87 01 00 02 17 96 04 00 04 02 08 8B 4E 70 12 9D 02 00 BF 00 96 06 00 04 02 08 8B 05 01 4F 96 06 00 04 02 08 C8 04 04 4F 96 06 00 04 02 08 C9 04 03 4F 96 06 00 04 02 08 82 04 04 4F 96 06 00 04 02 08 83 04 03 4F 96 09 00 04 02 08 EF 07 4B 00 00 00 4F 96 0A 00 04 02 09 F3 04 07 04 00 00 00 4F 96 08 00 04 02 09 D7 02 09 39 04 1C 4F 96 0A 00 04 02 09 A9 02 07 0A 00 00 00 4F 96 0A 00 04 02 09 AA 02 07 0A 00 00 00 4F 96 0A 00 04 02 09 AB 02 07 0A 00 00 00 4F 96 0A 00 04 02 09 AC 02 07 0A 00 00 00 4F 96 04 00 04 02 08 C9 4E 96 09 00 04 02 07 02 00 00 00 08 FC 3D 17 96 0C 00 09 57 02 07 01 00 00 00 04 02 08 13 52 17 96 02 00 04 02 3E 96 06 00 09 18 04 09 18 04 1C 50 1D 99 02 00 E7 FE 96 09 00 06 00 00 00 00 00 00 00 00 3E
+
+unregistersymbol(makeHorse)
+
+</AssemblerScript>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>113</ID>
+              <Description>"Campaign Utility"</Description>
+              <Options moHideChildren="1" moManualExpandCollapse="1"/>
+              <LastState Value="" RealAddress="00000000"/>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>1131</ID>
+                  <Description>"Infinite items - bombs/potions/sandwiches"</Description>
+                  <Options moHideChildren="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript/>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>11311</ID>
+                      <Description>"Infinite bombs"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+// Remove bombs substraction in f_Punch and f_HorseAttack
+aobscanregion(f_Punch,30000000,40000000,8e 15 00 66 5f 50 75 6e 63 68 00 01 00 05 2a 00 01 7a 6f 6e 65)
+aobscanregion(f_HorseAttack,30000000,40000000,8e 1b 00 66 5f 48 6f 72 73 65 41 74 74 61 63 6b 00 01 00 03 2a 00 01 7a 6f 6e 65)
+registersymbol(bombs)
+registersymbol(bombhorse)
+
+label(bombs)
+f_Punch+bb2:
+bombs:
+ db 2e 04 04 01 09 2e
+
+label(bombhorse)
+f_HorseAttack+60b:
+bombhorse:
+ db 2e 04 04 01 09 2e
+
+
+
+[DISABLE]
+bombs:
+ db 09 04 04 01 09 09
+
+bombhorse:
+ db 09 04 04 01 09 09
+ 
+unregistersymbol(bombs)
+unregistersymbol(bombhorse)
+
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>11312</ID>
+                      <Description>"Infinite potions"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+// Remove healthpots substraction in f_Punch, f_CheckHealthPots, f_HorseAttack and f_PlayerClock
+aobscanregion(f_Punch,30000000,40000000,8e 15 00 66 5f 50 75 6e 63 68 00 01 00 05 2a 00 01 7a 6f 6e 65)
+aobscanregion(f_CheckHealthPots,30000000,40000000,8e 1f 00 66 5f 43 68 65 63 6b 48 65 61 6c 74 68 50 6f 74 73 00 01 00 04 6a 00 02 7a 6f 6e 65)
+aobscanregion(f_HorseAttack,30000000,40000000,8e 1b 00 66 5f 48 6f 72 73 65 41 74 74 61 63 6b 00 01 00 03 2a 00 01 7a 6f 6e 65)
+aobscanregion(f_PlayerClock,30000000,40000000,8e 1b 00 66 5f 50 6c 61 79 65 72 43 6c 6f 63 6b 00 01 00 04 2a 00 01 7a 6f 6e 65)
+registersymbol(potions)
+registersymbol(potioncheck)
+registersymbol(potionhorse)
+registersymbol(potionclock)
+
+label(potions)
+f_Punch+e97:
+potions:
+ db 2e 04 04 01 09 2e
+
+label(potioncheck)
+f_CheckHealthPots+ac:
+potioncheck:
+ db 2e 04 04 02 09 2e
+
+label(potionhorse)
+f_HorseAttack+911:
+potionhorse:
+ db 2e 04 04 01 09 2e
+ 
+label(potionclock)
+f_PlayerClock+111:
+potionclock:
+ db 2e 04 04 01 09 2e
+
+
+
+[DISABLE]
+potions:
+ db 08 04 04 01 09 08
+
+potioncheck:
+ db 08 04 04 02 09 08
+
+potionhorse:
+ db 08 04 04 01 09 08
+ 
+potionclock:
+ db 08 04 04 01 09 08
+
+unregistersymbol(potions)
+unregistersymbol(potioncheck)
+unregistersymbol(potionhorse)
+unregistersymbol(potionclock)
+
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>11313</ID>
+                      <Description>"Infinite sandwiches"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+// Remove beefies substraction in f_Punch
+aobscanregion(f_Punch,30000000,40000000,8e 15 00 66 5f 50 75 6e 63 68 00 01 00 05 2a 00 01 7a 6f 6e 65)
+registersymbol(sandwiches)
+
+label(sandwiches)
+f_Punch+106f:
+sandwiches:
+ db 2e 04 04 01 09 2e
+
+
+
+[DISABLE]
+sandwiches:
+ db 0a 04 04 01 09 0a
+
+unregistersymbol(sandwiches)
+
+</AssemblerScript>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>1132</ID>
+                  <Description>"Infinite tek"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+// Hard-code nohit = true in f_StandSettings
+aobscanregion(f_StandSettings,30000000,40000000,8e 1d 00 66 5f 53 74 61 6e 64 53 65 74 74 69 6e 67 73 00 01 00 02 2a 00 01 7a 6f 6e 65)
+registersymbol(nohit)
+
+label(nohit)
+f_StandSettings+13f:
+nohit:
+ db 01
+
+[DISABLE]
+nohit:
+ db 00
+
+unregistersymbol(nohit)
+
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>1133</ID>
+                  <Description>"Walk in cutscenes"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+// Remove all code from f_PlayerStop()
+aobscanregion(fPlayerStop2,30000000,40000000,8e 15 00 66 5f 50 6c 61 79 65 72 73 53 74 6f 70 00 00 00 04 6a)
+registersymbol(noStopAll)
+
+label(noStopAll)
+fPlayerStop2+00:
+noStopAll:
+ db 9B 12 00 66 5F 50 6C 61 79 65 72 73 53 74 6F 70 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+
+[DISABLE]
+noStopAll:
+ db 8E 15 00 66 5F 50 6C 61 79 65 72 73 53 74 6F 70 00 00 00 04 6A 00 61 00 96 05 00 07 01 00 00 00 87 01 00 02 17 96 07 00 04 02 07 04 00 00 00 67 70 12 9D 02 00 42 00 96 04 00 04 01 08 1C 4E 96 02 00 08 C6 4E 96 02 00 08 C6 4E 96 04 00 08 10 04 02 18 47 4E 87 01 00 03 17 96 0A 00 04 03 07 01 00 00 00 09 7A 07 3D 17 96 02 00 04 02 50 87 01 00 02 17 99 02 00 AC FF
+
+unregistersymbol(noStopAll)
+
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>1134</ID>
+                  <Description>"Alien can pick up weapons - not in Weapons Frog"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+// Set p_type == 11 to 0 in f_PickupItem and f_GetPickup
+aobscanregion(fPickupItem,30000000,40000000,?? 03 00 09 11 02 4E 96 05 00 07 0B 00 00 00 49 70 12 9D 02 00 96 00)
+aobscanregion(fGetPickup,30000000,40000000,?? 03 00 09 11 02 4E 96 05 00 07 0B 00 00 00 49 70 12 9D 02 00 7C 00)
+
+
+registersymbol(playerTypeItem)
+registersymbol(playerTypeGet)
+
+label(playerTypeItem)
+fPickupItem+0b:
+playerTypeItem:
+ db 00
+
+label(playerTypeGet)
+fGetPickup+0b:
+playerTypeGet:
+ db 00
+
+
+
+[DISABLE]
+playerTypeItem:
+ db 0B
+
+playerTypeGet:
+ db 0B
+
+unregistersymbol(playerTypeItem)
+unregistersymbol(playerTypeGet)
+
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>1135</ID>
+                  <Description>"Magic + light attack shoots an arched arrow"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+// f_PaintClock
+aobscanregion(fPaintClock,30000000,40000000,8e 1a 00 66 5f 50 61 69 6e 74 43 6c 6f 63 6b 00 01 00 04 2a 00 01 7a 6f 6e 65)
+registersymbol(paintClock)
+
+label(paintClock)
+fPaintClock+00:
+paintClock:
+// db 8E 1A 00 66 5F 50 61 69 6E 74 43 6C 6F 63 6B 00 01 00 02 2A 00 01 7A 6F 6E 65 00 50 00 96 05 00 04 01 09 51 04 4E 96 08 00 07 01 00 00 00 09 C7 01 1C 96 03 00 09 C8 01 52 96 05 00 04 01 09 55 04 4E 96 08 00 07 01 00 00 00 09 C7 01 1C 96 03 00 09 C8 01 52 10 12 9D 02 00 11 00 96 0C 00 09 F8 07 07 01 00 00 00 04 01 08 13 52 17 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+// db 8E 1A 00 66 5F 50 61 69 6E 74 43 6C 6F 63 6B 00 01 00 02 2A 00 01 7A 6F 6E 65 00 B6 00 96 05 00 04 01 09 6F 01 4E 96 03 00 09 71 02 4E 96 05 00 07 01 00 00 00 4E 96 05 00 04 01 09 AA 03 4E 96 05 00 07 00 00 00 00 49 10 96 05 00 04 01 09 51 04 4E 96 08 00 07 01 00 00 00 09 C7 01 1C 96 03 00 09 C8 01 52 10 96 05 00 04 01 09 55 04 4E 96 08 00 07 01 00 00 00 09 C7 01 1C 96 03 00 09 C8 01 52 10 12 9D 02 00 4A 00 96 07 00 04 01 09 02 02 05 01 4F 96 05 00 04 01 09 9E 01 4E 12 9D 02 00 1F 00 96 07 00 04 01 09 58 05 05 01 4F 96 0F 00 07 0B 00 00 00 04 01 07 02 00 00 00 09 21 05 3D 17 96 0C 00 09 F8 07 07 01 00 00 00 04 01 08 13 52 17 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+// db 8E 1A 00 66 5F 50 61 69 6E 74 43 6C 6F 63 6B 00 01 00 02 2A 00 01 7A 6F 6E 65 00 B9 00 96 05 00 04 01 09 6F 01 4E 96 03 00 09 71 02 4E 96 05 00 07 01 00 00 00 4E 96 05 00 04 01 09 1B 03 4E 12 96 05 00 04 01 09 25 05 4E 12 11 10 96 05 00 04 01 09 51 04 4E 96 08 00 07 01 00 00 00 09 C7 01 1C 96 03 00 09 C8 01 52 10 96 05 00 04 01 09 55 04 4E 96 08 00 07 01 00 00 00 09 C7 01 1C 96 03 00 09 C8 01 52 10 12 9D 02 00 4A 00 96 07 00 04 01 09 02 02 05 01 4F 96 05 00 04 01 09 9E 01 4E 12 9D 02 00 1F 00 96 07 00 04 01 09 58 05 05 01 4F 96 0F 00 07 0B 00 00 00 04 01 07 02 00 00 00 09 21 05 3D 17 96 0C 00 09 F8 07 07 01 00 00 00 04 01 08 13 52 17 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+// db 8E 1A 00 66 5F 50 61 69 6E 74 43 6C 6F 63 6B 00 01 00 02 2A 00 01 7A 6F 6E 65 00 CC 00 96 05 00 04 01 09 6F 01 4E 96 03 00 09 71 02 4E 96 05 00 07 01 00 00 00 4E 96 05 00 04 01 09 AA 03 4E 96 05 00 07 00 00 00 00 49 10 96 05 00 04 01 09 02 02 4E 12 10 96 05 00 04 01 09 51 04 4E 96 08 00 07 01 00 00 00 09 C7 01 1C 96 03 00 09 C8 01 52 10 96 05 00 04 01 09 55 04 4E 96 08 00 07 01 00 00 00 09 C7 01 1C 96 03 00 09 C8 01 52 10 12 9D 02 00 55 00 96 07 00 04 01 09 02 02 05 01 4F 96 05 00 04 01 09 9E 01 4E 96 05 00 04 01 09 58 05 4E 12 10 12 9D 02 00 1F 00 96 07 00 04 01 09 58 05 05 01 4F 96 0F 00 07 0B 00 00 00 04 01 07 02 00 00 00 09 21 05 3D 17 96 0C 00 09 F8 07 07 01 00 00 00 04 01 08 13 52 17 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+ db 8E 1A 00 66 5F 50 61 69 6E 74 43 6C 6F 63 6B 00 01 00 02 2A 00 01 7A 6F 6E 65 00 C1 00 96 05 00 04 01 09 6F 01 4E 96 03 00 09 71 02 4E 96 05 00 07 01 00 00 00 4E 96 05 00 04 01 09 AA 03 4E 96 05 00 07 00 00 00 00 49 10 96 05 00 04 01 09 51 04 4E 96 08 00 07 01 00 00 00 09 C7 01 1C 96 03 00 09 C8 01 52 10 96 05 00 04 01 09 55 04 4E 96 08 00 07 01 00 00 00 09 C7 01 1C 96 03 00 09 C8 01 52 10 12 9D 02 00 55 00 96 07 00 04 01 09 02 02 05 01 4F 96 05 00 04 01 09 9E 01 4E 96 05 00 04 01 09 58 05 4E 12 10 12 9D 02 00 1F 00 96 07 00 04 01 09 58 05 05 01 4F 96 0F 00 07 0B 00 00 00 04 01 07 02 00 00 00 09 21 05 3D 17 96 0C 00 09 F8 07 07 01 00 00 00 04 01 08 13 52 17 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+[DISABLE]
+paintClock:
+ db 8E 1A 00 66 5F 50 61 69 6E 74 43 6C 6F 63 6B 00 01 00 04 2A 00 01 7A 6F 6E 65 00 FD 00 96 05 00 04 01 09 D6 05 4E 96 09 00 06 00 00 00 00 00 00 00 00 67 12 9D 02 00 E1 00 96 05 00 04 01 09 D6 05 4E 96 05 00 07 03 00 00 00 3F 96 09 00 06 00 00 00 00 00 00 00 00 49 12 9D 02 00 AC 00 96 0A 00 07 46 00 00 00 07 1E 00 00 00 30 47 87 01 00 02 17 96 0B 00 04 02 04 02 09 D7 05 04 01 08 C9 4E 96 05 00 07 01 00 00 00 0B 96 04 00 04 01 08 C9 4E 96 04 00 04 01 08 CA 4E 47 96 0A 00 07 14 00 00 00 07 0A 00 00 00 30 47 0B 96 04 00 04 01 08 C8 4E 96 05 00 07 0F 00 00 00 0B 96 05 00 07 1E 00 00 00 30 47 96 08 00 07 06 00 00 00 09 97 01 3D 87 01 00 03 17 96 05 00 04 01 09 D8 05 4E 96 0A 00 07 01 00 00 00 04 03 09 91 01 4E 96 03 00 09 91 01 4E 96 03 00 09 91 01 4E 96 03 00 09 91 01 4E 96 02 00 08 13 52 17 96 0A 00 04 01 09 D6 05 04 01 09 D6 05 4E 51 4F
+
+unregistersymbol(paintClock)
+
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>1136</ID>
+                  <Description>"100% critical chance"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+// Rewrite if(random(zone.hitby.weapon_critical) == 0) to if(1 == 1) in f_Damage
+aobscanregion(fDamage,30000000,40000000,8e 51 00 66 5f 44 61 6d 61 67 65 00 06 00 15 69 00 03 7a 6f 6e 65 00 0c 64 61 6d 61 67 65 5f 70 6f 77 00 06 64 61 6d 61 67 65 5f 74 79 70 65 00 08 64 61 6d 61 67 65 5f 66 6c 61 67 73 00 11 72 65 63 6f 69 6c 5f 78 00 12 72 65 63 6f 69 6c 5f 79)
+registersymbol(critical)
+
+label(critical)
+fDamage+220:
+critical:
+ db 07 01 00 00 00 96 05 00 07 01 00 00 00 18 18 18 18 18 18 18 18 18 18 18 18 18
+
+
+
+[DISABLE]
+critical:
+ db 04 03 09 CC 02 4E 96 03 00 09 73 04 4E 30 96 09 00 06 00 00 00 00 00 00 00 00
+
+unregistersymbol(critical)
+
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>1137</ID>
+                  <Description>"100% elemental chance"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+// Rewrite if(random(zone.hitby.weapon_magic_chance) == 0) to if(1 == 1) in f_Damage
+aobscanregion(fDamage,30000000,40000000,8e 51 00 66 5f 44 61 6d 61 67 65 00 06 00 15 69 00 03 7a 6f 6e 65 00 0c 64 61 6d 61 67 65 5f 70 6f 77 00 06 64 61 6d 61 67 65 5f 74 79 70 65 00 08 64 61 6d 61 67 65 5f 66 6c 61 67 73 00 11 72 65 63 6f 69 6c 5f 78 00 12 72 65 63 6f 69 6c 5f 79)
+registersymbol(elemental)
+
+label(elemental)
+fDamage+281:
+elemental:
+ db 07 01 00 00 00 96 05 00 07 01 00 00 00 18 18 18 18 18 18 18 18 18 18 18 18 18
+
+
+
+[DISABLE]
+elemental:
+ db 04 03 09 CC 02 4E 96 03 00 09 75 04 4E 30 96 09 00 06 00 00 00 00 00 00 00 00
+
+unregistersymbol(elemental)
+
+</AssemblerScript>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12</ID>
+          <Description>"Hambre Cheats [Flamming &amp; TheWorst429]"</Description>
+          <Options moHideChildren="1" moManualExpandCollapse="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <Color>0000FF</Color>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>121</ID>
+              <Description>"Solo auto-potion"</Description>
+              <LastState/>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+// Fixing the active_players &gt; 1 in f_CheckHealthPots
+aobscanregion(CheckHealthPots,30000000,40000000,66 5F 43 68 65 63 6B 48 65 61 6C 74 68 50 6F 74 73 00 01 00 04 6A 00 02 7A 6F 6E 65 00 12 02 96 05 00 04 02 09 6F 01 4E 12 9D 02 00 2C 00 96 08 00 09 39 02 04 02 09 6F 01 4E A2 03 00 09 6B 01 4E 18 47 96 03 00 09 3A 02 47 96 07 00 07 01 00 00 00 08 0A 3D 87 01 00 03 17 96 0B 00 04 03 06 00 00 00 00 00 00 00 00 49 12 96 05 00 04 01 09 69 06 4E 12 10 96 05 00 04 02 09 08 04 4E 96 09 00 06 00 00 00 00 00 00 00 00 67 10 A0 03 00 09 6D 01 1C 96 05 00 07 01 00 00 00 67 10 12 9D 02 00 88 01 96 0A 00 04 02 09 08 04 04 02 09 08 04 4E 51 4F 96 05 00 04 02 09 A7 02 4E 96 05 00 04 02 09 76 01 4E 0B 96 0C 00 04 02 07 02 00 00 00 04 01 09 9F 04 52 17 96 05 00 04 02 09 6F 01 4E A2 03 00 09 6B 01 4E 96 11 00 07 09 00 00 00 07 0B 00 00 00 07 03 00 00 00 08 05 3D 17 96 0D 00 09 6A 06 07 01 00 00 00 04 02 09 59 02 4E 96 02 00 08 13 52 17 96 0F 00 07 02 00 00 00 07 01 00 00 00 04 02 09 59 02 4E A2 03 00 09 6A 06 4E 96 03 00 09 4C 02 52 17 96 0F 00 07 01 00 00 00 07 01 00 00 00 04 02 09 59 02 4E A2 03 00 09 6A 06 4E A2 03 00 09 6B 06 4E 96 03 00 09 4C 02 52 17 96 0F 00 07 09 00 00 00 07 01 00 00 00 04 02 09 59 02 4E A2 03 00 09 6A 06 4E A2 03 00 09 6C 06 4E 96 02 00 08 13 52 17 96 05 00 04 02 09 59 02 4E A2 03 00 09 6A 06 4E A2 03 00 09 6C 06 4E A2 03 00 09 08 04 4E 96 08 00 09 51 02 04 02 09 08 04 4E 4F 96 07 00 04 02 09 6E 01 05 01 4F 96 06 00 04 02 08 8B 05 01 4F 96 0E 00 06 00 00 00 00 00 00 00 00 04 01 09 27 02 52 17 96 05 00 04 02 09 08 04 4E 70 12 9D 02 00 3A 00 96 0E 00 04 02 09 29 04 06 00 00 00 00 00 00 00 00 4F 96 0F 00 07 01 00 00 00 07 01 00 00 00 04 02 09 6F 01 4E A2 03 00 09 0D 02 4E A2 03 00 09 64 02 4E 96 02 00 08 13 52 17 96 02 00 05 01 3E 96 02 00 05 00 3E 8E 19 00)
+registersymbol(AutoUse)
+
+label(AutoUse)
+CheckHealthPots+97:
+AutoUse:
+ db 00
+
+
+
+[DISABLE]
+AutoUse:
+ db 01
+
+unregistersymbol(AutoUse)
+              
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>122</ID>
+              <Description>"3 player AI fix"</Description>
+              <LastState/>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+// Fixing the switch case in f_SetTargets
+aobscanregion(fix,30000000,40000000,04 00 00 00 4F A0 03 00 09 EE 06 1C A3 0A 00 07 04 00 00 00 07 03)
+registersymbol(3playerfix)
+
+label(3playerfix)
+fix+00:
+3playerfix:
+ db 03 00 00 00 4F A0 03 00 09 EE 06 1C A3 0A 00 07 04 00 00 00 07 04
+
+
+
+[DISABLE]
+3playerfix:
+ db 04 00 00 00 4F A0 03 00 09 EE 06 1C A3 0A 00 07 04 00 00 00 07 03
+
+unregistersymbol(3playerfix)
+              
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>123</ID>
+              <Description>"Remove 999 damage cap"</Description>
+              <LastState/>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+// Removing the 999 cap on damage_pow in f_Damage
+aobscanregion(damage_cap,30000000,40000000,96 13 00 07 E7 03 00 00 07 01 00 00 00 04 0C 07 64 00 00 00 04 09 0B 0C 96)
+registersymbol(dmgcap)
+label(dmgcap)
+damage_cap+04:
+dmgcap:
+ db FF FF FF 7F
+
+
+
+[DISABLE]
+dmgcap:
+ db E7 03 00 00
+
+unregistersymbol(dmgcap)
+
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>124</ID>
+              <Description>"Remove level 99 cap"</Description>
+              <LastState/>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+// Removing the level cap
+aobscanregion(unknownFn,30000000,40000000,63 00 00 00 48 70 12 9D)
+registersymbol(level_cap)
+
+label(level_cap)
+unknownFn+00:
+level_cap:
+ db FF FF FF 7F
+
+
+
+[DISABLE]
+level_cap:
+ db 63 00 00 00
+
+unregistersymbol(level_cap)
+
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>125</ID>
+              <Description>"View collision"</Description>
+              <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+              <LastState/>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+aobscanregion(tpwp,30000000,40000000,96 01 00 03 87 01 00 05 17 96 01 00 03 87 01 00 03 17 96 01 00 03 87 01 00 06 17 96 05 00 04 01 09 6D 01 4E 96 05 00 07 01 00 00 00 49 12 9D 02 00 3D 01 96 08 00 04 02 08 C8 04 02 08 C8 4E 96 08 00 07 01 00 00 00 09 79 01 3D 96 08 00 07 01 00 00 00 09 A2 02 3D 4F 96 08 00 04 02 08 82 04 02 08 C8 4E 4F 96 08 00 04 02 08 C9 04 02 08 C8 4E 96 08 00 07 01 00 00 00 09 79 01 3D 96 08 00 07 01 00 00 00 09 A3 02 3D 4F 96 08 00 04 02 08 83 04 02 08 C9 4E 4F 96 05 00 04 02 09 90 01 4E A3 04 00 08 82 04 05 4F 96 05 00 04 02 09 90 01 4E A3 04 00 08 83 04 03 4F 96 09 00 04 02 08 CA 07 0C FE FF FF 4F 96 0E 00 04 02 09 A9 01 06 00 00 00 00 00 00 00 00 4F 96 0A 00 04 02 07 01 00 00 00 09 A6 01 3D 17 96 05 00 04 02 09 91 01 4E 96 06 00 08 83 04 02 08 CA 4E 4F 96 07 00 04 02 09 9D 01 05 01 4F 96 07 00 04 02 09 9E 01 05 01 4F 96 07 00 04 02 09 A1 01 05 00 4F 96 07 00 04 02 09 A2 01 05 00 4F 96 0A 00 04 02 09 A4 01 07 0A 00 00 00 4F 96 0E 00 04 02 09 84 01 06 00 00 00 00 00 00 00 00 4F 96 0C 00 09 A7 01 07 01 00 00 00 04 02 08 13 52 17 96 0D 00 09 B6 06 07 01 00 00 00 04 02 09 91 01 4E 96 02 00 08 13 52 17 96 01 00 03 87 01 00 04 17 96 01 00 03 87 01 00 07 17 96 01 00 03 87 01 00 09 17 96 01 00 03 87 01 00 0A 17 96 01 00 03 87 01 00 08 17 96 05 00 04 02 09 17 02 4E 96 04 00 04 01 08 00 4E A2 03 00 09 48 01 4E 49 12 9D 02 00 01 01 A0 02 00 08 00 1C A2 03 00 09 49 01 4E 96 05 00 04 02 09 17 02 4E A0 02 00 08 00 1C A2 03 00 09 B7 06 4E 49 12 10 12 9D 02 00 D0 00 A0 03 00 09 67 01 1C A1 05 00 09 68 01 08 00 1C A2 03 00 09 49 01 4E 18 47 4E 87 01 00 06 17 96 04 00 04 06 08 C8 4E 87 01 00 04 17 96 04 00 04 06 08 C9 4E 87 01 00 07 17 96 07 00 04 04 07 32 00 00 00 47 87 01 00 09 17 96 05 00 07 02 00 00 00 30 12 9D 02 00 10 00 96 07 00 04 04 07 32 00 00 00 47 87 01 00 09 17 96 04 00 04 09 04 04 0B 87 01 00 0A 17 96 12 00 04 07 04 09 04 07 04 04 07 04 00 00 00 04 01 09 92 01 52 96 09 00 06 99 99 E9 3F 9A 99 99 99 0C 87 01 00 08 17 96 02 00 04 08 70 12 9D 02 00 0D 00 96 05 00 07 01 00 00 00 87 01 00 08 17 96 06 00 04 04 04 08 04 0A 0C 47 87 01 00 05 17 96 02 00 04 07 87 01 00 03 17 99 02 00 BD 00 A0 03 00 09 67 01 1C A1 05 00 09 68 01 08 00 1C A2 03 00 09 48 01 4E 18 47 4E 87 01 00 06 17 96 04 00 04 06 08 C8 4E 87 01 00 04 17 96 04 00 04 06 08 C9 4E 87 01 00 07 17 96 04 00 04 01 08 00 4E A2 02 00 08 F4 4E 96 05 00 07 C8 00 00 00 47 87 01 00 09 17 96 04 00 04 09 04 04 0B 87 01 00 0A 17 96 12 00 04 07 04 09 04 07 04 04 07 04 00 00 00 04 01 09 92 01 52 96 09 00 06 99 99 E9 3F 9A 99 99 99 0C 87 01 00 08 17 96 02 00 04 08 70 12 9D 02 00 0D 00 96 05 00 07 01 00 00 00 87 01 00 08 17 96 06 00 04 04 04 08 04 0A 0C 47 87 01 00 05 17 96 02 00 04 07 87 01 00 03 17 96 02 00 04 06 12 9D 02 00 52 02 96 05 00 04 06 09 84 01 4E 87 01 00 0B 17 96 07 00 04 0B 07 32 00 00 00 49 12 9D 02 00 39 01 96 14 00 07 64 00 00 00 07 64 00 00 00 09 23 02 04 03 07 0F 00 00 00 47 96 07 00 04 03 07 0A 00 00 00 47 96 07 00 04 05 07 6E 00 00 00 0B 96 08 00 07 06 00 00 00 09 97 01 3D 17 96 06 00 04 02 08 C8 04 05 4F 96 06 00 04 02 08 82 04 05 4F 96 06 00 04 02 08 C9 04 03 4F 96 06 00 04 02 08 83 04 03 4F 96 05 00 04 02 09 90 01 4E A3 04 00 08 82 04 05 4F 96 05 00 04 02 09 90 01 4E A3 04 00 08 83 04 03 4F 96 0D 00 04 02 08 CA 06 00 00 00 00 00 00 00 00 4F 96 0E 00 04 02 09 A9 01 06 00 00 00 00 00 00 00 00 4F 96 0A 00 04 02 07 01 00 00 00 09 A6 01 3D 17 96 05 00 04 02 09 91 01 4E 96 06 00 08 83 04 02 08 CA 4E 4F 96 07 00 04 02 09 9D 01 05 00 4F 96 07 00 04 02 09 9E 01 05 00 4F 96 07 00 04 02 09 A2 01 05 01 4F 96 07 00 04 02 09 A1 01 05 01 4F 96 07 00 04 02 09 84 01 04 0B 4F 96 0C 00 09 B3 01 07 01 00 00 00 04 02 08 13 52 17 96 0E 00 06 00 00 00 00 00 00 00 00 04 02 09 91 01 4E A2 03 00 09 91 01 4E 96 03 00 09 26 02 52 17 99 02 00 FA 00 96 06 00 04 02 08 C8 04 05 4F 96 06 00 04 02 08 82 04 05 4F 96 06 00 04 02 08 C9 04 03 4F 96 06 00 04 02 08 83 04 03 4F 96 05 00 04 02 09 90 01 4E A3 04 00 08 82 04 05 4F 96 05 00 04 02 09 90 01 4E A3 04 00 08 83 04 03 4F 96 09 00 04 02 08 CA 07 0C FE FF FF 4F 96 0E 00 04 02 09 A9 01 06 00 00 00 00 00 00 00 00 4F 96 0A 00 04 02 07 01 00 00 00 09 A6 01 3D 17 96 05 00 04 02 09 91 01 4E 96 06 00 08 83 04 02 08 CA 4E 4F 96 07 00 04 02 09 9D 01 05 01 4F 96 07 00 04 02 09 9E 01 05 01 4F 96 07 00 04 02 09 A1 01 05 00 4F 96 07 00 04 02 09 A2 01 05 00 4F 96 0A 00 04 02 09 A4 01 07 0A 00 00 00 4F 96 07 00 04 02 09 84 01 04 0B 4F 96 0C 00 09 A7 01 07 01 00 00 00 04 02 08 13 52 17 96 0D 00 09 B6 06 07 01 00 00 00 04 02 09 91 01 4E 96 02 00 08 13 52 17)
+registersymbol(teleport)
+registersymbol(gtaspg)
+label(teleport)
+tpwp+00:
+teleport:
+ db 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 96 0a 00 04 02 00 78 00 04 02 00 78 00 4e 4f 96 14 00 07 02 00 00 00 07 01 00 00 00 04 01 00 70 5f 67 61 6d 65 00 4e 96 0d 00 00 67 6f 74 6f 41 6e 64 53 74 6f 70 00 52 17
+
+label(gtaspg)
+tpwp+05B1:
+gtaspg:
+
+
+aobscanregion(paintclock,30000000,40000000,96 0A 00 04 01 07 01 00 00 00 09 B4 06)
+registersymbol(ptclock)
+
+label(ptclock)
+paintclock+0A:
+ptclock:
+ db 09 0A 02
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+teleport:
+ db 96 01 00 03 87 01 00 05 17 96 01 00 03 87 01 00 03 17 96 01 00 03 87 01 00 06 17 96 05 00 04 01 09 6D 01 4E 96 05 00 07 01 00 00 00 49 12 9D 02 00 3D 01 96 08 00 04 02 08 C8 04 02 08 C8 4E 96 08 00 07 01 00 00 00 09 79 01 3D 96 08 00 07 01 00 00 00 09 A2 02 3D 4F 96 08 00 04 02 08 82 04 02 08 C8 4E 4F 96 08 00 04 02 08 C9 04 02 08 C8 4E 96 08 00 07 01 00 00 00 09 79 01 3D 96 08 00 07 01 00 00 00 09 A3 02 3D 4F 96 08 00 04 02 08 83 04 02 08 C9 4E 4F 96 05 00 04 02 09 90 01 4E A3 04 00 08 82 04 05 4F 96 05 00 04 02 09 90 01 4E A3 04 00 08 83 04 03 4F 96 09 00 04 02 08 CA 07 0C FE FF FF 4F 96 0E 00 04 02 09 A9 01 06 00 00 00 00 00 00 00 00 4F 96 0A 00 04 02 07 01 00 00 00 09 A6 01 3D 17 96 05 00 04 02 09 91 01 4E 96 06 00 08 83 04 02 08 CA 4E 4F 96 07 00 04 02 09 9D 01 05 01 4F 96 07 00 04 02 09 9E 01 05 01 4F 96 07 00 04 02 09 A1 01 05 00 4F 96 07 00 04 02 09 A2 01 05 00 4F 96 0A 00 04 02 09 A4 01 07 0A 00 00 00 4F 96 0E 00 04 02 09 84 01 06 00 00 00 00 00 00 00 00 4F 96 0C 00 09 A7 01 07 01 00 00 00 04 02 08 13 52 17 96 0D 00 09 B6 06 07 01 00 00 00 04 02 09 91 01 4E 96 02 00 08 13 52 17 96 01 00 03 87 01 00 04 17 96 01 00 03 87 01 00 07 17 96 01 00 03 87 01 00 09 17 96 01 00 03 87 01 00 0A 17 96 01 00 03 87 01 00 08 17 96 05 00 04 02 09 17 02 4E 96 04 00 04 01 08 00 4E A2 03 00 09 48 01 4E 49 12 9D 02 00 01 01 A0 02 00 08 00 1C A2 03 00 09 49 01 4E 96 05 00 04 02 09 17 02 4E A0 02 00 08 00 1C A2 03 00 09 B7 06 4E 49 12 10 12 9D 02 00 D0 00 A0 03 00 09 67 01 1C A1 05 00 09 68 01 08 00 1C A2 03 00 09 49 01 4E 18 47 4E 87 01 00 06 17 96 04 00 04 06 08 C8 4E 87 01 00 04 17 96 04 00 04 06 08 C9 4E 87 01 00 07 17 96 07 00 04 04 07 32 00 00 00 47 87 01 00 09 17 96 05 00 07 02 00 00 00 30 12 9D 02 00 10 00 96 07 00 04 04 07 32 00 00 00 47 87 01 00 09 17 96 04 00 04 09 04 04 0B 87 01 00 0A 17 96 12 00 04 07 04 09 04 07 04 04 07 04 00 00 00 04 01 09 92 01 52 96 09 00 06 99 99 E9 3F 9A 99 99 99 0C 87 01 00 08 17 96 02 00 04 08 70 12 9D 02 00 0D 00 96 05 00 07 01 00 00 00 87 01 00 08 17 96 06 00 04 04 04 08 04 0A 0C 47 87 01 00 05 17 96 02 00 04 07 87 01 00 03 17 99 02 00 BD 00 A0 03 00 09 67 01 1C A1 05 00 09 68 01 08 00 1C A2 03 00 09 48 01 4E 18 47 4E 87 01 00 06 17 96 04 00 04 06 08 C8 4E 87 01 00 04 17 96 04 00 04 06 08 C9 4E 87 01 00 07 17 96 04 00 04 01 08 00 4E A2 02 00 08 F4 4E 96 05 00 07 C8 00 00 00 47 87 01 00 09 17 96 04 00 04 09 04 04 0B 87 01 00 0A 17 96 12 00 04 07 04 09 04 07 04 04 07 04 00 00 00 04 01 09 92 01 52 96 09 00 06 99 99 E9 3F 9A 99 99 99 0C 87 01 00 08 17 96 02 00 04 08 70 12 9D 02 00 0D 00 96 05 00 07 01 00 00 00 87 01 00 08 17 96 06 00 04 04 04 08 04 0A 0C 47 87 01 00 05 17 96 02 00 04 07 87 01 00 03 17 96 02 00 04 06 12 9D 02 00 52 02 96 05 00 04 06 09 84 01 4E 87 01 00 0B 17 96 07 00 04 0B 07 32 00 00 00 49 12 9D 02 00 39 01 96 14 00 07 64 00 00 00 07 64 00 00 00 09 23 02 04 03 07 0F 00 00 00 47 96 07 00 04 03 07 0A 00 00 00 47 96 07 00 04 05 07 6E 00 00 00 0B 96 08 00 07 06 00 00 00 09 97 01 3D 17 96 06 00 04 02 08 C8 04 05 4F 96 06 00 04 02 08 82 04 05 4F 96 06 00 04 02 08 C9 04 03 4F 96 06 00 04 02 08 83 04 03 4F 96 05 00 04 02 09 90 01 4E A3 04 00 08 82 04 05 4F 96 05 00 04 02 09 90 01 4E A3 04 00 08 83 04 03 4F 96 0D 00 04 02 08 CA 06 00 00 00 00 00 00 00 00 4F 96 0E 00 04 02 09 A9 01 06 00 00 00 00 00 00 00 00 4F 96 0A 00 04 02 07 01 00 00 00 09 A6 01 3D 17 96 05 00 04 02 09 91 01 4E 96 06 00 08 83 04 02 08 CA 4E 4F 96 07 00 04 02 09 9D 01 05 00 4F 96 07 00 04 02 09 9E 01 05 00 4F 96 07 00 04 02 09 A2 01 05 01 4F 96 07 00 04 02 09 A1 01 05 01 4F 96 07 00 04 02 09 84 01 04 0B 4F 96 0C 00 09 B3 01 07 01 00 00 00 04 02 08 13 52 17 96 0E 00 06 00 00 00 00 00 00 00 00 04 02 09 91 01 4E A2 03 00 09 91 01 4E 96 03 00 09 26 02 52 17 99 02 00 FA 00 96 06 00 04 02 08 C8 04 05 4F 96 06 00 04 02 08 82 04 05 4F 96 06 00 04 02 08 C9 04 03 4F 96 06 00 04 02 08 83 04 03 4F 96 05 00 04 02 09 90 01 4E A3 04 00 08 82 04 05 4F 96 05 00 04 02 09 90 01 4E A3 04 00 08 83 04 03 4F 96 09 00 04 02 08 CA 07 0C FE FF FF 4F 96 0E 00 04 02 09 A9 01 06 00 00 00 00 00 00 00 00 4F 96 0A 00 04 02 07 01 00 00 00 09 A6 01 3D 17 96 05 00 04 02 09 91 01 4E 96 06 00 08 83 04 02 08 CA 4E 4F 96 07 00 04 02 09 9D 01 05 01 4F 96 07 00 04 02 09 9E 01 05 01 4F 96 07 00 04 02 09 A1 01 05 00 4F 96 07 00 04 02 09 A2 01 05 00 4F 96 0A 00 04 02 09 A4 01 07 0A 00 00 00 4F 96 07 00 04 02 09 84 01 04 0B 4F 96 0C 00 09 A7 01 07 01 00 00 00 04 02 08 13 52 17 96 0D 00 09 B6 06 07 01 00 00 00 04 02 09 91 01 4E 96 02 00 08 13 52 17
+
+ptclock:
+ db 09 B4 06
+
+unregistersymbol(teleport)
+unregistersymbol(ptclock)
+unregistersymbol(gtaspg)
+
+</AssemblerScript>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>1251</ID>
+                  <Description>"gtaspg"</Description>
+                  <VariableType>Byte</VariableType>
+                  <Address>gtaspg</Address>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>126</ID>
+              <Description>"Show Hitboxes"</Description>
+              <Options moHideChildren="1" moManualExpandCollapse="1" moDeactivateChildrenAsWell="1"/>
+              <LastState/>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+aobscanregion(FX,30000000,40000000,8C 06 0E 01 00 DB 01 00 69 00 40 10 00 00)
+registersymbol(showhitbox)
+registersymbol(redcolor)
+
+label(showhitbox)
+FX+0C:
+showhitbox:
+ db 03 FC
+
+label(redcolor)
+FX+08:
+redcolor:
+
+
+aobscanregion(playerhitbox,30000000,40000000,8C 06 0E 01 00 11 00 00 69 00 40 10 00 00)
+registersymbol(showhitbox2)
+registersymbol(redcolor2)
+
+label(showhitbox2)
+playerhitbox+0C:
+showhitbox2:
+ db 03 FC
+
+label(redcolor2)
+playerhitbox+08:
+redcolor2:
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+showhitbox:
+ db 00 00
+
+redcolor:
+ db 69 00 40 10
+
+showhitbox2:
+ db 00 00
+
+redcolor2:
+ db 69 00 40 10
+
+
+unregistersymbol(showhitbox)
+unregistersymbol(redcolor)
+unregistersymbol(showhitbox2)
+unregistersymbol(redcolor2)
+
+</AssemblerScript>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>1261</ID>
+                  <Description>"Red Color"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+redcolor:
+ db 69 00 00 00
+
+redcolor2:
+ db 69 00 00 00
+
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+redcolor:
+ db 69 00 40 10
+
+redcolor2:
+ db 69 00 40 10
+
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>1262</ID>
+                  <Description>"Transparent"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+showhitbox:
+ db 02 00
+
+showhitbox2:
+ db 02 00
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+showhitbox:
+ db 03 FC
+
+showhitbox2:
+ db 03 FC
+
+</AssemblerScript>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>127</ID>
+              <Description>"PS3 Melee Speed"</Description>
+              <LastState/>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+aobscanregion(PS3MeleeSpeed1,30000000,40000000,68 69 74 00 1C 12 12 9D 02 00 08 00 8C 04 00 66 69 6E 00 06 00 40 00 40 00 02 07 04 00 02 07 1A)
+registersymbol(ps3speed1)
+
+label(ps3speed1)
+PS3MeleeSpeed1+00:
+ps3speed1:
+ db 53 74 65
+
+aobscanregion(PS3MeleeSpeed2,30000000,40000000,68 69 74 00 1C 12 12 9D 02 00 08 00 8C 04 00 66 69 6E 00 06 00 40 00 40 00 02 07 18 00 02 07 1E)
+registersymbol(ps3speed2)
+
+label(ps3speed2)
+PS3MeleeSpeed2+00:
+ps3speed2:
+ db 53 74 65
+
+aobscanregion(PS3MeleeSpeed3,30000000,40000000,68 69 74 00 1C 12 12 9D 02 00 08 00 8C 04 00 66 69 6E 00 06 00 40 00 40 00 02 07 18 00 02 07 1A)
+registersymbol(ps3speed3)
+
+label(ps3speed3)
+PS3MeleeSpeed3+00:
+ps3speed3:
+ db 53 74 65
+
+aobscanregion(PS3MeleeSpeed4,30000000,40000000,68 69 74 00 1C 12 12 9D 02 00 08 00 8C 04 00 66 69 6E 00 06 00 40 00 40 00 40 00 3F 03 02 00 00)
+registersymbol(ps3speed4)
+
+label(ps3speed4)
+PS3MeleeSpeed4+00:
+ps3speed4:
+ db 53 74 65
+
+aobscanregion(PS3MeleeSpeed5,30000000,40000000,68 69 74 00 1C 12 12 9D 02 00 08 00 8C 04 00 66 69 6E 00 06 00 91 06 05 01 00 C5 76 06 BB 03 C5)
+registersymbol(ps3speed5)
+
+label(ps3speed5)
+PS3MeleeSpeed5+00:
+ps3speed5:
+ db 53 74 65
+
+
+
+[DISABLE]
+ps3speed1:
+ db 68 69 74
+
+ps3speed2:
+ db 68 69 74
+
+ps3speed3:
+ db 68 69 74
+
+ps3speed4:
+ db 68 69 74
+
+ps3speed5:
+ db 68 69 74
+
+unregistersymbol(ps3speed1)
+unregistersymbol(ps3speed2)
+unregistersymbol(ps3speed3)
+unregistersymbol(ps3speed4)
+unregistersymbol(ps3speed5)
+
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>128</ID>
+              <Description>"Disable tek for players"</Description>
+              <LastState/>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+//CODED BY FLAMMING, disables tech when uppercutting/falling quickly
+aobscanregion(techuppercut,30000000,40000000,66 5F 55 70 70 65 72 63 75 74 00 01 00 02 2A 00 01 7A 6F 6E 65 00 1C 01 96 04 00 04 01 08 CA 4E 96 05 00 07 ED FE FF FF 67 12 9D 02 00 7B 00 96 1A 00 06 00 00 00 00 00 00 00 00 06 00 00 00 00 00 00 00 00 07 02 00 00 00 09 A9 05 1C 96 03 00 09 8A 02 52 17 96 05 00 04 01 09 9E 01 4E 12 9D 02 00 14 00 96 0F 00 07 09 00 00 00 04 01 07 02 00 00 00 09 21 05 3D 17 96 0A 00 04 01 09 E3 03 07 03 00 00 00 4F 96 0A 00 04 01 09 F4 04 07 01 00 00 00 4F 96 0C 00 09 AA 05 07 01 00 00 00 04 01 08 13 52 17 99 02 00 8A 00 96 04 00 04 01 08 CA 4E 96 05 00 07 BB FE FF FF 67 12 9D 02 00 30 00 96 0A 00 04 01 09 E3 03 07 03 00 00 00 4F 96 0A 00 04 01 09 F4 04 07 01 00 00 00 4F 96 0A 00 04 01 07 01 00 00 00 09 5F 05 3D 17 99 02 00 43 00 96 07 00 04 01 09 02 02 05 01 4F 96 0A 00 04 01 09 E3 03 07 01 00 00 00 4F 96 0A 00 04 01 09 F4 04 07 01 00 00 00 4F 96 07 00 04 01 09 9E 01 05 01 4F 96 0C 00 09 A3 03 07 01 00 00 00 04 01 08 13 52 17 8E 1E 00)
+registersymbol(notech1)
+label(notech1)
+techuppercut+00:
+notech1:
+ db 66 5F 55 70 70 65 72 63 75 74 00 01 00 02 2A 00 01 7A 6F 6E 65 00 1C 01 96 04 00 04 01 08 CA 4E 96 05 00 07 ED FE FF FF 67 12 9D 02 00 7B 00 96 1A 00 06 00 00 00 00 00 00 00 00 06 00 00 00 00 00 00 00 00 07 02 00 00 00 09 A9 05 1C 96 03 00 09 8A 02 52 17 96 05 00 04 01 09 9E 01 4E 12 9D 02 00 14 00 96 0F 00 07 09 00 00 00 04 01 07 02 00 00 00 09 21 05 3D 17 96 0A 00 04 01 09 E3 03 07 03 00 00 00 4F 96 0A 00 04 01 09 1B 03 07 00 00 00 00 4F 96 0C 00 09 AA 05 07 01 00 00 00 04 01 08 13 52 17 99 02 00 8A 00 96 04 00 04 01 08 CA 4E 96 05 00 07 BB FE FF FF 67 12 9D 02 00 30 00 96 0A 00 04 01 09 E3 03 07 03 00 00 00 4F 96 0A 00 04 01 09 F4 04 07 01 00 00 00 4F 96 0A 00 04 01 07 01 00 00 00 09 5F 05 3D 17 99 02 00 43 00 96 07 00 04 01 09 02 02 05 01 4F 96 0A 00 04 01 09 E3 03 07 01 00 00 00 4F 96 0A 00 04 01 09 F4 04 07 01 00 00 00 4F 96 07 00 04 01 09 9E 01 05 01 4F 96 0C 00 09 A3 03 07 01 00 00 00 04 01 08 13 52 17 8E 1E 00
+
+aobscanregion(Jumping,30000000,40000000,66 5F 4A 75 6D 70 69 6E 67 00 01 00 04 2A 00 01 7A 6F 6E 65 00 4E 04 96 05 00 04 01 09 A1 01 4E 12 9D 02 00 05 00 96 01 00 03 3E 96 05 00 04 01 09 32 04 4E 96 09 00 06 00 00 00 00 00 00 00 00 67 12 9D 02 00 15 00 96 0A 00 04 01 09 32 04 04 01 09 32 04 4E 51 4F 99 02 00 FA 03 96 01 00 03 87 01 00 02 17 96 08 00 04 01 08 CA 04 01 08 CA 4E 96 05 00 04 01 09 A4 01 4E 47 4F 96 05 00 04 01 09 F7 01 4E 12 9D 02 00 26 00 96 0A 00 04 01 09 A4 01 04 01 09 A4 01 4E 96 04 00 04 01 08 36 4E 96 05 00 07 02 00 00 00 0C 47 4F 99 02 00 69 00 96 05 00 04 01 09 CB 04 4E 96 05 00 04 01 09 A4 01 4E 96 09 00 06 00 00 00 00 00 00 00 00 48 12 10 12 9D 02 00 2A 00 96 0A 00 04 01 09 A4 01 04 01 09 A4 01 4E 96 04 00 04 01 08 36 4E 96 09 00 06 33 33 D3 3F 33 33 33 33 0C 47 4F 99 02 00 18 00 96 0A 00 04 01 09 A4 01 04 01 09 A4 01 4E 96 04 00 04 01 08 36 4E 47 4F 96 05 00 04 01 09 A4 01 4E 96 05 00 07 20 00 00 00 67 12 9D 02 00 0E 00 96 0A 00 04 01 09 A4 01 07 20 00 00 00 4F 96 04 00 04 01 08 CA 4E 96 09 00 06 00 00 00 00 00 00 00 00 67 12 9D 02 00 DD 02 96 0D 00 04 01 08 CA 06 00 00 00 00 00 00 00 00 4F 96 0E 00 04 01 09 A4 01 06 00 00 00 00 00 00 00 00 4F 96 07 00 04 01 09 9E 01 05 00 4F A0 02 00 08 04 1C 96 05 00 07 20 00 00 00 49 12 9D 02 00 AE 00 96 05 00 07 02 00 00 00 30 96 05 00 07 01 00 00 00 49 12 9D 02 00 2B 00 96 1A 00 06 00 00 00 00 00 00 00 00 06 00 00 00 00 00 00 00 00 07 02 00 00 00 09 40 05 1C 96 03 00 09 8A 02 52 17 99 02 00 26 00 96 1A 00 06 00 00 00 00 00 00 00 00 06 00 00 00 00 00 00 00 00 07 02 00 00 00 09 41 05 1C 96 03 00 09 8A 02 52 17 96 11 00 07 32 00 00 00 07 32 00 00 00 09 42 05 04 01 08 83 4E 96 05 00 07 01 00 00 00 47 18 96 04 00 04 01 08 83 4E 96 04 00 04 01 08 82 4E 96 08 00 07 06 00 00 00 09 97 01 3D 87 01 00 02 17 99 02 00 05 01 96 05 00 04 01 09 84 01 4E 96 05 00 07 2C 01 00 00 48 12 96 05 00 04 01 09 84 01 4E 96 05 00 07 2E 01 00 00 67 12 10 12 9D 02 00 D8 00 96 05 00 07 02 00 00 00 30 96 05 00 07 01 00 00 00 49 12 9D 02 00 2B 00 96 1A 00 06 00 00 00 00 00 00 00 00 06 00 00 00 00 00 00 00 00 07 02 00 00 00 09 40 05 1C 96 03 00 09 8A 02 52 17 99 02 00 26 00 96 1A 00 06 00 00 00 00 00 00 00 00 06 00 00 00 00 00 00 00 00 07 02 00 00 00 09 41 05 1C 96 03 00 09 8A 02 52 17 96 11 00 07 64 00 00 00 07 64 00 00 00 09 D5 01 04 01 08 83 4E 96 05 00 07 01 00 00 00 47 18 96 04 00 04 01 08 83 4E 96 04 00 04 01 08 82 4E 96 08 00 07 06 00 00 00 09 97 01 3D 87 01 00 02 17 96 0D 00 09 E6 04 07 01 00 00 00 04 02 09 91 01 4E 96 03 00 09 4C 02 52 17 A0 03 00 09 D6 01 1C 96 0A 00 04 02 07 02 00 00 00 09 D7 01 3D 17 A0 02 00 08 04 1C 96 05 00 07 17 00 00 00 49 A0 02 00 08 04 1C 96 05 00 07 66 00 00 00 49 11 96 04 00 04 01 08 DA 4E 12 10 12 9D 02 00 89 00 96 04 00 04 01 08 85 4E 96 09 00 06 00 00 00 00 00 00 00 00 67 12 9D 02 00 12 00 96 05 00 07 46 00 00 00 87 01 00 03 17 99 02 00 0D 00 96 05 00 07 BA FF FF FF 87 01 00 03 17 96 0E 00 07 46 00 00 00 04 03 09 E4 04 04 01 08 C9 4E 96 05 00 07 01 00 00 00 47 18 96 04 00 04 01 08 C9 4E 96 04 00 04 01 08 C8 4E 96 08 00 07 06 00 00 00 09 97 01 3D 17 96 0C 00 04 01 07 01 00 00 00 04 01 09 28 02 52 17 99 02 00 11 00 96 0C 00 09 F0 04 07 01 00 00 00 04 01 08 13 52 17 96 05 00 04 01 09 91 01 4E 96 06 00 08 83 04 01 08 CA 4E 96 05 00 04 01 09 A9 01 4E 47 4F 96 05 00 04 01 09 91 01 4E 96 06 00 08 83 04 01 08 CA 4E 96 05 00 04 01 09 A9 01 4E 47 4F 96 0A 00 04 01 07 01 00 00 00 09 A6 01 3D 17 8E 1B 00)
+registersymbol(notech)
+label(notech)
+Jumping+00:
+notech:
+ db 66 5F 4A 75 6D 70 69 6E 67 00 01 00 04 2A 00 01 7A 6F 6E 65 00 4E 04 96 05 00 04 01 09 A1 01 4E 12 9D 02 00 05 00 96 01 00 03 3E 96 05 00 04 01 09 32 04 4E 96 09 00 06 00 00 00 00 00 00 00 00 67 12 9D 02 00 15 00 96 0A 00 04 01 09 32 04 04 01 09 32 04 4E 51 4F 99 02 00 FA 03 96 01 00 03 87 01 00 02 17 96 08 00 04 01 08 CA 04 01 08 CA 4E 96 05 00 04 01 09 A4 01 4E 47 4F 96 05 00 04 01 09 F7 01 4E 12 9D 02 00 26 00 96 0A 00 04 01 09 A4 01 04 01 09 A4 01 4E 96 04 00 04 01 08 36 4E 96 05 00 07 02 00 00 00 0C 47 4F 99 02 00 69 00 96 05 00 04 01 09 CB 04 4E 96 05 00 04 01 09 A4 01 4E 96 09 00 06 00 00 00 00 00 00 00 00 48 12 10 12 9D 02 00 2A 00 96 0A 00 04 01 09 A4 01 04 01 09 A4 01 4E 96 04 00 04 01 08 36 4E 96 09 00 06 33 33 D3 3F 33 33 33 33 0C 47 4F 99 02 00 18 00 96 0A 00 04 01 09 A4 01 04 01 09 A4 01 4E 96 04 00 04 01 08 36 4E 47 4F 96 05 00 04 01 09 A4 01 4E 96 05 00 07 0A 00 00 00 67 12 9D 02 00 0E 00 96 0A 00 04 01 09 1B 03 07 00 00 00 00 4F 96 04 00 04 01 08 CA 4E 96 09 00 06 00 00 00 00 00 00 00 00 67 12 9D 02 00 DD 02 96 0D 00 04 01 08 CA 06 00 00 00 00 00 00 00 00 4F 96 0E 00 04 01 09 1B 03 06 00 00 00 00 00 00 00 00 4F 96 07 00 04 01 09 9E 01 05 00 4F A0 02 00 08 04 1C 96 05 00 07 20 00 00 00 49 12 9D 02 00 AE 00 96 05 00 07 02 00 00 00 30 96 05 00 07 01 00 00 00 49 12 9D 02 00 2B 00 96 1A 00 06 00 00 00 00 00 00 00 00 06 00 00 00 00 00 00 00 00 07 02 00 00 00 09 40 05 1C 96 03 00 09 8A 02 52 17 99 02 00 26 00 96 1A 00 06 00 00 00 00 00 00 00 00 06 00 00 00 00 00 00 00 00 07 02 00 00 00 09 41 05 1C 96 03 00 09 8A 02 52 17 96 11 00 07 32 00 00 00 07 32 00 00 00 09 42 05 04 01 08 83 4E 96 05 00 07 01 00 00 00 47 18 96 04 00 04 01 08 83 4E 96 04 00 04 01 08 82 4E 96 08 00 07 06 00 00 00 09 97 01 3D 87 01 00 02 17 99 02 00 05 01 96 05 00 04 01 09 84 01 4E 96 05 00 07 2C 01 00 00 48 12 96 05 00 04 01 09 84 01 4E 96 05 00 07 2E 01 00 00 67 12 10 12 9D 02 00 D8 00 96 05 00 07 02 00 00 00 30 96 05 00 07 01 00 00 00 49 12 9D 02 00 2B 00 96 1A 00 06 00 00 00 00 00 00 00 00 06 00 00 00 00 00 00 00 00 07 02 00 00 00 09 40 05 1C 96 03 00 09 8A 02 52 17 99 02 00 26 00 96 1A 00 06 00 00 00 00 00 00 00 00 06 00 00 00 00 00 00 00 00 07 02 00 00 00 09 41 05 1C 96 03 00 09 8A 02 52 17 96 11 00 07 64 00 00 00 07 64 00 00 00 09 D5 01 04 01 08 83 4E 96 05 00 07 01 00 00 00 47 18 96 04 00 04 01 08 83 4E 96 04 00 04 01 08 82 4E 96 08 00 07 06 00 00 00 09 97 01 3D 87 01 00 02 17 96 0D 00 09 E6 04 07 01 00 00 00 04 02 09 91 01 4E 96 03 00 09 4C 02 52 17 A0 03 00 09 D6 01 1C 96 0A 00 04 02 07 02 00 00 00 09 D7 01 3D 17 A0 02 00 08 04 1C 96 05 00 07 17 00 00 00 49 A0 02 00 08 04 1C 96 05 00 07 66 00 00 00 49 11 96 04 00 04 01 08 DA 4E 12 10 12 9D 02 00 89 00 96 04 00 04 01 08 85 4E 96 09 00 06 00 00 00 00 00 00 00 00 67 12 9D 02 00 12 00 96 05 00 07 46 00 00 00 87 01 00 03 17 99 02 00 0D 00 96 05 00 07 BA FF FF FF 87 01 00 03 17 96 0E 00 07 46 00 00 00 04 03 09 E4 04 04 01 08 C9 4E 96 05 00 07 01 00 00 00 47 18 96 04 00 04 01 08 C9 4E 96 04 00 04 01 08 C8 4E 96 08 00 07 06 00 00 00 09 97 01 3D 17 96 0C 00 04 01 07 01 00 00 00 04 01 09 28 02 52 17 99 02 00 11 00 96 0C 00 09 F0 04 07 01 00 00 00 04 01 08 13 52 17 96 05 00 04 01 09 91 01 4E 96 06 00 08 83 04 01 08 CA 4E 96 05 00 04 01 09 A9 01 4E 47 4F 96 05 00 04 01 09 91 01 4E 96 06 00 08 83 04 01 08 CA 4E 96 05 00 04 01 09 A9 01 4E 47 4F 96 0A 00 04 01 07 01 00 00 00 09 A6 01 3D 17 8E 1B 00
+
+
+
+[DISABLE]
+notech1:
+ db 66 5F 55 70 70 65 72 63 75 74 00 01 00 02 2A 00 01 7A 6F 6E 65 00 1C 01 96 04 00 04 01 08 CA 4E 96 05 00 07 ED FE FF FF 67 12 9D 02 00 7B 00 96 1A 00 06 00 00 00 00 00 00 00 00 06 00 00 00 00 00 00 00 00 07 02 00 00 00 09 A9 05 1C 96 03 00 09 8A 02 52 17 96 05 00 04 01 09 9E 01 4E 12 9D 02 00 14 00 96 0F 00 07 09 00 00 00 04 01 07 02 00 00 00 09 21 05 3D 17 96 0A 00 04 01 09 E3 03 07 03 00 00 00 4F 96 0A 00 04 01 09 F4 04 07 01 00 00 00 4F 96 0C 00 09 AA 05 07 01 00 00 00 04 01 08 13 52 17 99 02 00 8A 00 96 04 00 04 01 08 CA 4E 96 05 00 07 BB FE FF FF 67 12 9D 02 00 30 00 96 0A 00 04 01 09 E3 03 07 03 00 00 00 4F 96 0A 00 04 01 09 F4 04 07 01 00 00 00 4F 96 0A 00 04 01 07 01 00 00 00 09 5F 05 3D 17 99 02 00 43 00 96 07 00 04 01 09 02 02 05 01 4F 96 0A 00 04 01 09 E3 03 07 01 00 00 00 4F 96 0A 00 04 01 09 F4 04 07 01 00 00 00 4F 96 07 00 04 01 09 9E 01 05 01 4F 96 0C 00 09 A3 03 07 01 00 00 00 04 01 08 13 52 17 8E 1E 00
+unregistersymbol(notech1)
+
+notech:
+ db 66 5F 4A 75 6D 70 69 6E 67 00 01 00 04 2A 00 01 7A 6F 6E 65 00 4E 04 96 05 00 04 01 09 A1 01 4E 12 9D 02 00 05 00 96 01 00 03 3E 96 05 00 04 01 09 32 04 4E 96 09 00 06 00 00 00 00 00 00 00 00 67 12 9D 02 00 15 00 96 0A 00 04 01 09 32 04 04 01 09 32 04 4E 51 4F 99 02 00 FA 03 96 01 00 03 87 01 00 02 17 96 08 00 04 01 08 CA 04 01 08 CA 4E 96 05 00 04 01 09 A4 01 4E 47 4F 96 05 00 04 01 09 F7 01 4E 12 9D 02 00 26 00 96 0A 00 04 01 09 A4 01 04 01 09 A4 01 4E 96 04 00 04 01 08 36 4E 96 05 00 07 02 00 00 00 0C 47 4F 99 02 00 69 00 96 05 00 04 01 09 CB 04 4E 96 05 00 04 01 09 A4 01 4E 96 09 00 06 00 00 00 00 00 00 00 00 48 12 10 12 9D 02 00 2A 00 96 0A 00 04 01 09 A4 01 04 01 09 A4 01 4E 96 04 00 04 01 08 36 4E 96 09 00 06 33 33 D3 3F 33 33 33 33 0C 47 4F 99 02 00 18 00 96 0A 00 04 01 09 A4 01 04 01 09 A4 01 4E 96 04 00 04 01 08 36 4E 47 4F 96 05 00 04 01 09 A4 01 4E 96 05 00 07 20 00 00 00 67 12 9D 02 00 0E 00 96 0A 00 04 01 09 A4 01 07 20 00 00 00 4F 96 04 00 04 01 08 CA 4E 96 09 00 06 00 00 00 00 00 00 00 00 67 12 9D 02 00 DD 02 96 0D 00 04 01 08 CA 06 00 00 00 00 00 00 00 00 4F 96 0E 00 04 01 09 A4 01 06 00 00 00 00 00 00 00 00 4F 96 07 00 04 01 09 9E 01 05 00 4F A0 02 00 08 04 1C 96 05 00 07 20 00 00 00 49 12 9D 02 00 AE 00 96 05 00 07 02 00 00 00 30 96 05 00 07 01 00 00 00 49 12 9D 02 00 2B 00 96 1A 00 06 00 00 00 00 00 00 00 00 06 00 00 00 00 00 00 00 00 07 02 00 00 00 09 40 05 1C 96 03 00 09 8A 02 52 17 99 02 00 26 00 96 1A 00 06 00 00 00 00 00 00 00 00 06 00 00 00 00 00 00 00 00 07 02 00 00 00 09 41 05 1C 96 03 00 09 8A 02 52 17 96 11 00 07 32 00 00 00 07 32 00 00 00 09 42 05 04 01 08 83 4E 96 05 00 07 01 00 00 00 47 18 96 04 00 04 01 08 83 4E 96 04 00 04 01 08 82 4E 96 08 00 07 06 00 00 00 09 97 01 3D 87 01 00 02 17 99 02 00 05 01 96 05 00 04 01 09 84 01 4E 96 05 00 07 2C 01 00 00 48 12 96 05 00 04 01 09 84 01 4E 96 05 00 07 2E 01 00 00 67 12 10 12 9D 02 00 D8 00 96 05 00 07 02 00 00 00 30 96 05 00 07 01 00 00 00 49 12 9D 02 00 2B 00 96 1A 00 06 00 00 00 00 00 00 00 00 06 00 00 00 00 00 00 00 00 07 02 00 00 00 09 40 05 1C 96 03 00 09 8A 02 52 17 99 02 00 26 00 96 1A 00 06 00 00 00 00 00 00 00 00 06 00 00 00 00 00 00 00 00 07 02 00 00 00 09 41 05 1C 96 03 00 09 8A 02 52 17 96 11 00 07 64 00 00 00 07 64 00 00 00 09 D5 01 04 01 08 83 4E 96 05 00 07 01 00 00 00 47 18 96 04 00 04 01 08 83 4E 96 04 00 04 01 08 82 4E 96 08 00 07 06 00 00 00 09 97 01 3D 87 01 00 02 17 96 0D 00 09 E6 04 07 01 00 00 00 04 02 09 91 01 4E 96 03 00 09 4C 02 52 17 A0 03 00 09 D6 01 1C 96 0A 00 04 02 07 02 00 00 00 09 D7 01 3D 17 A0 02 00 08 04 1C 96 05 00 07 17 00 00 00 49 A0 02 00 08 04 1C 96 05 00 07 66 00 00 00 49 11 96 04 00 04 01 08 DA 4E 12 10 12 9D 02 00 89 00 96 04 00 04 01 08 85 4E 96 09 00 06 00 00 00 00 00 00 00 00 67 12 9D 02 00 12 00 96 05 00 07 46 00 00 00 87 01 00 03 17 99 02 00 0D 00 96 05 00 07 BA FF FF FF 87 01 00 03 17 96 0E 00 07 46 00 00 00 04 03 09 E4 04 04 01 08 C9 4E 96 05 00 07 01 00 00 00 47 18 96 04 00 04 01 08 C9 4E 96 04 00 04 01 08 C8 4E 96 08 00 07 06 00 00 00 09 97 01 3D 17 96 0C 00 04 01 07 01 00 00 00 04 01 09 28 02 52 17 99 02 00 11 00 96 0C 00 09 F0 04 07 01 00 00 00 04 01 08 13 52 17 96 05 00 04 01 09 91 01 4E 96 06 00 08 83 04 01 08 CA 4E 96 05 00 04 01 09 A9 01 4E 47 4F 96 05 00 04 01 09 91 01 4E 96 06 00 08 83 04 01 08 CA 4E 96 05 00 04 01 09 A9 01 4E 47 4F 96 0A 00 04 01 07 01 00 00 00 09 A6 01 3D 17 8E 1B 00
+unregistersymbol(notech)
+
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>129</ID>
+              <Description>"Alien can equip weapons in Weapons Frog - activate in Weapons Frog"</Description>
+              <LastState/>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+aobscanregion(AlienWeaponCheck,35000000,40000000,96 05 00 07 0b 00 00 00 49 96 04 00 04 02 08 61)
+aobscanregion(Stig,35000000,40000000,96 09 00 04 04 08 71 07 78 00 00 00 4F 96 09 00 04 04 08 72 07 78 00 00 00 4F)
+registersymbol(p_type11)
+registersymbol(Stign)
+
+label(p_type11)
+AlienWeaponCheck+00:
+p_type11:
+ db 96 05 00 07 00 00 00 00 49 96 04 00 04 02 08 61
+
+label(Stign)
+Stig+00:
+Stign:
+ db 96 09 00 04 04 08 71 07 B4 00 00 00 4F 96 09 00 04 04 08 72 07 B4 00 00 00 4F
+ 
+[DISABLE]
+p_type11:
+ db 96 05 00 07 0b 00 00 00 49 96 04 00 04 02 08 61
+
+Stign:
+ db 96 09 00 04 04 08 71 07 78 00 00 00 4F 96 09 00 04 04 08 72 07 78 00 00 00 4F
+
+unregistersymbol(p_type11)
+unregistersymbol(Stign)
+
+</AssemblerScript>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>13</ID>
+          <Description>"Apehook [T.A.G. &amp; Skooma]"</Description>
+          <Options moHideChildren="1" moManualExpandCollapse="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <Color>FF0000</Color>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>131</ID>
+              <Description>"Unlock all levels with shovel - WARNING: can't be undone"</Description>
+              <LastState/>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+aobscanregion(ShovelCheck,30000000,40000000,66 5F 53 68 6F 76 65 6C 43 68 65 63 6B 00 64 69 67 32 00 67 6F 74 6F 41 6E 64 53 74 6F 70)
+registersymbol(ShovelCheck)
+
+// Set ShovelCheck to FirstTimeInitOnce
+ShovelCheck:
+ db 66 5F 46 69 72 73 74 54 69 6D 65 49 6E 69 74 4F 6E 63 65 00 6F 74 6F 41 6E 64 53 74 6F 70
+
+aobscanregion(FirstTimeInitOnce,30000000,40000000,66 5F 46 69 72 73 74 54 69 6D 65 49 6E 69 74 4F 6E 63 65 00 00 00 03 6A 00 14 06 96 0B 00 06 00 00 00 00 00 00 00 00 08 0E 3D 96 05 00 07 03 00 00 00 49 12 9D 02 00 BB 00 96 05 00 07 01 00 00 00 87 01 00 02 17 96 07 00 04 02 07 04 00 00 00 67 70 12 9D 02 00 9C 00 96 06 00 04 01 08 28 04 02 18 47 96 02 00 08 29 47 96 09 00 06 00 00 00 00 00 00 00 00 4F 96 06 00 04 01 08 28 04 02 18 47 96 02 00 08 2A 47 96 09 00 06 00 00 00 00 00 00 00 00 4F 96 06 00 04 01 08 28 04 02 18 47 96 02 00 08 2B 47 96 09 00 06 00 00 00 00 00 00 00 00 4F 96 22 00 06 00 00 00 00 00 00 00 00 06 00 00 00 00 00 00 00 00 06 00 00 00 00 00 00 00 00 04 02 07 01 00 00 00 0B 96 07 00 07 04 00 00 00 08 2C 3D 17 96 02 00 04 02 50 87 01 00 02 17 99 02 00 52 FF 96 0B 00 05 00 08 09 07 02 00 00 00 08 0C 3D 17 96 12 00 06 00 00 00 00 00 00 00 00 08 2D 07 02 00 00 00 08 0C 3D 17 96 12 00 06 00 00 00 00 00 00 00 00 08 2E 07 02 00 00 00 08 0C 3D 17 96 12 00 06 00 00 00 00 00 00 00 00 08 2F 07 02 00 00 00 08 0C 3D 17 96 12 00 06 00 00 00 00 00 00 00 00 08 30 07 02 00 00 00 08 0C 3D 17 96 12 00 06 00 00 00 00 00 00 00 00 08 31 07 02 00 00 00 08 0C 3D 17 96 12 00 06 00 00 00 00 00 00 00 00 08 32 07 02 00 00 00 08 0C 3D 17 96 12 00 06 00 00 00 00 00 00 00 00 08 33 07 02 00 00 00 08 0C 3D 17 96 0D 00 08 34 06 00 00 00 00 00 00 00 00 08 35 40 1D 96 07 00 08 36 07 03 00 00 00 1D 96 07 00 08 37 07 06 00 00 00 1D 96 0B 00 08 38 06 46 DF 91 3F 39 9D 52 A2 1D 96 07 00 08 39 07 0A 00 00 00 1D 96 0B 00 08 3A 06 00 00 00 00 00 00 00 00 1D 96 0B 00 08 3B 06 00 00 00 00 00 00 00 00 1D 96 0B 00 08 3C 06 00 00 00 00 00 00 00 00 1D 96 0B 00 08 3D 06 00 00 00 00 00 00 00 00 1D 96 0B 00 08 3E 06 00 00 00 00 00 00 00 00 1D 96 0B 00 08 3F 06 00 00 00 00 00 00 00 00 1D 96 0B 00 08 40 06 00 00 00 00 00 00 00 00 1D 96 0B 00 08 41 06 00 00 00 00 00 00 00 00 1D 96 0B 00 08 42 06 00 00 00 00 00 00 00 00 1D 96 0D 00 08 43 06 00 00 00 00 00 00 00 00 08 44 3D 1D A0 02 00 08 1A 1C 70 12 9D 02 00 08 00 96 04 00 08 43 05 01 1D 96 07 00 08 45 07 01 00 00 00 1D 96 07 00 08 46 07 01 00 00 00 1D 96 0D 00 08 47 06 00 00 00 00 00 00 00 00 08 35 40 1D 96 0D 00 08 48 06 00 00 00 00 00 00 00 00 08 35 40 1D 96 0D 00 08 49 06 00 00 00 00 00 00 00 00 08 35 40 1D 96 0D 00 08 4A 06 00 00 00 00 00 00 00 00 08 35 40 1D 96 0D 00 08 4B 06 00 00 00 00 00 00 00 00 08 35 40 1D 96 0D 00 08 4C 06 00 00 00 00 00 00 00 00 08 35 40 1D 96 0D 00 08 4D 06 00 00 00 00 00 00 00 00 08 35 40 1D 96 0D 00 08 4E 06 00 00 00 00 00 00 00 00 08 35 40 1D 96 0D 00 08 4F 06 00 00 00 00 00 00 00 00 08 35 40 1D 96 0B 00 08 50 06 00 00 00 00 00 00 00 00 1D 96 07 00 08 51 07 01 00 00 00 1D 96 07 00 08 52 07 02 00 00 00 1D 96 07 00 08 53 07 03 00 00 00 1D 96 07 00 08 54 07 04 00 00 00 1D 96 07 00 08 55 07 05 00 00 00 1D 96 07 00 08 56 07 06 00 00 00 1D 96 0B 00 08 57 06 00 00 00 00 00 00 00 00 1D 96 07 00 08 58 07 01 00 00 00 1D 96 07 00 08 59 07 02 00 00 00 1D 96 07 00 08 5A 07 04 00 00 00 1D 96 07 00 08 5B 07 08 00 00 00 1D 96 07 00 08 5C 07 10 00 00 00 1D 96 07 00 08 5D 07 20 00 00 00 1D 96 07 00 08 5E 07 C8 00 00 00 1D 96 04 00 08 5F 05 01 1D 96 04 00 08 60 05 00 1D 96 0E 00 08 61 07 06 00 00 00 07 01 00 00 00 08 62 3D 1D 96 0E 00 08 63 07 0A 00 00 00 07 01 00 00 00 08 64 40 1D 96 09 00 06 00 00 00 00 00 00 00 00 87 01 00 02 17 96 07 00 04 02 07 0A 00 00 00 48 12 9D 02 00 1E 00 A0 02 00 08 63 1C A3 04 00 04 02 05 01 4F 96 02 00 04 02 50 87 01 00 02 17 99 02 00 D1 FF 96 0B 00 06 00 00 00 00 00 00 00 00 08 65 3D 17 96 0B 00 06 00 00 00 00 00 00 00 00 08 66 3D 17 96 04 00 08 67 05 00 1D 96 0B 00 06 00 00 00 00 00 00 00 00 08 68 3D 17 96 0B 00 06 00 00 00 00 00 00 00 00 08 69 3D 96 02 00 05 00 49 12 9D 02 00 10 00 96 07 00 08 6A 07 80 02 00 00 1D 99 02 00 0B 00 96 07 00 08 6A 07 50 03 00 00 1D 96 0B 00 06 00 00 00 00 00 00 00 00 08 6B 3D 96 02 00 05 01 49 12 9D 02 00 10 00 96 07 00 08 6C 07 40 02 00 00 1D 99 02 00 0B 00 96 07 00 08 6C 07 E0 01 00 00 1D A1 04 00 08 6D 08 6A 1C 96 05 00 07 02 00 00 00 0D 1D A1 04 00 08 6E 08 6C 1C 96 05 00 07 02 00 00 00 0D 1D A1 04 00 08 6F 08 6A 1C A0 02 00 08 6C 1C 0D 1D 96 07 00 08 70 07 50 03 00 00 1D 96 07 00 08 71 07 E0 01 00 00 1D A1 04 00 08 72 08 70 1C 96 05 00 07 02 00 00 00 0D 1D A1 04 00 08 73 08 71 1C 96 05 00 07 02 00 00 00 0D 1D A1 04 00 08 74 08 70 1C A0 02 00 08 71 1C 0D 1D A1 04 00 08 75 08 6A 1C A0 02 00 08 70 1C 0D 1D 96 0B 00 08 76 06 00 00 00 00 00 00 00 00 1D 96 0B 00 08 77 06 00 00 00 00 00 00 00 00 1D 96 07 00 08 78 07 50 00 00 00 1D 96 07 00 08 79 07 28 00 00 00 1D A1 04 00 08 7A 08 70 1C 96 05 00 07 02 00 00 00 0C 1D 96 09 00 05 01 07 01 00 00 00 08 19 3D 17 96 0B 00 06 00 00 00 00 00 00 00 00 08 7B 3D 17 96 06 00 08 7C 04 01 08 7D 4E 9A 01 00 40 96 09 00 08 1E 07 13 00 00 00 08 7E 23 96 09 00 08 7F 07 01 00 00 00 08 80 3D 17 8E 21 00)
+registersymbol(FirstTimeInitOnce)
+
+// Set FirstTimeInitOnce to unlock all levels with f_SetLevelCompleted
+FirstTimeInitOnce:
+ db 66 5F 46 69 72 73 74 54 69 6D 65 49 6E 69 74 4F 6E 63 65 00 00 00 03 6A 00 14 06 96 0d 00 07 0e 00 00 00 07 01 00 00 00 09 bf 07 3d 17 96 0d 00 07 0d 00 00 00 07 01 00 00 00 09 bf 07 3d 17 96 0d 00 07 13 00 00 00 07 01 00 00 00 09 bf 07 3d 17 96 0d 00 07 0b 00 00 00 07 01 00 00 00 09 bf 07 3d 17 96 0d 00 07 07 00 00 00 07 01 00 00 00 09 bf 07 3d 17 96 0d 00 07 12 00 00 00 07 01 00 00 00 09 bf 07 3d 17 96 0d 00 07 04 00 00 00 07 01 00 00 00 09 bf 07 3d 17 96 0d 00 07 16 00 00 00 07 01 00 00 00 09 bf 07 3d 17 96 0d 00 07 17 00 00 00 07 01 00 00 00 09 bf 07 3d 17 96 0d 00 07 14 00 00 00 07 01 00 00 00 09 bf 07 3d 17 96 0d 00 07 15 00 00 00 07 01 00 00 00 09 bf 07 3d 17 96 0d 00 07 1c 00 00 00 07 01 00 00 00 09 bf 07 3d 17 96 0d 00 07 1d 00 00 00 07 01 00 00 00 09 bf 07 3d 17 96 0d 00 07 23 00 00 00 07 01 00 00 00 09 bf 07 3d 17 96 0d 00 07 25 00 00 00 07 01 00 00 00 09 bf 07 3d 17 96 0d 00 07 26 00 00 00 07 01 00 00 00 09 bf 07 3d 17 96 0d 00 07 24 00 00 00 07 01 00 00 00 09 bf 07 3d 17 96 0d 00 07 1e 00 00 00 07 01 00 00 00 09 bf 07 3d 17 96 0d 00 07 06 00 00 00 07 01 00 00 00 09 bf 07 3d 17 96 0d 00 07 09 00 00 00 07 01 00 00 00 09 bf 07 3d 17 96 0d 00 07 28 00 00 00 07 01 00 00 00 09 bf 07 3d 17 96 0d 00 07 29 00 00 00 07 01 00 00 00 09 bf 07 3d 17 96 0d 00 07 01 00 00 00 07 01 00 00 00 09 bf 07 3d 17 96 0d 00 07 36 00 00 00 07 01 00 00 00 09 bf 07 3d 17 96 0d 00 07 2A 00 00 00 07 01 00 00 00 09 bf 07 3d 17 96 0d 00 07 2b 00 00 00 07 01 00 00 00 09 bf 07 3d 17 96 0d 00 07 21 00 00 00 07 01 00 00 00 09 bf 07 3d 17 96 0d 00 07 0a 00 00 00 07 01 00 00 00 09 bf 07 3d 17 96 0d 00 07 2d 00 00 00 07 01 00 00 00 09 bf 07 3d 17 96 0d 00 07 03 00 00 00 07 01 00 00 00 09 bf 07 3d 17 96 0d 00 07 22 00 00 00 07 01 00 00 00 09 bf 07 3d 17 96 0d 00 07 1f 00 00 00 07 01 00 00 00 09 bf 07 3d 17 96 0d 00 07 39 00 00 00 07 01 00 00 00 09 bf 07 3d 17 96 0d 00 07 39 00 00 00 07 01 00 00 00 09 c0 07 3d 17 96 0d 00 07 19 00 00 00 07 01 00 00 00 09 bf 07 3d 17 96 0d 00 07 2c 00 00 00 07 01 00 00 00 09 bf 07 3d 17 96 0d 00 07 32 00 00 00 07 01 00 00 00 09 bf 07 3d 17 96 0d 00 07 18 00 00 00 07 01 00 00 00 09 bf 07 3d 17 96 0d 00 07 05 00 00 00 07 01 00 00 00 09 bf 07 3d 17 96 0d 00 07 2E 00 00 00 07 01 00 00 00 09 bf 07 3d 17 96 0d 00 07 1b 00 00 00 07 01 00 00 00 09 bf 07 3d 17 96 0d 00 07 1a 00 00 00 07 01 00 00 00 09 bf 07 3d 17 96 0d 00 07 2f 00 00 00 07 01 00 00 00 09 bf 07 3d 17 96 0d 00 07 08 00 00 00 07 01 00 00 00 09 bf 07 3d 17 96 0d 00 07 33 00 00 00 07 01 00 00 00 09 bf 07 3d 17 96 0d 00 07 35 00 00 00 07 01 00 00 00 09 bf 07 3d 17 96 0d 00 07 37 00 00 00 07 01 00 00 00 09 bf 07 3d 17 96 0d 00 07 30 00 00 00 07 01 00 00 00 09 bf 07 3d 17 96 0d 00 07 11 00 00 00 07 01 00 00 00 09 bf 07 3d 17 96 0d 00 07 31 00 00 00 07 01 00 00 00 09 bf 07 3d 17 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 8E 21 00
+
+
+
+[DISABLE]
+ShovelCheck:
+ db 66 5F 53 68 6F 76 65 6C 43 68 65 63 6B 00 64 69 67 32 00 67 6F 74 6F 41 6E 64 53 74 6F 70
+
+FirstTimeInitOnce:
+ db 66 5F 46 69 72 73 74 54 69 6D 65 49 6E 69 74 4F 6E 63 65 00 00 00 03 6A 00 14 06 96 0B 00 06 00 00 00 00 00 00 00 00 08 0E 3D 96 05 00 07 03 00 00 00 49 12 9D 02 00 BB 00 96 05 00 07 01 00 00 00 87 01 00 02 17 96 07 00 04 02 07 04 00 00 00 67 70 12 9D 02 00 9C 00 96 06 00 04 01 08 28 04 02 18 47 96 02 00 08 29 47 96 09 00 06 00 00 00 00 00 00 00 00 4F 96 06 00 04 01 08 28 04 02 18 47 96 02 00 08 2A 47 96 09 00 06 00 00 00 00 00 00 00 00 4F 96 06 00 04 01 08 28 04 02 18 47 96 02 00 08 2B 47 96 09 00 06 00 00 00 00 00 00 00 00 4F 96 22 00 06 00 00 00 00 00 00 00 00 06 00 00 00 00 00 00 00 00 06 00 00 00 00 00 00 00 00 04 02 07 01 00 00 00 0B 96 07 00 07 04 00 00 00 08 2C 3D 17 96 02 00 04 02 50 87 01 00 02 17 99 02 00 52 FF 96 0B 00 05 00 08 09 07 02 00 00 00 08 0C 3D 17 96 12 00 06 00 00 00 00 00 00 00 00 08 2D 07 02 00 00 00 08 0C 3D 17 96 12 00 06 00 00 00 00 00 00 00 00 08 2E 07 02 00 00 00 08 0C 3D 17 96 12 00 06 00 00 00 00 00 00 00 00 08 2F 07 02 00 00 00 08 0C 3D 17 96 12 00 06 00 00 00 00 00 00 00 00 08 30 07 02 00 00 00 08 0C 3D 17 96 12 00 06 00 00 00 00 00 00 00 00 08 31 07 02 00 00 00 08 0C 3D 17 96 12 00 06 00 00 00 00 00 00 00 00 08 32 07 02 00 00 00 08 0C 3D 17 96 12 00 06 00 00 00 00 00 00 00 00 08 33 07 02 00 00 00 08 0C 3D 17 96 0D 00 08 34 06 00 00 00 00 00 00 00 00 08 35 40 1D 96 07 00 08 36 07 03 00 00 00 1D 96 07 00 08 37 07 06 00 00 00 1D 96 0B 00 08 38 06 46 DF 91 3F 39 9D 52 A2 1D 96 07 00 08 39 07 0A 00 00 00 1D 96 0B 00 08 3A 06 00 00 00 00 00 00 00 00 1D 96 0B 00 08 3B 06 00 00 00 00 00 00 00 00 1D 96 0B 00 08 3C 06 00 00 00 00 00 00 00 00 1D 96 0B 00 08 3D 06 00 00 00 00 00 00 00 00 1D 96 0B 00 08 3E 06 00 00 00 00 00 00 00 00 1D 96 0B 00 08 3F 06 00 00 00 00 00 00 00 00 1D 96 0B 00 08 40 06 00 00 00 00 00 00 00 00 1D 96 0B 00 08 41 06 00 00 00 00 00 00 00 00 1D 96 0B 00 08 42 06 00 00 00 00 00 00 00 00 1D 96 0D 00 08 43 06 00 00 00 00 00 00 00 00 08 44 3D 1D A0 02 00 08 1A 1C 70 12 9D 02 00 08 00 96 04 00 08 43 05 01 1D 96 07 00 08 45 07 01 00 00 00 1D 96 07 00 08 46 07 01 00 00 00 1D 96 0D 00 08 47 06 00 00 00 00 00 00 00 00 08 35 40 1D 96 0D 00 08 48 06 00 00 00 00 00 00 00 00 08 35 40 1D 96 0D 00 08 49 06 00 00 00 00 00 00 00 00 08 35 40 1D 96 0D 00 08 4A 06 00 00 00 00 00 00 00 00 08 35 40 1D 96 0D 00 08 4B 06 00 00 00 00 00 00 00 00 08 35 40 1D 96 0D 00 08 4C 06 00 00 00 00 00 00 00 00 08 35 40 1D 96 0D 00 08 4D 06 00 00 00 00 00 00 00 00 08 35 40 1D 96 0D 00 08 4E 06 00 00 00 00 00 00 00 00 08 35 40 1D 96 0D 00 08 4F 06 00 00 00 00 00 00 00 00 08 35 40 1D 96 0B 00 08 50 06 00 00 00 00 00 00 00 00 1D 96 07 00 08 51 07 01 00 00 00 1D 96 07 00 08 52 07 02 00 00 00 1D 96 07 00 08 53 07 03 00 00 00 1D 96 07 00 08 54 07 04 00 00 00 1D 96 07 00 08 55 07 05 00 00 00 1D 96 07 00 08 56 07 06 00 00 00 1D 96 0B 00 08 57 06 00 00 00 00 00 00 00 00 1D 96 07 00 08 58 07 01 00 00 00 1D 96 07 00 08 59 07 02 00 00 00 1D 96 07 00 08 5A 07 04 00 00 00 1D 96 07 00 08 5B 07 08 00 00 00 1D 96 07 00 08 5C 07 10 00 00 00 1D 96 07 00 08 5D 07 20 00 00 00 1D 96 07 00 08 5E 07 C8 00 00 00 1D 96 04 00 08 5F 05 01 1D 96 04 00 08 60 05 00 1D 96 0E 00 08 61 07 06 00 00 00 07 01 00 00 00 08 62 3D 1D 96 0E 00 08 63 07 0A 00 00 00 07 01 00 00 00 08 64 40 1D 96 09 00 06 00 00 00 00 00 00 00 00 87 01 00 02 17 96 07 00 04 02 07 0A 00 00 00 48 12 9D 02 00 1E 00 A0 02 00 08 63 1C A3 04 00 04 02 05 01 4F 96 02 00 04 02 50 87 01 00 02 17 99 02 00 D1 FF 96 0B 00 06 00 00 00 00 00 00 00 00 08 65 3D 17 96 0B 00 06 00 00 00 00 00 00 00 00 08 66 3D 17 96 04 00 08 67 05 00 1D 96 0B 00 06 00 00 00 00 00 00 00 00 08 68 3D 17 96 0B 00 06 00 00 00 00 00 00 00 00 08 69 3D 96 02 00 05 00 49 12 9D 02 00 10 00 96 07 00 08 6A 07 80 02 00 00 1D 99 02 00 0B 00 96 07 00 08 6A 07 50 03 00 00 1D 96 0B 00 06 00 00 00 00 00 00 00 00 08 6B 3D 96 02 00 05 01 49 12 9D 02 00 10 00 96 07 00 08 6C 07 40 02 00 00 1D 99 02 00 0B 00 96 07 00 08 6C 07 E0 01 00 00 1D A1 04 00 08 6D 08 6A 1C 96 05 00 07 02 00 00 00 0D 1D A1 04 00 08 6E 08 6C 1C 96 05 00 07 02 00 00 00 0D 1D A1 04 00 08 6F 08 6A 1C A0 02 00 08 6C 1C 0D 1D 96 07 00 08 70 07 50 03 00 00 1D 96 07 00 08 71 07 E0 01 00 00 1D A1 04 00 08 72 08 70 1C 96 05 00 07 02 00 00 00 0D 1D A1 04 00 08 73 08 71 1C 96 05 00 07 02 00 00 00 0D 1D A1 04 00 08 74 08 70 1C A0 02 00 08 71 1C 0D 1D A1 04 00 08 75 08 6A 1C A0 02 00 08 70 1C 0D 1D 96 0B 00 08 76 06 00 00 00 00 00 00 00 00 1D 96 0B 00 08 77 06 00 00 00 00 00 00 00 00 1D 96 07 00 08 78 07 50 00 00 00 1D 96 07 00 08 79 07 28 00 00 00 1D A1 04 00 08 7A 08 70 1C 96 05 00 07 02 00 00 00 0C 1D 96 09 00 05 01 07 01 00 00 00 08 19 3D 17 96 0B 00 06 00 00 00 00 00 00 00 00 08 7B 3D 17 96 06 00 08 7C 04 01 08 7D 4E 9A 01 00 40 96 09 00 08 1E 07 13 00 00 00 08 7E 23 96 09 00 08 7F 07 01 00 00 00 08 80 3D 17 8E 21 00
+
+unregistersymbol(ShovelCheck)
+unregistersymbol(FirstTimeInitOnce)
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>139</ID>
+              <Description>"Boomerang Kills Enemies Lua"</Description>
+              <LastState/>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>{$lua}
+if syntaxcheck then return end
+[ENABLE]
+-- use a non-local aka global variable, name should be unique to avoid multiple scripts interfering
+f_BoomerangTrail_results = AOBScan('66 5F 42 6F 6F 6D 65 72 61 6E 67 54 72 61 69 6C')
+if f_BoomerangTrail_results then
+  for i=0, f_BoomerangTrail_results.Count-1 do
+    writeBytes(f_BoomerangTrail_results[i], { 102, 95, 75, 105, 108, 108, 69, 110, 101, 109, 105, 101, 115, 0})
+  end
+end
+[DISABLE]
+if f_BoomerangTrail_results then
+  for i=0, f_BoomerangTrail_results.Count-1 do
+    writeBytes(f_BoomerangTrail_results[i], {102,95,66,111,111,109,101,114,97,110,103,84,114,97,105,108,0})
+  end
+  f_BoomerangTrail_results.destroy()
+  f_BoomerangTrail_results = nil
+end
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>133</ID>
+              <Description>"Overflow Score Tally"</Description>
+              <LastState/>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+// Replace exp/kills/gold to an integer in f_ScoreTally
+aobscanregion(f_ScoreTally,30000000,40000000,8e 14 00 66 5f 53 63 6f 72 65 54 61 6c 6c 79 00 00 00 03 2a)
+registersymbol(tallies)
+
+// 96 05 00 07 E7 03 00 00 = 999
+// 96 05 00 07 0F 27 00 00 = 9999
+// 96 05 00 07 ff ff ff 7f = 2147483647
+
+label(tallies)
+f_ScoreTally+cd:
+tallies:
+ db 96 05 00 04 01 09 6F 01 4E 96 03 00 09 BB 07 96 05 00 07 FF FF FF 7F 4F 96 05 00 04 01 09 6F 01 4E 96 03 00 09 BC 07 96 05 00 07 FF FF FF 7F 4F 96 05 00 04 01 09 6F 01 4E 96 03 00 09 BD 07 96 05 00 07 FF FF FF 7F 18 18 18 18 18 18 18 18 18 18 18 18 18 4F
+// exp = f_ScoreTally+cd:
+// db 96 05 00 04 01 09 6F 01 4E 96 03 00 09 BB 07 96 05 00 07 FF FF FF 7F 18 18 18 18 18 18 18 18 4F
+// kills = f_ScoreTally+ed:
+// db 96 05 00 04 01 09 6F 01 4E 96 03 00 09 BC 07 96 05 00 07 FF FF FF 7F 4F
+// gold = f_ScoreTally+102:
+// db 96 05 00 04 01 09 6F 01 4E 96 03 00 09 BD 07 96 05 00 07 FF FF FF 7F 18 18 18 18 18 18 18 18 4F
+
+
+
+[DISABLE]
+tallies:
+ db 96 05 00 04 01 09 6F 01 4E 96 08 00 09 BB 07 04 01 09 FD 03 4E 96 05 00 04 01 09 00 04 4E 0B 4F 96 05 00 04 01 09 6F 01 4E 96 07 00 09 BC 07 04 01 08 1F 4E 4F 96 05 00 04 01 09 6F 01 4E 96 08 00 09 BD 07 04 01 09 45 02 4E 96 05 00 04 01 09 0B 04 4E 0B 4F
+// exp
+// db 96 05 00 04 01 09 6F 01 4E 96 08 00 09 BB 07 04 01 09 FD 03 4E 96 05 00 04 01 09 00 04 4E 0B 4F
+// kills
+// db 96 05 00 04 01 09 6F 01 4E 96 07 00 09 BC 07 04 01 08 1F 4E 4F
+// gold
+// db 96 05 00 04 01 09 6F 01 4E 96 08 00 09 BD 07 04 01 09 45 02 4E 96 05 00 04 01 09 0B 04 4E 0B 4F
+
+unregistersymbol(tallies)
+
+</AssemblerScript>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>14</ID>
+          <Description>"Dodecafunctional Reorganizations [Glück]"</Description>
+          <Options moHideChildren="1" moManualExpandCollapse="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <Color>0080FF</Color>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>141</ID>
+              <Description>"Damage Colour Change"</Description>
+              <Options moHideChildren="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
+              <LastState/>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+// Scans for the damage and heal colours under f_Damage, registers them both for user input
+aobscanregion(f_Damage,30000000,40000000,?? 0b 00 04 0c 06 00 00 00 00 00 00 00 00 67 12 9d 02 00 11 00 ?? 03 00 09 1d 02 1c 87 01 00 14 17 99 02 00 0c 00 ?? 03 00 09 1c 02 1c 87 01 00 14 17)
+
+registersymbol(DamageColour)
+label(DamageColour)
+f_Damage+19:
+DamageColour:
+
+
+
+[DISABLE]
+DamageColour:
+ db 1d 02
+
+unregistersymbol(DamageColour)
+
+</AssemblerScript>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>1411</ID>
+                  <Description>"Damage Colour"</Description>
+                  <DropDownList ReadOnly="1" DisplayValueAsItem="1">1d 02:Red
+1c 02:Green
+88 02:Dark
+f0 02:Default
+79 05:Gold
+1e 02:Blue
+1f 02:Orange
+42 02:Grey
+8c 05:Dark Green
+12 08:Red 2
+13 08:Red 3
+14 08:Dark Red
+15 08:Yellow
+16 08:Purple
+17 08:Very Dark
+18 08:Light Green
+19 08:Light Red
+1a 08:Light Orange
+1b 08:Light Blue
+1c 08:Bright
+1d 08:White
+1e 08:Dirt 1
+1f 08:Dirt 2
+20 08:Water 1
+21 08:Water 2
+22 08:Water 3
+23 08:Light Blue 2
+</DropDownList>
+                  <ShowAsHex>1</ShowAsHex>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>Array of byte</VariableType>
+                  <ByteLength>2</ByteLength>
+                  <Address>DamageColour</Address>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>142</ID>
+              <Description>"Enable Friendly Fire"</Description>
+              <LastState/>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+//Sets f_SparkleEffectClock to set friendly_fire to true
+aobscanregion(SparkleEffectClock,30000000,40000000,96 05 00 04 01 09 92 05 4e 96 09 00 06 00 00 00 00 00 00 00 00 67 12 9d 02 00 47 00 96 05 00 04 01 09 92 05 4e 96 05 00 07 04 00 00 00 3f 96 09 00 06 00 00 00 00 00 00 00 00 49 12 9d 02 00 12 00 96 0d 00 09 d9 05 04 01 07 02 00 00 00 09 d1 05 3d 17 96 0a 00 04 01 09 92 05 04 01 09 92 05 4e 51 4f)
+registersymbol(SparkleEffectClock)
+
+SparkleEffectClock:
+ db 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 96 04 00 08 67 05 01 1d
+
+
+
+[DISABLE]
+SparkleEffectClock:
+ db 96 05 00 04 01 09 92 05 4e 96 09 00 06 00 00 00 00 00 00 00 00 67 12 9d 02 00 47 00 96 05 00 04 01 09 92 05 4e 96 05 00 07 04 00 00 00 3f 96 09 00 06 00 00 00 00 00 00 00 00 49 12 9d 02 00 12 00 96 0d 00 09 d9 05 04 01 07 02 00 00 00 09 d1 05 3d 17 96 0a 00 04 01 09 92 05 04 01 09 92 05 4e 51 4f
+
+unregistersymbol(SparkleEffectClock)
+
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>143</ID>
+              <Description>"Level 256"</Description>
+              <LastState/>
+              <Color>000000</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+//Sets f_SparkleEffectClock to set level and stats to 256 if human and !npc
+aobscanregion(SparkleEffectClock,30000000,40000000,96 05 00 04 01 09 92 05 4e 96 09 00 06 00 00 00 00 00 00 00 00 67 12 9d 02 00 47 00 96 05 00 04 01 09 92 05 4e 96 05 00 07 04 00 00 00 3f 96 09 00 06 00 00 00 00 00 00 00 00 49 12 9d 02 00 12 00 96 0d 00 09 d9 05 04 01 07 02 00 00 00 09 d1 05 3d 17 96 0a 00 04 01 09 92 05 04 01 09 92 05 4e 51 4f)
+registersymbol(SparkleEffectClock)
+SparkleEffectClock:
+ db 00 00 00 00 96 05 00 04 01 09 b9 01 4e 96 05 00 04 01 09 81 01 4e 12 10 12 9d 02 00 45 00 96 09 00 04 01 08 04 07 00 01 00 00 4f 96 0a 00 04 01 09 03 04 07 00 01 00 00 4f 96 0a 00 04 01 09 04 04 07 00 01 00 00 4f 96 0a 00 04 01 09 05 04 07 00 01 00 00 4f 96 0a 00 04 01 09 06 04 07 00 01 00 00 4f
+
+[DISABLE]
+
+SparkleEffectClock:
+ db 96 05 00 04 01 09 92 05 4e 96 09 00 06 00 00 00 00 00 00 00 00 67 12 9d 02 00 47 00 96 05 00 04 01 09 92 05 4e 96 05 00 07 04 00 00 00 3f 96 09 00 06 00 00 00 00 00 00 00 00 49 12 9d 02 00 12 00 96 0d 00 09 d9 05 04 01 07 02 00 00 00 09 d1 05 3d 17 96 0a 00 04 01 09 92 05 04 01 09 92 05 4e 51 4f
+unregistersymbol(SparkleEffectClock)
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>144</ID>
+              <Description>"Unlock All Characters with shovel - WARNING: can't be undone"</Description>
+              <LastState/>
+              <Color>000000</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+//INSTRUCTIONS:
+//Use the shovel after enabling the script, this will unlock all characters. Next, exit to menu
+
+//Edits f_ShovelCheck to run a while loop that unlocks all characters
+aobscanregion(ShovelCheck,30000000,40000000,8e 1b 00 66 5f 53 68 6f 76 65 6c 43 68 65 63 6b 00 01 00 03 2a 00 01 7a 6f 6e 65 00 5a 01)
+registersymbol(ShovelCheck)
+ShovelCheck:
+ db 8e 1b 00 66 5f 53 68 6f 76 65 6c 43 68 65 63 6b 00 01 00 03 2a 00 01 7a 6f 6e 65 00 5a 01 96 08 00 09 18 04 07 01 00 00 00 1d 96 03 00 09 18 04 1c 96 05 00 07 20 00 00 00 48 12 9d 02 00 2f 00 96 03 00 09 18 04 1c 96 0a 00 04 01 07 02 00 00 00 09 03 08 3d 17 96 06 00 09 18 04 09 18 04 1c 96 05 00 07 01 00 00 00 47 1d 99 02 00 bb ff 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+
+[DISABLE]
+//not available due to lack of §§popped real bytes for f_ShovelCheck (too lazy to get them)
+</AssemblerScript>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>15</ID>
+          <Description>"A1rPun's Modding Tools"</Description>
+          <Options moHideChildren="1" moManualExpandCollapse="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <Color>808080</Color>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>151</ID>
+              <Description>"Lua template with ENABLE/DISABLE"</Description>
+              <LastState/>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>{$lua}
+-- This is just an example and should not be used, use the other template instead
+-- The reason you don't need to do something like this is because the symbol {$asm} exists
+if syntaxcheck then return end
+[ENABLE]
+local scriptStr = [[
+  // asm ENABLE part
+]]
+
+if not autoAssemble(scriptStr) then
+  return 1, 'There was an error enabling the auto assembler script.'
+end
+
+[DISABLE]
+local scriptStr = [[
+  // asm DISABLE part
+]]
+
+if not autoAssemble(scriptStr) then
+  return 1, 'There was an error disabling the auto assembler script.'
+end
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>152</ID>
+              <Description>"Lua function for CE form"</Description>
+              <LastState/>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>{$lua}
+function customScriptName(toggle)
+  if toggle then
+    local scriptStr = [[
+	  // asm ENABLE part
+    ]]
+  else
+    local scriptStr = [[
+	  // asm DISABLE part
+    ]]
+  end
+
+  if not autoAssemble(scriptStr) then
+    return 1, 'There was an error with the auto assembler script.'
+  end
+end
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>999</ID>
+              <Description>"Tom Fulp's Cheats (Example)"</Description>
+              <Options moHideChildren="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
+              <LastState/>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+// Replace boolean values in GetCheat()
+aobscanregion(GetCheat,30000000,40000000,8E 15 00 47 65 74 43 68 65 61 74 00 01 00 03 6A 00 02 6E 75 6D)
+registersymbol(cheat0)
+registersymbol(cheat1)
+registersymbol(cheat4)
+registersymbol(cheat5)
+registersymbol(cheat6)
+registersymbol(cheat8)
+registersymbol(cheat9)
+
+label(cheat0)
+GetCheat+cc:
+cheat0:
+
+label(cheat1)
+GetCheat+d2:
+cheat1:
+
+label(cheat4)
+GetCheat+e4:
+cheat4:
+
+label(cheat5)
+GetCheat+ea:
+cheat5:
+
+label(cheat6)
+GetCheat+f0:
+cheat6:
+
+label(cheat8)
+GetCheat+109:
+cheat8:
+
+label(cheat9)
+GetCheat+10f:
+cheat9:
+
+[DISABLE]
+
+unregistersymbol(cheat0)
+unregistersymbol(cheat1)
+unregistersymbol(cheat4)
+unregistersymbol(cheat5)
+unregistersymbol(cheat6)
+unregistersymbol(cheat8)
+unregistersymbol(cheat9)
+
+</AssemblerScript>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>9990</ID>
+                  <Description>"Cheat 0: map unlock"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+cheat1:
+ db 00
+
+[DISABLE]
+cheat1:
+ db 01
+
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>9991</ID>
+                  <Description>"Cheat 1: animal unlocks"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+cheat1:
+ db 00
+
+[DISABLE]
+cheat1:
+ db 01
+
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>9992</ID>
+                  <Description>"Cheat 4: item unlocks"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+cheat4:
+ db 01
+
+[DISABLE]
+cheat4:
+ db 00
+
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>9993</ID>
+                  <Description>"Cheat 5: all characters"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+cheat5:
+ db 00
+
+[DISABLE]
+cheat5:
+ db 01
+
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>9994</ID>
+                  <Description>"Cheat 6: EZ enemies (1hp)"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+cheat6:
+ db 01
+
+[DISABLE]
+cheat6:
+ db 00
+
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>9995</ID>
+                  <Description>"Cheat 8: combo unlocks"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+cheat8:
+ db 00
+
+[DISABLE]
+cheat8:
+ db 01
+
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>9996</ID>
+                  <Description>"Cheat 9: magic unlocks"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+cheat9:
+ db 00
+
+[DISABLE]
+cheat9:
+ db 01
+
+</AssemblerScript>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>153</ID>
+              <Description>"Blank script"</Description>
+              <LastState/>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+// 
+[DISABLE]
+
+</AssemblerScript>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>

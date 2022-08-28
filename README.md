@@ -39,12 +39,16 @@
 - [Achievements/Trophies](/Platforms/Achievements.md)
 - [Controls](/Mechanics/Controls.md)
 - [Downloadable content (DLC)](/Platforms/DLC.md)
-- [Savegame modding](/Platforms/Mods.md)
-- [Modding tutorial](/Platforms/ModTutorial.md)
 - [Music](/Mechanics/Music.md)
 - [Release dates](/Platforms/ReleaseDates.md)
 - [Speedrunning](/Platforms/Speedrun.md)
 - [Invisible player bug](/Platforms/InvisiblePlayerBug.md)
+
+### Modding
+
+- [Savegame modding](/Platforms/Mods.md)
+- [Cheatengine modding tutorial](/Platforms/ModTutorial.md)
+- [A1rPun's scripts explanation](/Platforms/A1rMods.md)
 
 ### Levels
 

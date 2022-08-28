@@ -1,4 +1,4 @@
-# Mods
+# Modding
 
 - [Cheat Engine](#cheatengine)
 - [Xbox 360](#xbox360)
