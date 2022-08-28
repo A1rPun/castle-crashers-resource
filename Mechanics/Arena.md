@@ -1,5 +1,6 @@
 # Arena
 
+- [Arena levels](/Levels/Arenas.md)
 - [Unwritten rules](#rules)
 - [Characters](#characters)
 - [Pets](#pets)
@@ -12,10 +13,10 @@
   - [Stat distribution](#stats)
   - [Resets](#resets)
     - [Magic jump reset](#reset-mj)
-    - [Splash reset](#reset-ms)
+    - [Splash reset](#reset-mh)
     - Light attack reset
     - Slam reset (tek)
-    - [Air projectile reset](#reset-ap)
+    - [Air projectile reset](#reset-mh-projectile)
     - Projectile reset
     - Bomb reset
     - Arrow reset
@@ -135,14 +136,14 @@ It takes _TODO: quote needed_ second(s) for an enemy player to stand up, in this
 
 Commonly used by doing a MJ on the frame the opponent stands up. Can be countered if it's incorrectly timed by a MJ.
 
-#### <a name="reset-ms"></a>Splash reset
+#### <a name="reset-mh"></a>Splash reset
 
 Do a MH just before the opponent stands up. Every character has different timings. Most of the time the opponent bounces towards you for an easy juggle setup.
 Can be countered if it's incorrectly timed by holding up or down.
 
 _TODO: insert Flamming's audio/framelength comparison_
 
-#### <a name="reset-ap"></a>Air projectile reset
+#### <a name="reset-mh-projectile"></a>Air projectile reset
 
 You can prepare for an aerial reset by ending your combo with a spinning uppercut (LHL).
 Can be countered if it's incorrectly timed. Can also be countered with block if the projectile faces the opponent, so attack from behind.
