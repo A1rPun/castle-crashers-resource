@@ -18,11 +18,11 @@
   - [Horizontally Longways Snow World](#snowworld3)
 - [Spots](#spots)
 - [WR](#wr)
-- [Tierlist according to WR holder Meme_Cuisine](#tierlist)
+- [Tierlist according to WR holder Meme_Cuisine_](#tierlist)
 
 ## <a name="strategy"></a>Strategy
 
-Meme_Cuisine wrote:
+Meme_Cuisine_ wrote:
 
 - Memorize patterns and how maps are structured
 - Get used to map & pattern rotation
@@ -122,7 +122,7 @@ Just for fun spot on [Horizontally Longways Snow World](#snowworld3)
 
 [Back Off Barbarian Current Co-Op Record [6:14]](https://youtu.be/KaPz2pSqQCY)
 
-## <a name="tierlist"></a>Tierlist according to WR holder Meme_Cuisine
+## <a name="tierlist"></a>Tierlist according to WR holder Meme_Cuisine_
 
 ![image](/Images/BoBTiers.png)
 

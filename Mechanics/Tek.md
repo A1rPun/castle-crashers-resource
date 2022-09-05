@@ -6,7 +6,7 @@
 - [Tornado tek](#tek-tornado)
 - [Running tek](#running-tek)
 - [Ladder tek](#tek-ladder)
-- [Deathtek](#tek-death)
+- [Invincible man](#tek-death)
 
 ![Recovery jump / Tek](/Images/Animations/tek.gif)
 
@@ -81,12 +81,13 @@ Only usage:
 
 - Full Moon
 
-## <a name="tek-death"></a>Deathtek
+## <a name="tek-death"></a>Invincible man
 
-2 setups by Flamming:
+3 setups by Flamming:
 
 - Get in tek, equip sandwich, get 0 health (0 potions in MP), use a sandwich and land on a fruit.
 - Get in tek, get 0 health (0 potions in MP), get hit by fire/poison and land on a fruit.
+- Have low hp entering a level, fly on the frame you enter a level and get mauled by Bipolar Bear
 
 This tek will let you move out of the screen. Doing this with 2+ players will end the level because the game thinks everyone died.
 
@@ -95,5 +96,6 @@ Industrial Castle, Corn Boss, Tall Grass Field.
 
 Common usages:
 
+- Speedrunning
+- Coop speedrunning
 - Trolling
-- Coop speedrun

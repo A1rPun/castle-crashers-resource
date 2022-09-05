@@ -16,7 +16,7 @@
   - Undead Cyclops' Room
 - [DLC](/Platforms/DLC.md#ps3)
 - [2 characters 1 controller](#2chars1controller)
-  - [Meme_Cuisine's double picks](#memespicks)
+  - [Meme_Cuisine_'s double picks](#memespicks)
 
 ## <a name="2chars1controller"></a>2 characters 1 controller
 
@@ -30,7 +30,7 @@ You need to have a DualShock 4 controller for this to work.
 - Press X
 - Pick the second character and press X
 
-### <a name="memespicks"></a>Meme_Cuisine's doubles picks
+### <a name="memespicks"></a>Meme_Cuisine_'s doubles picks
 
 - [ ] Fencer & Industrialist
 - [ ] Bear & Saracen
