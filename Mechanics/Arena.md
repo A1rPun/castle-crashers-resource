@@ -1,6 +1,7 @@
 # Arena
 
 - [Arena levels](/Levels/Arenas.md)
+- [Places to train](#training)
 - [Unwritten rules](#rules)
 - [Characters](#characters)
 - [Pets](#pets)
@@ -23,6 +24,13 @@
 - [Quickdraw](#quickdraw)
 - [Treasure](#treasure)
 - [Beefy](#beefy)
+
+## <a name="training"></a>Places to train
+
+- Lava World infinite Fire Demon
+- Wizard Castle Interior backwards
+- Peasant Arena on insane
+- A1rMods cheatengine table
 
 ## <a name="rules"></a>Unwritten rules
 

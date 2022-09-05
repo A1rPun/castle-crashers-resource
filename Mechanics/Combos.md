@@ -1,6 +1,7 @@
 # Combo's
 
 - [Controls](#controls)
+- [Places to train](#training)
 - [Basic](#basic)
 - [Magic](#magic)
 - [Novice](#novice)
@@ -10,7 +11,9 @@
 - [Character specific](#character)
 - [Weapon specific](#weapon)
 - [Coop](#coop)
+
 - [TheWorst429 Combo Guide on Youtube](https://youtu.be/dcNM5WvhpyA)
+- [T.A.G. Juggling Showcase](https://youtu.be/cXJPyvyTZRA)
 
 ## <a name="controls"></a>Controls
 
@@ -27,6 +30,14 @@ abbreviation|meaning
 `()`|Press the button but make sure not to hit an enemy
 `[]`|Hold button till animation completes
 `...`|repeat a bunch of times
+
+## <a name="training"></a>Places to train
+
+- Animal Arc key door
+- Industrial Castle beefy door
+- Flooded Temple horn door
+- Thievest forest troll mom on insane
+- Sand Castle interiour beefy juggles
 
 ## <a name="basic"></a>Basic
 
