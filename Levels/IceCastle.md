@@ -5,3 +5,4 @@
 - Door clip
 - Ways to pass arrow/ice section
 - 2nd phase glitch
+- Green princess

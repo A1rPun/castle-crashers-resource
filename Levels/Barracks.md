@@ -9,6 +9,7 @@
 - [Battle softlock](#softlock)
 - [Original CC cutscene fly](#cutscene-fly)
 - Tables
+- Orange princess
 
 ## <a name="potion"></a>Free potion
 

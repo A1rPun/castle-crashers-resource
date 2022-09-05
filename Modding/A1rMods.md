@@ -434,11 +434,58 @@ function f_SpawnBarbarian(x, y, enemy_level)
 
 Custom code in f_PaintClock
 
-_TODO: Add code_
-
-```
+```js
 function f_PaintClock(zone)
 {
+   if(zone.hud_pt.item_unlocks[1] and zone.toss_clock == 0 and Key.isDown(zone.button_punch1) and Key.isDown(zone.button_magic))
+   {
+      zone.punching = true;
+      if(zone.jumping and !zone.freeze)
+      {
+         zone.freeze = true;
+         f_SetFloat(zone,11);
+      }
+      zone.gotoAndStop("bowup");
+   }
+}
+```
+
+## Arena enemies
+
+Custom code in f_PaintClock
+
+```js
+function f_PaintClock(zone)
+{
+   var _loc2_ = 1;
+   while(_loc2_ < total_enemies)
+   {
+      var _loc3_ = loader.game.game["e" + int(_loc2_)];
+      if(_loc3_.alive and _loc3_.weight != 3)
+      {
+         _loc3_.block_odds = 3;
+         _loc3_.aggressiveness = 1;
+         _loc3_.shot_timer_default = 30;
+         _loc3_.weight = 3;
+         _loc3_.random_dash_jump = 1;
+         _loc3_.random_dash_roll = 1;
+         _loc3_.speed = 10;
+      }
+      _loc2_ += 1;
+   }
+}
+```
+
+## Cats do 999 damage
+
+```diff
+function f_MeleeCheckHit(zone, u_temp, x1, y1, x2, y2, top, bottom, left, right)
+{
+  // code
+    case 301:
+-       f_Damage(u_temp,zone.punch_pow_medium,zone.attack_type,DMGFLAG_JUGGLE | DMGFLAG_BLOODY,zone.force_x,zone.force_y);
++       f_Damage(u_temp,int(999),zone.attack_type,DMGFLAG_JUGGLE | DMGFLAG_BLOODY,zone.force_x,zone.force_y);
+  // code
 }
 ```
 

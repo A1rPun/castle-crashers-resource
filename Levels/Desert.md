@@ -2,6 +2,7 @@
 
 - [Mini-boss strategy](#boss)
 - Antlion experience glitch
+- Antlion decapitation
 - Offset glitch on beetle cutscene
 - [AFK kill glitch](#kill-glitch)
 - [AFK gold](#gold)

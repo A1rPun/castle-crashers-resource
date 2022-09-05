@@ -8,6 +8,7 @@
 - [Slime stuck](#slime-stuck)
 - Slime duplication
 - Beefy grab slime
+- Throw slimes in death animation
 - [Invisible poop](#poop-invis)
 - [Bat counts](#bats)
 - [Invincible bats](#bats-invincible)

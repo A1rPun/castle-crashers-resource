@@ -6,6 +6,7 @@
 - Headless
 - Unslammable
 - [Arena OOB](#oob)
+- Red princess
 
 ## <a name="boss"></a>Boss strategy
 

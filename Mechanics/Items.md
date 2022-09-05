@@ -43,12 +43,12 @@ Used for:
 - Can be used to check the collisions in the level by moving up or down while a boomerang passes a collision
 - Used in CC & CCR for an EXP glitch on the first antlion in desert
 - Used in PS3 CC for an EXP glitch on the pillars in industrial castle
-- It was used in Xbox360 CC for an EXP glitch on catfish, that was patched
+- It was used in Xbox360 CC for an EXP glitch on catfish & pipistrello, that was patched
 - Makes an annoying sound if you throw it at beefy/horn doors
 - Release a frozen beefy by throwing a boomerang, the beefy timer stays frozen
 - Used to line up enemies for a juggle, throw it at the start of a wave
 - It can disappear when you pick up lots of popcorn with one throw, reappears after the level
-- If you stun an already death enemy in the air you can decapitate the enemy with a light attack on the ground
+- If you stun an already death enemy in the air you can decapitate the enemy with a light attack while standing on the ground
 
 ## <a name="horn"></a>Horn
 
@@ -77,6 +77,8 @@ Used for:
 - Lava World Volcano
 - Lava World Dragon skip
 - Deathtek
+- Unslammable
+- Avoiding knockback (for traps)
 - Middleweight combos
 - Heavyweight combos
 - Beefy arena

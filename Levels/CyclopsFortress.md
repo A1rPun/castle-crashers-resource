@@ -5,6 +5,7 @@
 - Double damage Elite Conehead
 - [Stuck in Cyclops cutscene fix](#cutscenefix)
 - Decapitation glitch setup
+- Blue princess
 
 ## <a name="boss"></a>Boss strategy
 
