@@ -1,6 +1,6 @@
 # The Forgotten Knight's Guide to Preventing Data Loss - Jan 2012
 
-[Original link (dead)](http://forums.thebehemoth.com/index.php?/topic/12173-how-to-prevent-data-loss/)
+[Original link](http://forums.thebehemoth.com/index.php?/topic/12173-how-to-prevent-data-loss/)
 
 
 Data loss has been an issue of varying occurence since the game came out. I will explain here why it happens and what can be done about it.

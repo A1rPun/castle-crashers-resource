@@ -17,7 +17,9 @@ Return Home|L|square|X|Y|H
 
 ## Alternative Keyboard Controls
 
-Flamming - Left handed
+Tip: Use dominant hand for movement
+
+**Flamming - Left handed**
 
 Key|Action
 ---|---
@@ -30,7 +32,7 @@ Shift|magic
 Alt and Control|item select
 right arrow|block
 
-TheWorst429 - Right handed
+**TheWorst429 - Right handed**
 
 Key|Action
 ---|---
@@ -43,7 +45,7 @@ Shift|magic
 E and R|item select
 Control|block
 
-T.A.G. - Right handed
+**T.A.G. - Right handed**
 
 Key|Action
 ---|---

@@ -1,6 +1,6 @@
 # Hazard's Controls and Combos Guide - Aug 2015
 
-[Original link (dead)](http://forums.thebehemoth.com/index.php?/topic/17858-hazards-castle-crashers-controls-combos-guide/)
+[Original link](http://forums.thebehemoth.com/index.php?/topic/17858-hazards-castle-crashers-controls-combos-guide/)
  
 
 Note - For the Playstation players, switch X for Square and Y for Triangle

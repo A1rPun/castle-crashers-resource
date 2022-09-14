@@ -1,6 +1,6 @@
 # The Forgotten Knight's Insane Mode Guide - Sept 2009
 
-[Original link (dead)](http://forums.thebehemoth.com/index.php?/topic/7288-the-forgotten-knights-insane-mode-guide/)
+[Original link](http://forums.thebehemoth.com/index.php?/topic/7288-the-forgotten-knights-insane-mode-guide/)
 
 _A1rPun's note: Wanted to preserve this forum post because this shows how much players knew back in the day, it was the go-to guide for most CC players. Some info is outdated._
 
