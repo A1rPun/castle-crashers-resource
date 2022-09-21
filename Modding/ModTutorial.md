@@ -143,7 +143,7 @@ unregistersymbol(fixme)
 
 This example tries to modify the `f_PaintClock` function. Let's find `f_PaintClock` in the P-code so we can use the bytes for disabling your script and for length calculations. This what the function looks like in ActionScript:
 
-```
+```js
 function f_PaintClock(zone)
 {
    if(zone.paint_timer > 0)
@@ -279,13 +279,13 @@ CallMethod
 Pop
 </code></pre></details>
 
-The function definition in P-code is usable for scanning because it's **always unique**, it the first 29 bytes in this example:
+The function definition in P-code is usable for scanning because it's **always unique**! The first 29 bytes in this example:
 
 ```
 8e 1a 00 66 5f 50 61 69 6e 74 43 6c 6f 63 6b 00 01 00 04 2a 00 01 7a 6f 6e 65 00 fd 00
 ```
 
-`29` in hex is `1d` so we can use that as offset because we only want to overwrite the body of the function.
+`29` in hex is `1d` so we can use that as offset because we only want to overwrite the body of the function and not the function definition.
 
 Extract the rest the bytes (not the first 29 bytes) and create a so called byte array that we can use in a script.
 
@@ -297,22 +297,22 @@ Extract the rest the bytes (not the first 29 bytes) and create a so called byte 
 
 Now we can fill in some details in our script:
 
-```xml
+```diff
 <AssemblerScript>[ENABLE]
-// Set the priority of all enemies to 4 in f_PaintClock
-aobscanregion(fPaintClock,30000000,40000000,8e 1a 00 66 5f 50 61 69 6e 74 43 6c 6f 63 6b 00 01 00 04 2a 00 01 7a 6f 6e 65)
-registersymbol(paintClock)
+// Description of mod idea
++aobscanregion(fPaintClock,30000000,40000000,8e 1a 00 66 5f 50 61 69 6e 74 43 6c 6f 63 6b 00 01 00 04 2a 00 01 7a 6f 6e 65)
++registersymbol(paintClock)
 
-label(paintClock)
-fPaintClock+1d:
-paintClock:
++label(paintClock)
++fPaintClock+1d:
++paintClock:
  db
 
 [DISABLE]
-paintClock:
- db 96 05 00 04 01 09 d6 05 4e 96 09 00 06 00 00 00 00 00 00 00 00 67 12 9d 02 00 e1 00 96 05 00 04 01 09 d6 05 4e 96 05 00 07 03 00 00 00 3f 96 09 00 06 00 00 00 00 00 00 00 00 49 12 9d 02 00 ac 00 96 0a 00 07 46 00 00 00 07 1e 00 00 00 30 47 87 01 00 02 17 96 0b 00 04 02 04 02 09 d7 05 04 01 08 c9 4e 96 05 00 07 01 00 00 00 0b 96 04 00 04 01 08 c9 4e 96 04 00 04 01 08 ca 4e 47 96 0a 00 07 14 00 00 00 07 0a 00 00 00 30 47 0b 96 04 00 04 01 08 c8 4e 96 05 00 07 0f 00 00 00 0b 96 05 00 07 1e 00 00 00 30 47 96 08 00 07 06 00 00 00 09 97 01 3d 87 01 00 03 17 96 05 00 04 01 09 d8 05 4e 96 0a 00 07 01 00 00 00 04 03 09 91 01 4e 96 03 00 09 91 01 4e 96 03 00 09 91 01 4e 96 03 00 09 91 01 4e 96 02 00 08 13 52 17
++paintClock:
++ db 96 05 00 04 01 09 d6 05 4e 96 09 00 06 00 00 00 00 00 00 00 00 67 12 9d 02 00 e1 00 96 05 00 04 01 09 d6 05 4e 96 05 00 07 03 00 00 00 3f 96 09 00 06 00 00 00 00 00 00 00 00 49 12 9d 02 00 ac 00 96 0a 00 07 46 00 00 00 07 1e 00 00 00 30 47 87 01 00 02 17 96 0b 00 04 02 04 02 09 d7 05 04 01 08 c9 4e 96 05 00 07 01 00 00 00 0b 96 04 00 04 01 08 c9 4e 96 04 00 04 01 08 ca 4e 47 96 0a 00 07 14 00 00 00 07 0a 00 00 00 30 47 0b 96 04 00 04 01 08 c8 4e 96 05 00 07 0f 00 00 00 0b 96 05 00 07 1e 00 00 00 30 47 96 08 00 07 06 00 00 00 09 97 01 3d 87 01 00 03 17 96 05 00 04 01 09 d8 05 4e 96 0a 00 07 01 00 00 00 04 03 09 91 01 4e 96 03 00 09 91 01 4e 96 03 00 09 91 01 4e 96 03 00 09 91 01 4e 96 02 00 08 13 52 17
 
-unregistersymbol(paintClock)
++unregistersymbol(paintClock)
 </AssemblerScript>
 ```
 Do note that I shortened the aobscanregion byte array with 3 bytes for no reason... it's shorter :).
@@ -347,7 +347,7 @@ ConstantPool "main" "n_state" "b_do_init" "fp_Main" "level" "LOGPush" "s_levelpa
 
 </code></pre></details>
 
-After creating the bytes and copy-pasting them in the ENABLE section you'll need to make sure the byte array is the **same length** as the original byte array that we extracted from P-code.
+After creating the bytes and copy-pasting them after `db` in the ENABLE section you'll need to make sure the byte array is the **same length** as the original byte array that we extracted from P-code.
 
 You can prepend or append `00` bytes to align the length with the original bytes. This is only possible because we are overwriting the whole function body. In other cases you might need one or multiple `int()` calls to align bytes.
 
