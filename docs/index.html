@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JPEXS P-Code Convert - CCR Mod Tool by A1rPun</title>
+    <style>
+        html, body {margin:0;background-color:#2f3136;height:100%;color:white;}
+        textarea {flex:1;background-color:#202225;color:white;}
+        button {height:64px;width:128px;font-size:20px;width:100%;}
+        .container {display:flex;height:100%}
+        .container > .panel {flex:1;display:flex;flex-flow:column;}
+        .alignment {display:flex;flex-flow: row;}
+        .alignment > * {flex:1;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="panel">
+            <h1>P-Code</h1>
+            <textarea name="pcode" placeholder="Paste JPEXS P-code with hex instructions here..."></textarea>
+            <button class="convert">Convert</button>
+        </div>
+        <div class="panel">
+            <h1>Output <span class="count"></span></h1>
+            <textarea readonly name="output"></textarea>
+            <div class="alignment">
+                <textarea name="align" placeholder="Optionally paste original bytes here..."></textarea>
+                <button class="padLeft">Align with zeroes left</button>
+                <button class="padRight">Align with zeroes right</button>
+            </div>
+            <button class="copy">Copy output to clipboard</button>
+        </div>
+    </div>
+    <script>
+        const pcodeText = document.querySelector('[name="pcode"]');
+        const outputText = document.querySelector('[name="output"]');
+        const alignText = document.querySelector('[name="align"]');
+        const countText = document.querySelector('.count');
+        const convertBtn = document.querySelector('.convert');
+        const copyBtn = document.querySelector('.copy');
+        const padLeftBtn = document.querySelector('.padLeft');
+        const padRightBtn = document.querySelector('.padRight');
+
+        const getByteLength = (bytes) => bytes.split(' ').length;
+        const getByteDiff = (b1, b2) => getByteLength(alignText.value) - getByteLength(outputText.value);
+        const setOutput = (output) => {
+            const byteLength = getByteLength(output);
+            outputText.value = output;
+            countText.textContent = `(bytelength in hex: ${byteLength.toString(16)})`;
+        };
+        const showPadButtons = () => {
+            const hide = !alignText.value;
+            padLeftBtn.disabled = hide;
+            padRightBtn.disabled = hide;
+        };
+
+        convertBtn.addEventListener('click', () => {
+            const output = pcodeText
+                .value
+                .split('\n')
+                .filter(x => x[0] === ';')
+                .map(x => x.slice(1))
+                .join('')
+                .trim()
+                .toLowerCase();
+            setOutput(output);
+        });
+
+        copyBtn.addEventListener('click', () => {
+            navigator.clipboard.writeText(outputText.value).then(function() {
+                alert('Copying output to clipboard was successful!');
+            }, function(err) {
+                alert('Could not copy output: ', err);
+            });
+        });
+
+        padLeftBtn.addEventListener('click', () => {
+            const byteDiff = getByteDiff();
+
+            if (byteDiff > 0) {
+                setOutput('00 '.repeat(byteDiff) + outputText.value);
+            } else {
+                alert(`Can't align bytes, ${byteDiff * -1} bytes short`);
+            }
+        });
+
+        padRightBtn.addEventListener('click', () => {
+            const byteDiff = getByteDiff();
+
+            if (byteDiff > 0) {
+                setOutput(outputText.value + ' 00'.repeat(byteDiff));
+            } else {
+                alert(`Can't align bytes, ${byteDiff * -1} bytes short`);
+            }
+        });
+
+        alignText.addEventListener('input', () => {
+            showPadButtons();
+        });
+        showPadButtons();
+    </script>
+</body>
+</html>
