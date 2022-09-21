@@ -297,22 +297,22 @@ Extract the rest the bytes (not the first 29 bytes) and create a so called byte 
 
 Now we can fill in some details in our script:
 
-```diff
+```xml
 <AssemblerScript>[ENABLE]
 // Description of mod idea
-+aobscanregion(fPaintClock,30000000,40000000,8e 1a 00 66 5f 50 61 69 6e 74 43 6c 6f 63 6b 00 01 00 04 2a 00 01 7a 6f 6e 65)
-+registersymbol(paintClock)
+aobscanregion(fPaintClock,30000000,40000000,8e 1a 00 66 5f 50 61 69 6e 74 43 6c 6f 63 6b 00 01 00 04 2a 00 01 7a 6f 6e 65)
+registersymbol(paintClock)
 
-+label(paintClock)
-+fPaintClock+1d:
-+paintClock:
+label(paintClock)
+fPaintClock+1d:
+paintClock:
  db
 
 [DISABLE]
-+paintClock:
-+ db 96 05 00 04 01 09 d6 05 4e 96 09 00 06 00 00 00 00 00 00 00 00 67 12 9d 02 00 e1 00 96 05 00 04 01 09 d6 05 4e 96 05 00 07 03 00 00 00 3f 96 09 00 06 00 00 00 00 00 00 00 00 49 12 9d 02 00 ac 00 96 0a 00 07 46 00 00 00 07 1e 00 00 00 30 47 87 01 00 02 17 96 0b 00 04 02 04 02 09 d7 05 04 01 08 c9 4e 96 05 00 07 01 00 00 00 0b 96 04 00 04 01 08 c9 4e 96 04 00 04 01 08 ca 4e 47 96 0a 00 07 14 00 00 00 07 0a 00 00 00 30 47 0b 96 04 00 04 01 08 c8 4e 96 05 00 07 0f 00 00 00 0b 96 05 00 07 1e 00 00 00 30 47 96 08 00 07 06 00 00 00 09 97 01 3d 87 01 00 03 17 96 05 00 04 01 09 d8 05 4e 96 0a 00 07 01 00 00 00 04 03 09 91 01 4e 96 03 00 09 91 01 4e 96 03 00 09 91 01 4e 96 03 00 09 91 01 4e 96 02 00 08 13 52 17
+paintClock:
+ db 96 05 00 04 01 09 d6 05 4e 96 09 00 06 00 00 00 00 00 00 00 00 67 12 9d 02 00 e1 00 96 05 00 04 01 09 d6 05 4e 96 05 00 07 03 00 00 00 3f 96 09 00 06 00 00 00 00 00 00 00 00 49 12 9d 02 00 ac 00 96 0a 00 07 46 00 00 00 07 1e 00 00 00 30 47 87 01 00 02 17 96 0b 00 04 02 04 02 09 d7 05 04 01 08 c9 4e 96 05 00 07 01 00 00 00 0b 96 04 00 04 01 08 c9 4e 96 04 00 04 01 08 ca 4e 47 96 0a 00 07 14 00 00 00 07 0a 00 00 00 30 47 0b 96 04 00 04 01 08 c8 4e 96 05 00 07 0f 00 00 00 0b 96 05 00 07 1e 00 00 00 30 47 96 08 00 07 06 00 00 00 09 97 01 3d 87 01 00 03 17 96 05 00 04 01 09 d8 05 4e 96 0a 00 07 01 00 00 00 04 03 09 91 01 4e 96 03 00 09 91 01 4e 96 03 00 09 91 01 4e 96 03 00 09 91 01 4e 96 02 00 08 13 52 17
 
-+unregistersymbol(paintClock)
+unregistersymbol(paintClock)
 </AssemblerScript>
 ```
 Do note that I shortened the aobscanregion byte array with 3 bytes for no reason... it's shorter :).
