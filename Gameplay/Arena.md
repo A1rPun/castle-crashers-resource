@@ -1,7 +1,7 @@
 # Arena
 
 - [Arena levels](/Levels/Arenas.md)
-- [Combo's](/Mechanics/Combos.md#arena)
+- [Combo's](/Gameplay/Combos.md#arena)
 - [Places to train](#training)
 - [Unwritten rules](#rules)
   - [1v1](#onevone)
@@ -27,6 +27,7 @@
     - [Air projectile reset](#reset-mh-projectile)
     - [Projectile reset](#reset-mu)
     - [Bomb reset](#reset-bomb)
+    - Throw reset
     - [Arrow reset](#reset-arrow)
 - [Quickdraw](#quickdraw)
 - [Treasure](#treasure)

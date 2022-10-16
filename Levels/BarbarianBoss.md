@@ -26,4 +26,4 @@ Allow the player to move when kissing the princess
 
 ## <a name="oob"></a>Arena OOB
 
-Get [out of bounds using a beefy](/Mechanics/OOB.md#beefy-oob) during the PvP fight.
+Get [out of bounds using a beefy](/Gameplay/OOB.md#beefy-oob) during the PvP fight.

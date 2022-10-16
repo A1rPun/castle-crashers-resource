@@ -14,7 +14,7 @@ Does appear in weapon frog:
 
 - Rubber-Handle Sword
 - 2x4
-- Glitched sword
+- Glitched sword (Patched)
 
 Doesn't appear in weapon frog:
 
@@ -31,14 +31,7 @@ Does appear in weapon frog:
 
 - Rubber-Handle Sword
 
-Doesn't appear in weapon frog:
-
-- Statless Skinny Sword
-- Map
-- Horn
-- Arrow
-- Shovel
-- Invisible Sword
+PS3 patched unobtainable swords. Id 0 crashes the game on character select.
 
 ## <a name="remastered"></a>Castle Crashers Remastered
 

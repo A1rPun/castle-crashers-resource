@@ -51,7 +51,7 @@
 - U-Knighted
 - Unxqee
 - v MoTiioNz ii
-- VeryBadPlayer (arcadeclassics)
+- Very_Bad_Player (TheArcadeClassics)
 - Votelesstie6000
 - WootyWootman
 - Zero

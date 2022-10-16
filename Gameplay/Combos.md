@@ -12,8 +12,8 @@
 - [Weapon specific](#weapon)
 - [Coop](#coop)
 
-- [TheWorst429 Combo Guide on Youtube](https://youtu.be/dcNM5WvhpyA)
-- [T.A.G. Juggling Showcase](https://youtu.be/cXJPyvyTZRA)
+- [Combo Guide on Youtube by TheWorst429](https://youtu.be/dcNM5WvhpyA)
+- [Juggling Showcase by T.A.G.](https://youtu.be/cXJPyvyTZRA)
 
 ## <a name="controls"></a>Controls
 
@@ -61,9 +61,9 @@ lvl|combo|execution
 
 mlvl|combo|execution
 ---|---|---
-0|<details><summary>Magic splash</summary>![Magic splash](/Images/Animations/magicsplash.gif)</details>|MS
-5|<details><summary>Magic projectile</summary>![Magic projectile](/Images/Animations/magicprojectile.gif)</details>|MP
-10|<details><summary>Magic air projectile</summary>![Magic air projectile](/Images/Animations/magicairprojectile.gif)</details>|AP
+0|<details><summary>Magic splash</summary>![Magic splash](/Images/Animations/magicsplash.gif)</details>|MH
+5|<details><summary>Magic projectile</summary>![Magic projectile](/Images/Animations/magicprojectile.gif)</details>|MU
+10|<details><summary>Magic air projectile</summary>![Magic air projectile](/Images/Animations/magicairprojectile.gif)</details>|in air, MH
 15|<details><summary>Elemental infusion</summary>![Elemental infusion](/Images/Animations/elementalinfusion.gif)</details>|LLLH
 20|<details><summary>Magic jump</summary>![Magic jump](/Images/Animations/magicjump.gif)</details>|MJ
 
@@ -84,7 +84,7 @@ lvl|combo|execution
 8|Middleweight juggle|J+LLHH, LHH, LHH, LH...
 8|<details><summary>Fly</summary>![Fly](/Images/Animations/fly.gif)</details>|in air, LHH
 8 mlvl 20|<details><summary>Slowfall fly*</summary>![Slowfall fly](/Images/Animations/slowfall.gif)</details>|MJ, J, LHH
-8|Spellweave|in air, AP, LHH
+8|Spellweave|in air, MH, LHH
 <mlvl 15|Beefy glitch combo|HHH
 
 *Slowfall is gained by canceling the spin animation, if you don't want slowfall you have to let the spin animation complete
@@ -113,17 +113,16 @@ lvl|combo|execution
 ---|---|---
 <8|Improved ground combo|(L)H
 0|Heavyweight juggle|J, HHLL, HHHLL
-0|Splash slide|MS on the frame you land
+0|Splash slide|MH on the frame you land
 0|Arrow slide|Shoot arrow on the frame you land
 2|Exp grinder|JJ, arrow, J
 8|<details><summary>MLG Fly</summary>![MLG Fly](/Images/Animations/mlgfly.gif)</details>|in air, LHLLHL
 8|Fly without jump|LH, L+H, LHH
-8|Projectile juggle|J, LLH, LHH, LL, AP, LHH, LL, AP, LHH
+8|Projectile juggle|J, LLH, LHH, LL, MH, LHH, LL, MH, LHH
 8|High juggle|J, LLH, LHH, LL..., HH, LHH, LL..., HH
 16|Infinite headbutt|(L)LH
-mlvl 10|Projectile spam|in slowfall air, LH, AP...
+mlvl 10|Projectile spam|in slowfall air, LH, MH...
 mlvl 15|Infusion cancel|LLLH, Arrow
-mlvl 15|Infusion cancel tornado|LLLH, Tornado
 
 ## <a name="arena"></a>Arena
 
@@ -137,8 +136,8 @@ From ground 3|MJ+L, HH, LL, LHH, LH, LHLJ, LH, LH
 Aerial 1|in air, LHL, LHH, LHH, LHLJ, LH, LH, LH
 Aerial 3|in air, HH, LLHH, LHL, LHL, LHLJ, LH, LH
 Aerial 3 |in air, LH, LHH, LHH, LH, LHLJ, LH, LH
-Delayed spinning uppercut|in air, L, AP, HL
-Delayed fly|in air, L, AP, HH
+Delayed spinning uppercut|in air, L, MH, HL
+Delayed fly|in air, L, MH, HH
 Delayed spinning sword|_TODO:_
 
 ## <a name="character"></a>Character specific
@@ -162,13 +161,25 @@ lvl|combo|execution
 
 lvl|combo|execution
 ---|---|---
-mlvl 10|Tornado that blocks melee attacks|in air, [AP]
-mlvl 10|Tornado lightweight juggle|LLH, AP
-mlvl 10|Tornado lightweight juggle|LLHH, AP
-8 mlvl 10|Tornado middleweight juggle|J, LHH, LHH, AP, LHH, AP, LH
+mlvl 10|Tornado that blocks melee attacks|in air, [MH]
+mlvl 10|Tornado lightweight juggle|LLH, MH
+mlvl 10|Tornado lightweight juggle|LLHH, MH
+8 mlvl 10|Tornado middleweight juggle|J, LHH, LHH, MH, LHH, MH, LH
 8 mlvl 10|Tornado arena juggle|
-mlvl 10|Tornado heavyweight juggle|J, HH, [AP]
-8 mlvl 10|Tornado slide|in air, AP, (the frame after you exit tornado) LHL, AP
+mlvl 10|Tornado heavyweight juggle|J, HH, [MH]
+8 mlvl 10|Tornado slide|in air, MH, (the frame after you exit tornado) LHL, MH
+mlvl 15|Infusion cancel tornado|LLLH, Tornado
+
+Delayed ground combo, cancel a ground combo using a quick tornado.
+After canceling you need to keep moving to preserve the combo.
+If you start to run, just block before you want to do your combo so you won't do a sprint attack.
+
+### Alien
+
+lvl|combo|execution
+---|---|---
+0|Splash slide|Spam MH on the frame you land
+8|Alien reset|L, MH, HL
 
 ## <a name="weapon"></a>Weapon specific
 

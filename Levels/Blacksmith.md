@@ -6,7 +6,7 @@
   - Weapon check
   - Weapon trade
   - [Infinite magic](#froginfmag)
-  - [Unobtainable weapons](/Mechanics/UnobtainableWeapons.md)
+  - [Unobtainable weapons](/Gameplay/UnobtainableWeapons.md)
 
 ## <a name="animals"></a>Animal Arc
 

@@ -2,7 +2,7 @@
 
 ## Levels in order
 
-- **Barracks**
+- Barracks
 - **Home Castle**
 - **Castle Keep**
 - Blacksmith (compass)
@@ -60,6 +60,14 @@
   - Undead Cyclops' Room
   - Necromancer's Room
 - **Final Battle**
+  - Ending cutscene 1
+  - Ending cutscene 2
+  - Ending cutscene 3
+  - Ending cutscene 4
+  - Ending cutscene 5
+  - Ending cutscene 6
+  - Ending cutscene 7
+  - Ending cutscene 8
   - Barracks Ending
 - Insane Mode Node
 - Insane Store

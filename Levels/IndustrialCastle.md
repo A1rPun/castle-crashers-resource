@@ -15,7 +15,8 @@
 - Double pointy sword
 - Industrial Turret stuck
 - Deathtek setup
-- PS3 experience glitch
+- PS3 turret experience glitch
+  - Remastered turret glitch
 - PS3 final cutscene skip
 
 ## <a name="boss"></a>Boss strategy

@@ -17,32 +17,38 @@
 
 ## Index
 
-### Game-mechanics
+### Gameplay mechanics
 
-- [Arena](/Mechanics/Arena.md)
-- [AYCQ](/Mechanics/AYCQ.md)
-- [Back off Barbarian](/Mechanics/BackOffBarbarian.md)
-- [Combo's](/Mechanics/Combos.md)
-- [Items](/Mechanics/Items.md)
-- [Level skipping](/Mechanics/LevelSkip.md)
-- [OOB / Teleporting](/Mechanics/OOB.md)
-- [Relics](/Mechanics/Relics.md)
-- [Tek (Tech)](/Mechanics/Tek.md)
-- [Unobtainable weapons](/Mechanics/UnobtainableWeapons.md)
-- [Unobtainable animal orbs](/Mechanics/UnobtainableAnimalOrbs.md)
-- [WaveSkip](/Mechanics/WaveSkip.md)
+- [General glitches](/Levels/Glitches.md)
+- [Animal Orbs](/Gameplay/AnimalOrbs.md)
+- [Arena](/Gameplay/Arena.md)
+- [AYCQ](/Gameplay/AYCQ.md)
+- [Back off Barbarian](/Gameplay/BackOffBarbarian.md)
+- [Characters](/Gameplay/Characters.md)
+- [Combo's](/Gameplay/Combos.md)
+- [Items](/Gameplay/Items.md)
+- [Level skipping](/Gameplay/LevelSkip.md)
+- [OOB / Teleporting](/Gameplay/OOB.md)
+- [Relics](/Gameplay/Relics.md)
+- [Tek (Tech)](/Gameplay/Tek.md)
+- [Unobtainable weapons](/Gameplay/UnobtainableWeapons.md)
+- [Unobtainable animal orbs](/Gameplay/UnobtainableAnimalOrbs.md)
+- [WaveSkip](/Gameplay/WaveSkip.md)
+- [Weapons](/Gameplay/Weapons.md)
 
 ### Platforms
 
 - [Playstation 3](/Platforms/Playstation3.md)
 - [Steam](/Platforms/Steam.md)
 - [Achievements/Trophies](/Platforms/Achievements.md)
-- [Controls](/Mechanics/Controls.md)
+- [Controls](/Gameplay/Controls.md)
+- [Demo](/Gameplay/Demo.md)
 - [Downloadable content (DLC)](/Platforms/DLC.md)
-- [Music](/Mechanics/Music.md)
+- [Music](/Gameplay/Music.md)
 - [Release dates](/Platforms/ReleaseDates.md)
 - [Speedrunning](/Platforms/Speedrun.md)
 - [Invisible player bug](/Platforms/InvisiblePlayerBug.md)
+- [Youtubers](/Platforms/Youtubers.md)
 
 ### Modding
 
