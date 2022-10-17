@@ -48,6 +48,7 @@
 - [Release dates](/Platforms/ReleaseDates.md)
 - [Speedrunning](/Platforms/Speedrun.md)
 - [Invisible player bug](/Platforms/InvisiblePlayerBug.md)
+- [Unused Content](/Platforms/UnusedContent.md)
 - [Youtubers](/Platforms/Youtubers.md)
 
 ### Modding
