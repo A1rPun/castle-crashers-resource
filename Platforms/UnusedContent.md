@@ -36,7 +36,7 @@ Id|Name|Image
 ## Others
 
 Name|Image
---|--|--
+--|--
 Banana|![Banana](/Images/Unused/banana.png)
 Unused bomb|![Bomb](/Images/Unused/bomb2.png)
 
