@@ -7,21 +7,21 @@
 
 ## <a name="savefile"></a>Savefile location
 
-> {Steam Installation Directory}\Steam\userdata\{Steam ID}\204360\remote\cc_save.dat
+> {Steam Installation Directory}\userdata\{Steam ID}\204360\remote\cc_save.dat
 
 Example:
 
-> C:\Program Files\Steam\userdata\1234\204360\remote\cc_save.dat
+> C:\Program Files (x86)\Steam\userdata\1234\204360\remote\cc_save.dat
 
 ## <a name="screenshots"></a>Screenshots location
 
 Can be in another folder depending on your preferences.
 
-> {Steam Installation Directory}\Steam\userdata\{Steam ID}\760\remote\204360\screenshots\
+> {Steam Installation Directory}\userdata\{Steam ID}\760\remote\204360\screenshots\
 
 Example:
 
-> C:\Program Files\Steam\userdata\1234\760\remote\204360\screenshots\
+> C:\Program Files (x86)\Steam\userdata\1234\760\remote\204360\screenshots\
 
 ## <a name="trading-cards"></a>Trading Cards
 
