@@ -26,12 +26,14 @@ Requirements:
 - 9 sandwiches
 - 5 Potions
 
+The goal is to have 12 Cultist stuck inside a pillar.
+
 1. Enter Wizard Castle Interior on **insane mode**
-2. Beat all 12 Cultist (3 waves) and exit the room
+2. Beat all 12 Cultist (3 waves) and exit the room to the right
 3. Walk back into the cultist room
 4. Spawn all 12 Cultist by running to the left
 5. Use a sandwich and try to grab a Cultist as fast as possible
-6. Stand next to a piller so the Cultist gets stuck inside the pillar
+6. Stand next to a pillar so the Cultist gets stuck inside the pillar
 7. Drop him by either running out of time or by an enemy attack, don't throw him
 8. Repeat from step 5 until you have all the Cultists inside the pillar
 9. Spam elemental magic splash against all the Cultists
