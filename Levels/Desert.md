@@ -6,7 +6,7 @@
 - Offset glitch on beetle cutscene
 - [AFK kill glitch](#kill-glitch)
 - [AFK gold](#gold)
-- Unslammable
+- [Unslammable](/Gameplay/Glitches#unslammable)
 
 ## <a name="boss"></a>Mini-boss strategy
 

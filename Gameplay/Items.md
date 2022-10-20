@@ -17,7 +17,8 @@ You can't switch items when your health is 0 or if you are in the sandwich anima
 
 ## <a name="nada"></a>NADA
 
-This will show up once you drained bombs/potions/sandwiches.
+You start the game with nothing until you switch to an item.
+NADA will show up once you drained bombs/potions/sandwiches.
 
 ## <a name="arrow"></a>Bow&Arrow
 
@@ -59,7 +60,10 @@ Used for:
 
 ## <a name="bomb"></a>Bomb
 
-Can be used for quick kills, mostly used on final boss.
+Can be used for quick kills, mostly used in speedruns.
+
+- Groom
+- Final Boss
 
 ## <a name="potion"></a>Potion
 
@@ -77,7 +81,7 @@ Used for:
 - Lava World Volcano
 - Lava World Dragon skip
 - Deathtek
-- Unslammable
+- [Unslammable](/Gameplay/Glitches#unslammable)
 - Avoiding knockback (for traps)
 - Middleweight combos
 - Heavyweight combos
@@ -85,13 +89,4 @@ Used for:
 
 ## <a name="unused"></a>Unused
 
-You can easily spot a modder once they have these items.
-
-- Axe
-- Shuriken
-- Knife
-- Mittens
-- Blade
-- Compass
-- Wheel
-- Telescope
+You can easily spot a modder once they have [these items](/Platforms/UnusedContent.md#items).

@@ -22,7 +22,7 @@
 - Arena practice on sandwich Fire Demon
 - Ice Sword + Horn = Flying Fire Demons
 - [Hamburger](#hamburger)
-- Unslammable
+- [Unslammable](/Gameplay/Glitches#unslammable)
 - Final cutscene can be used to access Cyclops' Fortress
 
 ## <a name="mini-boss"></a>Volcano mini-boss strategy

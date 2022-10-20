@@ -4,7 +4,7 @@
 - Barbarian alive after boss kill
 - [Move during kiss](#move)
 - Headless
-- Unslammable
+- [Unslammable](/Gameplay/Glitches#unslammable)
 - [Arena OOB](#oob)
 - Red princess
 

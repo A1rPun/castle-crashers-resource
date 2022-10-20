@@ -70,7 +70,7 @@ You can enter a state that bats try to attack you but can't bite your head.
 2. Get bitten by a bat
 3. Get licked by Pipistrello
 
-The bat that bitten you head becomes invisible, you can see the shadow still. You can even kill it and it won't void the glitch. Getting licked again or running into poop will void this glitch.
+The bat that was biting your head becomes invisible, you can see the shadow still. You can even kill it and it won't void the glitch. Getting licked again or running into poop will void this glitch.
 
 ## <a name="bats-stuck"></a>Stuck bats
 
