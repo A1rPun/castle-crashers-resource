@@ -71,7 +71,7 @@ Locating: Data starts before Green Knight's data, the first character in the sav
 - 00 00 00 00 00 00 00 00 - First 4 arrays are pets, next 2 are unlockable items (includes hidden ones such as mittens) then 2 arrays of padding. (set all to FF to unlock all)
 - 00 00 00 00 00 00 00 00 - Weapons set 1 (set all to FF to unlock all)
 - 00 00 00 00 00 00 00 00 - Weapons set 2 (set all to FF to unlock all)
-- 00 00 00 00 00 00 00 00 - Headless Hatty data start
+- 00 00 00 00 00 00 00 00 - Headless Hatty data start (On 360, data for all player's gold is an int32 value right after the weapons set 2 data)
 - 00 00 00 00 00 00 00 00
 - 00 00 00 00 00 00 00 00
 - 00 00 00 00 00 00 00 00 - Headless Hatty data end
@@ -98,7 +98,7 @@ Individual Character Data
 - byte Bombs – Stores number of bombs
 - byte Sandwiches – Stores number of sandwiches
 - byte Collectables – Collectable items such as the Compass and Telescope. Change to 0xFE to unlock all
-- int32 Gold - Stores Gold value
+- int32 Gold - Stores Gold value (Skip this for Xbox 360 data)
 - byte EnableInsaneMode – Unlock insane mode. Change to 0x01 to enable
 - byte InsaneLevelProgress1 – Progress for story on left side of the dock (0xFF Unlocks all)
 - byte InsaneLevelProgress2 - Progress for story on right side of the dock (0xFF Unlocks all)
