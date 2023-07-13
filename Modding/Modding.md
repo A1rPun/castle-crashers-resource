@@ -137,7 +137,7 @@ Specific Collectable Progess values:
 
 Normal Mode:
 
-- 00 - nothing
+- 00 - Nothing
 - 01 - Compass
 - 02 - Wheel
 - 03 - Compass + Wheel
