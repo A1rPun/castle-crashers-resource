@@ -2,14 +2,19 @@
 
 [My trophy guide on PSNProfiles](https://psnprofiles.com/guide/5971-castle-crashers-trophy-guide) - Published 30 Jan 2020
 
-
 - Playstation 3, 13 Trophies. 9 bronze, 3 silver, 1 gold
 - Playstation 4/5, 13 Trophies. 2 silver, 10 gold, 1 platinum
 - Steam, 12 Achievements
 - Xbox, 12 Achievements worth 200G
 - Xbox One, 12 Achievements worth 1000G
+- Nintendo Switch, 12 in-game achievements
 
-16 unique achievements/trophies, total 62.
+16 unique achievements/trophies, total 74.
+
+****
+
+Screenshot of all achievements on Nintendo Switch:
+![Switch achievements](../Images/achievements_completed.jpg)
 
 ## 🏆 Animal Handler
 
@@ -77,7 +82,7 @@ CC Remastered description:
 
 **CC Remastered only**
 
-## 🏆 The Traitor 
+## 🏆 The Traitor
 
 > Defeat any boss by playing one of his own minions.
 
