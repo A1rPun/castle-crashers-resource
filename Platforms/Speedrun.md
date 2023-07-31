@@ -4,5 +4,5 @@
 
 ## Major glitches
 
-- Character unlock skip (barbarian, grey knight, alien)
+- Character unlock skip (barbarian, gray knight, alien)
 - Flooded Temple skip with Bear (tornado)

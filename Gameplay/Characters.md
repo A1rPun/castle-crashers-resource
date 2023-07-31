@@ -10,4 +10,4 @@
 - Skeleton & Cultist
 - Brute & Snakey
 
-Grey Knight has a different elemental infusion so it's not considered a reskin.
+Gray Knight has a different elemental infusion so it's not considered a reskin.

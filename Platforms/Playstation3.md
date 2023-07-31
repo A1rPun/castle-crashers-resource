@@ -36,7 +36,7 @@ You need to have a DualShock 4 controller for this to work.
 - [ ] Bear & Saracen
 - [ ] Brute & Snakey
 - [ ] Skeleton & Cult minion
-- [ ] Grey knight & OFGK
+- [ ] Gray knight & OFGK
 - [ ] Peasant & Civillian
 - [ ] Barbarian & Thief
 - [ ] Royal Guard & Conehead
