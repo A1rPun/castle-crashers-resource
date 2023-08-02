@@ -1,5 +1,11 @@
 # Levels
 
+- [Looking for levels skips?](../Gameplay/LevelSkip.md)
+- [Levels in order](#levels-in-order)
+- [Levels that can be accessed backwards](#levels-that-can-be-accessed-backwards)
+- [Levels that send you back to the map after completion](#levels-that-send-you-back-to-the-map-after-completion)
+
+
 ## Levels in order
 
 - Barracks
@@ -20,7 +26,9 @@
 - **Rapids Ride**
 - **Catfish**
 - **Tall Grass Field**
+  - Tall Grass Field Cave
 - **Pipistrello's Cave**
+  - Pipistrello Ending
 - **Flowery Field**
 - **Wedding Crash**
 - Church Store
@@ -28,11 +36,13 @@
 - **Cyclops' Cave**
 - **Cyclops' Gate**
 - **Cyclops' Fortress**
-- **Lava World** (wheel)
+- **Lava World**
+  - Wheel Pickup (wheel)
+  - Cyclops' Fortress cutscene
 - Volcano Store
 - Volcano Arena
-- Industrial Castle Entrance
-  - **Industrial Castle** (telescope)
+- **Industrial Castle** (telescope)
+  - Industrial Castle Entrance
 - **Dock**
 - **Pirate Ship**
 - **Desert (shovel)**
@@ -40,8 +50,8 @@
 - **Desert Chase**
 - **Sand Castle Interior**
 - **Sand Castle Roof** (map)
-- Flooded Temple Entrance
-  - **Flooded Temple**
+- **Flooded Temple**
+  - Flooded Temple Entrance
 - **Marsh**
   - Marsh 2
 - **Corn Boss** (horn)
@@ -52,13 +62,19 @@
 - **Snow World**
 - Icy Store
 - Icy Arena
-- Ice Castle Entrance
-  - **Ice Castle**
+- **Ice Castle**
+  - Ice Castle Entrance
+  - Ice Castle Den
+  - Ice Castle Minigame
 - **Wizard Castle Takeoff**
 - **Wizard Castle Interior**
+  - Choose Boss Room
   - Painter's Room
+  - Painter's Room Crystal
   - Undead Cyclops' Room
+  - Undead Cyclops' Room Crystal
   - Necromancer's Room
+  - Necromancer's Room Crystal
 - **Final Battle**
   - Ending cutscene 1
   - Ending cutscene 2

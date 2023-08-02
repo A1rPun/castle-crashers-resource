@@ -7,6 +7,7 @@
 - Death by tek
 - 2 players 1 exit
 - PS3 OOB (softlock)
+- Saw splash magic opens lasers earlier
 
 ## <a name="bypass"></a>Bypass lasers
 

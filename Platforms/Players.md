@@ -6,26 +6,27 @@
 - YOU, the one reading this list
 - 16 inch sub
 - A SupaNova
+- A1rPun (Necromancer)
 - aced211
 - Aichomancer
-- Amotinu
-- BeatsByDay
-- Beermeup
+- Amotinu (Bear)
+- BeatsByDay A.K.A. Hazard
+- Beermeup (Arrows)
 - ccvector
-- Clawifii
+- Clawifii (Bear)
 - Credd
-- DaNastyOne
-- Dez
+- DaNastyOne (Necromancer)
+- Dez (Rhino)
 - drunken feedle
-- Fencer Main
+- Fencer Main (Fencer)
 - FenixStryk
-- Flamming
+- Flamming (Orange Knight & Hatty)
 - FTG-Legacy
 - GameCrazy_02
 - GiggityBitesYou
 - Gluck
 - gr8cf
-- Halfcoordinated
+- Halfcoordinated (Pink Knight)
 - Imperfect Luck
 - Intasa
 - itsSloomy
@@ -33,27 +34,28 @@
 - Korrui
 - Lydonious
 - MadBestKiller
-- Meme_Cuisine_
+- Meme_Cuisine_ A.K.A. Rynsprr (Beekeeper)
 - meowtactic
 - OJKamo
 - otto
-- Papa Quill
-- Periphery
-- SriiZz
-- TGATheLegend
-- TheArtOfGriefing (T.A.G.)
+- Papa Quill (Brute)
+- Periphery (Iceskimo)
+- SriiZz (Red Knight)
+- TGATheLegend (Blacksmith)
+- TheArtOfGriefing A.K.A. TAG (Speedrun characters)
 - TheForgottenKnight
-- TheWorst429
+- TheWorst429 (Peasant)
 - Toddo
-- TPTS XSNIPERZ
-- Tree (kidshoota411)
+- TPTS XSNIPERZ (Bear)
+- Tree A.K.A. kidshoota411
 - Tri_Tri_Chenille
 - U-Knighted
 - Unxqee
-- v MoTiioNz ii
-- Very_Bad_Player (TheArcadeClassics)
-- Votelesstie6000
-- WootyWootman
+- v MoTiioNz ii (Beekeeper)
+- Very_Bad_Player A.K.A. TheArcadeClassics
+- Votelesstie6000 (Barbarian)
+- WootyWootman (Orange Knight)
+- YourWeridKid A.K.A. gyhcv
 - Zero
 - Zumbee
 - Zxvertyy
