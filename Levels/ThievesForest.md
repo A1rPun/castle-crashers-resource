@@ -1,17 +1,15 @@
 # Thieves Forest
 
-- [Boss strategy](#boss)
-- [Experience glitch](#exp-glitch)
-- [Experience farm](#exp-farm)
+- [Boss strategy](#boss-strategy)
+- [Experience glitch](#experience-glitch)
+- [Experience farm](#experience-farm)
 - Waveskips
   - Solo
   - Coop
   - Beefy grab trolls
 - Waterwalking glitch
-- OOB
+- OOB spots
 
-## <a name="boss"></a>Boss strategy
-
-## <a name="exp-glitch"></a>Experience glitch
-
-## <a name="exp-farm"></a>Experience farm
+## Boss strategy
+## Experience glitch
+## Experience farm

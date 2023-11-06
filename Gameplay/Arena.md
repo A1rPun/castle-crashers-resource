@@ -12,7 +12,6 @@
   - [Weapons](#weapons)
   - [Pets](#pets)
 - [Score](#score)
-- [Win glitch](#win-glitch)
 - [Melee](#melee)
   - [Strats](#strats)
     - [Against ice](#ice)
@@ -177,23 +176,6 @@ Points|Setup
 
 The wins or loses on the arena leaderboards will cap out at 65535 for every mode played, meaning you can have a maximum of 262140 wins or loses. The score will cap at 2147483647.
 
-## <a name="win-glitch"></a>Win glitch
-
-Mostly used to get the 40 wins achievement/trophy in arena.
-
-_Written for Playstation_
-
-You will need 3 people to set up the glitch OR 2 people, 1 player with 2 controllers (and 2 PSN accounts, psplus not needed for second account). 1 player will not get the wins so discuss who sacrifices for this glitch. In case you do this with 2 controllers just logout the second controller in step 4.
-
-1. Join an arena lobby with 2 others and choose your characters.
-2. Next up it is important to have the 2 players that need the wins choose the same flag. The other player should have a different flag.
-3. Start melee and enter the fight
-4. The player who chose to sacrifice needs to leave the match now.
-5. The other players will get an insta-win. You now will return to arena mode select screen.
-6. Keep entering melee and you will get your free wins. You can hold down J the entire time if you want.
-
-Do not change flags while in this glitched state otherwise you have to do the steps above again for it to work. 
-
 ## <a name="melee"></a>Melee
 
 ### <a name="strats"></a>Strats
@@ -217,7 +199,7 @@ When the opponent tries to reset from a distance with splash attacks, counter it
 
 #### <a name="blacksmith"></a>Against Blacksmith
 
-Keep an tongu... eye out for when Blacksmith is aerial. Blocking is not much of use against Blacksmith's aerial splash, jumping is.  
+Keep an tongu... eye out for when Blacksmith is aerial. Blocking is not much of use against Blacksmith's aerial splash, jumping is.
 
 #### <a name="campers"></a>Against campers
 
