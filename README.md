@@ -19,7 +19,7 @@
 
 ### Gameplay mechanics
 
-- [General glitches](/Levels/Glitches.md)
+- [General glitches](/Gameplay/Glitches.md)
 - [Animal Orbs](/Gameplay/AnimalOrbs.md)
 - [Arena](/Gameplay/Arena.md)
 - [AYCQ](/Gameplay/AYCQ.md)
@@ -31,8 +31,6 @@
 - [OOB / Teleporting](/Gameplay/OOB.md)
 - [Relics](/Gameplay/Relics.md)
 - [Tek (Tech)](/Gameplay/Tek.md)
-- [Unobtainable weapons](/Gameplay/UnobtainableWeapons.md)
-- [Unobtainable animal orbs](/Gameplay/UnobtainableAnimalOrbs.md)
 - [WaveSkip](/Gameplay/WaveSkip.md)
 - [Weapons](/Gameplay/Weapons.md)
 
@@ -41,13 +39,15 @@
 - [Playstation 3](/Platforms/Playstation3.md)
 - [Steam](/Platforms/Steam.md)
 - [Achievements/Trophies](/Platforms/Achievements.md)
-- [Controls](/Gameplay/Controls.md)
-- [Demo](/Gameplay/Demo.md)
+- [Controls](/Platforms/Controls.md)
+- [Demo](/Platforms/Demo.md)
 - [Downloadable content (DLC)](/Platforms/DLC.md)
-- [Music](/Gameplay/Music.md)
+- [Music](/Platforms/Music.md)
 - [Release dates](/Platforms/ReleaseDates.md)
 - [Speedrunning](/Platforms/Speedrun.md)
 - [Invisible player bug](/Platforms/InvisiblePlayerBug.md)
+- [Unobtainable animal orbs](/Platforms/UnobtainableAnimalOrbs.md)
+- [Unobtainable weapons](/Platforms/UnobtainableWeapons.md)
 - [Unused Content](/Platforms/UnusedContent.md)
 - [Youtubers](/Platforms/Youtubers.md)
 
@@ -134,6 +134,6 @@ Spreadsheets:
 - [Papa Quill's CheatEngine Data](https://docs.google.com/spreadsheets/d/18odK4GIBrYB85iHiTFYLg1QZPojBO3gHNoS2s9FbLeQ/edit?usp=sharing)
 - [TheWorst429's Enemy Resistance Table](https://docs.google.com/spreadsheets/d/1InEKmk3Bg50q6gO9dNmIZxBb8duHXRf0R7F9CwHOt8Y/edit#gid=0)
 
-Documents: 
+Documents:
 
 - [Zontopho's TexMod Tutorial](https://docs.google.com/document/d/1Mt6WQolSBrKVBKBKnCvdmuhvwQa14cSiHj_dN_cT0NY/edit)

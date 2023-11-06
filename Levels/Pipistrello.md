@@ -11,7 +11,6 @@
 - [Broken bats](#broken-bats)
 - [Stuck bats](#stuck-bats)
 - [Tall Grass Field Cave](#tall-grass-field-cave)
-
 - Slime juggle
 - Slime duplication
 - Beefy grab slime
