@@ -1,18 +1,23 @@
 # Blacksmith
 
-- [Animal Arc](#animals)
-  - [Infinite magic](#arcinfmag)
-- [Weapon Frog](#weapons)
-  - Weapon check
-  - Weapon trade
-  - [Infinite magic](#froginfmag)
+- [Animal Arc](#animal-arc)
+- [Weapon Frog](#weapon-frog)
+  - [Weapon check](#weapon-check)
+  - [Weapon trade](#weapon-trade)
   - [Unobtainable weapons](/Gameplay/UnobtainableWeapons.md)
 
-## <a name="animals"></a>Animal Arc
+## Animal Arc
 
-Whenever you pick up a new pet, your magic will reset to full
+Whenever you pick up a new pet, your magic will reset to full.
 
-## <a name="weapons"></a>Weapon Frog
+## Weapon Frog
 
-Whenever you pick up a new weapon, your magic will reset to full
-- You can hold L while running along the weapons to swap weapons instantly
+Whenever you pick up a new weapon, your magic will reset to full.
+
+### Weapon check
+
+You can hold L while running along the weapons to swap weapons instantly.
+
+### Weapon trade
+
+Weapons can be shared!

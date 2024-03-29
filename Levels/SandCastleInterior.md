@@ -1,7 +1,15 @@
 # Sand Castle Interior
 
-- [Beefy Royal Guard strategy](#strats)
-- Projectile spam to access Scratchpaw
-- PS3 OOB
+## Projectile spam to access Scratchpaw
+## PS3 OOB
 
-## <a name="strats"></a>Beefy Royal Guard strategy
+Get OOB by walking to the top inside the entrance.
+
+## Beefy spots
+
+This level has 4 places where you can get a beefy stuck against terrain.
+
+1. The start of the level
+2. The end of the level
+3. On the toy shovel
+4. Opening the cracked wall

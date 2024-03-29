@@ -5,7 +5,6 @@
 - [Levels that can be accessed backwards](#levels-that-can-be-accessed-backwards)
 - [Levels that send you back to the map after completion](#levels-that-send-you-back-to-the-map-after-completion)
 
-
 ## Levels in order
 
 - Barracks
@@ -45,7 +44,7 @@
   - Industrial Castle Entrance
 - **Dock**
 - **Pirate Ship**
-- **Desert (shovel)**
+- **Desert** (shovel)
 - **Alien Ship**
 - **Desert Chase**
 - **Sand Castle Interior**

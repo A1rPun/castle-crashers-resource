@@ -1,9 +1,10 @@
 # Marsh
 
-- [Beefy skeleton wave strategy](#beefy-wave)
+- [Beefy skeleton wave strategy](#beefy-skeleton-wave-strategy)
+- Revisiting Marsh
 - Waveskips
 - Red Knight splash vs tombstones
 - Gold farm
 - Snailburt before cutscene
 
-## <a name="beefy-wave"></a>Beefy skeleton wave strategy
+## Beefy skeleton wave strategy

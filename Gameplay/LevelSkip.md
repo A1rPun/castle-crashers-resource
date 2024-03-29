@@ -6,7 +6,20 @@ Each individual character has progress for normal mode (white skull) and insane 
 After defeating the Final Boss the game checks specific levels to see if you earned a skull.
 Most of these levels are checkpoint levels. Checkpoint levels often hold the progress for multiple levels that came before it, that means that you only need to beat less than half of the levels.
 
+- [Optimal Route](#optimal-route)
+- [Alternate route](#alternate-route)
+- [Required levels](#required-levels)
+- [Save skip](#save-skip)
+  - [Castle Keep skip](#castle-keep-skip)
+  - [Barbarian War skip](#barbarian-war-skip)
+  - [Wedding Crash \& Parade skip](#wedding-crash--parade-skip)
+  - [Bypass Pirate Ship for the current session](#bypass-pirate-ship-for-the-current-session)
+  - [Alien Ship skip](#alien-ship-skip)
+  - [Painter \& Undead Cyclops skip](#painter--undead-cyclops-skip)
+
 ## Optimal Route
+
+This route skips 22¼ levels.
 
 1. Barbarian Boss
 2. Thieves Forest
@@ -27,9 +40,9 @@ Most of these levels are checkpoint levels. Checkpoint levels often hold the pro
 
 - Last chance to refresh lobby for skips (1, 5, 9)
 
-14. Wizard Castle Interior  
-    14.1. Painter's Room Crystal  
-    14.2. Undead Cyclops' Room Crystal
+14. Wizard Castle Interior
+    1. Painter's Room Crystal
+    2. Undead Cyclops' Room Crystal
 15. Final Battle (player needs to be alive)
 
 After following this route there could be arrows on the following levels, this doesn't matter for the progress.
@@ -41,11 +54,34 @@ After following this route there could be arrows on the following levels, this d
 - Corn Boss if you didn't pick up the Horn
 - Full Moon
 
+## Alternate route
+
+This is the common/old way of skipping levels, skips 24 levels but the final battle has to be done twice.
+
+1. Barbarian Boss
+2. Thieves Forest
+3. Catfish
+4. Pipistrello's Cave
+5. Parade skip
+6. Cyclops' Fortress
+7. Lava World
+8. Industrial Castle
+9. Desert Chase
+10. Sand Castle Roof
+11. Corn Boss
+12. Medusa's Lair
+13. Ice Castle
+14. Final Battle (player needs to be alive)
+
+- Refresh lobby
+
+15. Final Battle (player needs to be alive)
+
 ## Required levels
 
 These are the levels that you need to beat.
 
-- Barbarian War (not a checkpoint level)
+- Barbarian War (not a checkpoint level), completing the bridge doesn't matter
 - Barbarian Boss
 - Thieves Forest
 - Catfish
@@ -89,7 +125,7 @@ If you beat Barbarian Boss you will unlock the requirement for Barbarian War aft
 
 Enter Cyclops' Cave, exit left to Parade, exit right into Cyclops' Cave again and then exit to map. This will unlock the requirement for Wedding Crash and unlock Parade as checkpoint level after refreshing the lobby.
 
-### Bypass Pirate Ship
+### Bypass Pirate Ship for the current session
 
 Pirate Ship is not needed for completion but it blocks traversal to the right side of the dock. To access the Desert without beating Pirate Ship you need to have beaten Desert Chase and have the relics needed for Dock.
 Enter Dock and exit to map when you enter Pirate Ship, now you can traverse to Desert and beyond.

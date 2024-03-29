@@ -1,13 +1,17 @@
 # Pirate Ship
 
-- Teleports off
-- [First wave](#first)
-- [Second wave](#second)
-- [Map progression skip](/Gameplay/LevelSkip.md#pirate-ship)
-- Once-in-a-lifetime OOB
+- [First wave](#first-wave)
+- [Second wave](#second-wave)
+- [Once-in-a-lifetime OOB](#once-in-a-lifetime-oob)
 
-## <a name="first"></a>First wave
+## First wave
 
-## <a name="second"></a>Second wave
+In speedruns this wave gets farmed for exp.
+
+## Second wave
 
 Second wave spawns based on a timer.
+
+## Once-in-a-lifetime OOB
+
+There is a clip where someone is OOB on pirate ship. Never been replicated again.

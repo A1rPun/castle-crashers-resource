@@ -5,6 +5,7 @@
 - [Flamming](https://www.youtube.com/@Flamming/videos)
 - [TheWorst429](https://www.youtube.com/@WorstB3/videos)
 - [LFG](https://www.youtube.com/playlist?list=PL7HGclqINmFXw4iooEfZ97624-GtorByK)
+- [Reckerless](https://www.youtube.com/@Reckerless/videos)
 - Many more
 
 ## Fun facts

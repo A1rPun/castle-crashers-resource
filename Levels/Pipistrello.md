@@ -1,21 +1,16 @@
 # Pipistrello's Cave
 
+[Slimes](/Enemies/Slime.md)
+
 - [Boss strategy](#boss-strategy)
 - [Pipistrello stuck](#pipistrello-stuck)
-- [Slime drill](#slime-drill)
-- [Broken slime](#broken-slime)
-- [Slime stuck](#slime-stuck)
 - [Invisible poop](#invisible-poop)
 - [Bat count](#bat-count)
 - [Invincible bats](#invincible-bats)
 - [Broken bats](#broken-bats)
 - [Stuck bats](#stuck-bats)
 - [Tall Grass Field Cave](#tall-grass-field-cave)
-- Slime juggle
-- Slime duplication
-- Beefy grab slime
-- Throw slimes in death animation
-- Offscreen fish sword
+- [Offscreen fish sword](#offscreen-fish-sword)
 
 ## Boss strategy
 
@@ -26,21 +21,6 @@
 ## Pipistrello stuck
 
 If Pipistrello attacks, you can get him stuck into a walking or idle animation by only moving vertically. If you move a pixel horizontally he will get unstuck.
-
-## Slime drill
-
-This is an insane only strategy.
-Only move your character at the top of the level so that slimes only move horizontally parallel to the background wall. Now you can drill or juggle more easily.
-
-## Broken slime
-
-1. Hold block
-2. Get jumped on by a slime
-3. Get the slime off using another enemy
-
-## Slime stuck
-
-Attacking a slime when they are about to jump on you can get them stuck in the air for a second.
 
 ## Invisible poop
 
@@ -81,3 +61,14 @@ On the left side of Pipistrello's Cave there is Tall Grass Field Cave.
 On the right side of Pipistrello's Cave there is Pipistrello's Cave Treasure Room.
 
 ![Pipistrello's Cave](/Images/PipistrellosCave.png)
+
+## Offscreen fish sword
+
+Only possible with multiple players. Teleports need to be off.
+
+In the first wave of slimes one character needs to die on top of the skeleton body on the ground.
+The other player then defeats the wave and spawns the second wave of slimes.
+Revive the other player.
+If done right both characters should be offscreen.
+Walk all the way to the left past the entrance.
+Now you should be able to align yourself with a chest and boomerang the weapon.

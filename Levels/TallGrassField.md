@@ -1,24 +1,22 @@
 # Tall Grass Field
 
-- [Mini-boss strategy](#boss)
-- [Double damage flag enemies](#double-damage)
-- [Infinite climb softlock](#climb-softlock)
-- [Fly over arrow machines](#arrow-machines)
-- Deathtek
-- Waveskips
-  - Arrow machine bear
+- [Mini-boss strategy](#mini-boss-strategy)
+- [Double damage flag enemies](#double-damage-flag-enemies)
+- [Infinite climb softlock](#infinite-climb-softlock)
+- [Fly over arrow machines](#fly-over-arrow-machines)
 - [Cave](#cave)
-  - [Projectile spam to access Burly Bear](#projectile-spam)
-  - Same level as Pipistrello's Cave
-- Rammy before cutscene
-- Weird bat knockback
+  - [Projectile spam to access Burly Bear](#projectile-spam-to-access-burly-bear)
+  - [Same level as Pipistrello's Cave](#same-level-as-pipistrellos-cave)
+- [Waveskips](#waveskips)
+- [Rammy before cutscene](#rammy-before-cutscene)
+- [Weird bat knockback](#weird-bat-knockback)
 
-## <a name="boss"></a>Mini-boss strategy
+## Mini-boss strategy
 
 Do middleweight combo's and try to reset, don't drop the boss at the edge of the level because it will roll+tornado.
 Be sure not to swordlock with the bear, basically refrain from doing a ground combo.
 
-## <a name="double-damage"></a>Double damage flag enemies
+## Double damage flag enemies
 
 If any player doesn't get into a swordlock, all flag enemies will recieve double damage. These enemies include:
 
@@ -29,7 +27,7 @@ If any player doesn't get into a swordlock, all flag enemies will recieve double
 
 Try to spin combo them to death for fun.
 
-## <a name="climb-softlock"></a>Infinite climb softlock
+## Infinite climb softlock
 
 1. Make sure teleports are off
 2. Enter the level via Pipistrello's Cave
@@ -44,15 +42,17 @@ Try to spin combo them to death for fun.
 11. Let the bear beefy throw you into the cliff
 12. You're now softlocked
 
-## <a name="arrow-machines"></a>Fly over arrow machines
+## Fly over arrow machines
 
 Use the fly combo to get high enough so you can fly over them, even possibe without hitting them.
 
-## <a name="cave"></a>Cave
+It's also possible to walk in between them.
 
-Accessible with a sandwich
+## Cave
 
-### <a name="projectile-spam"></a>Projectile spam to access Burly Bear
+Accessible with a sandwich.
+
+### Projectile spam to access Burly Bear
 
 This can only be done with characters that have an aerial projectile. Ex: not with Blue Knight or Tornado characters.
 
@@ -62,3 +62,24 @@ This can only be done with characters that have an aerial projectile. Ex: not wi
 4. Get into slowfall, then uppercut and immediately projectile spam
 5. While doing that hold up
 6. You should be inside the cave now
+
+### Same level as Pipistrello's Cave
+
+Exiting to map in the cave will set you to Pipistrello's Cave on the map.
+
+![Pipistrello's Cave](/Images/PipistrellosCave.png)
+
+## Waveskips
+
+TODO: Arrow machine bear
+
+## Rammy before cutscene
+
+It's possible to steal the Rammy from the Bear before the cutscene starts.
+This requires 2 players, one on the left of the screen and one on the right.
+Keep moving to the right while being on the top of the screen.
+
+## Weird bat knockback
+
+At the end of the level there are bats flying out of the cave.
+You can juggle these bats and they get a high amount of velocity.
